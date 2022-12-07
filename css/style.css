@@ -44,6 +44,7 @@ h2 {
 
 h3 {
     font-size: 56px;
+    line-height: 1;
 }
 
 h4 {
@@ -60,6 +61,26 @@ h6 {
 
 p {
     font-size: 15px;
+}
+
+.top-sm {
+    padding-top: 16px;
+}
+
+.top-md {
+    padding-top: 32px;
+}
+
+.top-lg {
+    padding-top: 64px;
+}
+
+.top-xl {
+    padding-top: 128px;
+}
+
+.top-xxl {
+    padding-top: 200px;
 }
 
 .bold {
@@ -108,7 +129,7 @@ p {
 }
 
 .hero-bg {
-    background-image: url(/assets/img/bg_hero.png);
+    background-image: url(/img/bg_hero.png);
     background-position: bottom right;
     background-repeat: no-repeat;
 }
@@ -123,6 +144,7 @@ header {
     top: 0;
     width: 100%;
     background: var(--black);
+    z-index: 99999!important;
 
 }
 
@@ -151,4 +173,26 @@ header {
 
 .icon-link:hover {
     opacity: 1;
+}
+
+h3.title {
+    max-width: 50%;
+}
+
+.home-text {
+    font-size: 20px;
+}
+
+p {
+    color: var(--gray);
+}
+
+.about-numbers p {
+    color: var(--black);
+    font-size: 15px;
+}
+
+.p-container {
+    max-width: 50%;
+    float: right;
 }
