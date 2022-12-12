@@ -23,6 +23,7 @@ body {
 .button:hover {
     background: var(--primary);
     color: var(--black)!important;
+    text-decoration: underline;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link  {
@@ -64,11 +65,11 @@ p {
 }
 
 .top-sm {
-    padding-top: 16px;
+    padding-top: 16px!important;
 }
 
 .top-md {
-    padding-top: 32px;
+    padding-top: 24px;
 }
 
 .top-lg {
@@ -81,6 +82,18 @@ p {
 
 .top-xxl {
     padding-top: 200px;
+}
+
+.bottom-xxl {
+    padding-bottom: 200px;
+}
+
+.bottom-xl {
+    padding-bottom: 128px;
+}
+
+.bottom-lg {
+    padding-bottom: 64px;
 }
 
 .bold {
@@ -193,6 +206,111 @@ p {
 }
 
 .p-container {
-    max-width: 50%;
     float: right;
+}
+
+.navbar {
+    padding: .5rem 0;
+}
+
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--primary);
+}
+
+.service-title {
+    padding-left: 16px;
+}
+
+#about-us {
+    background-image: url(/img/bg_section.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+#services {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+#services img {
+    position: sticky;
+    bottom: -600px;
+    z-index: 9;
+   
+}
+
+#services .col-md-6, #services h3 {
+    z-index: 9999!important;
+}
+
+
+/* CARD */
+
+.card {
+    border: 2px solid var(--primary);
+    background: transparent;
+    padding: 40px 24px 40px;
+    color: white;
+}
+
+.card, .card p {
+    transition: ease-in-out .2s;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card p, .card-title {
+    margin-bottom: 0px;
+}
+
+.case-study a {
+    color: inherit;
+}
+
+a.card-link {
+    font-size: 15px;
+    color: var(--primary);
+}
+
+.card:hover {
+    background: var(--primary);
+    color: var(--black);
+}
+
+.card:hover .card-link {
+    color: var(--black);
+    text-decoration: underline;
+}
+
+.card:hover p {
+    color: var(--black)
+}
+
+
+
+.case-study:hover a {
+    text-decoration: none;
+}
+
+a.button {
+    padding-top: 16px!important;
+    padding-bottom: 16px!important;
+
+}
+
+a.button-nav {
+    padding-top: .4rem!important;
+    padding-bottom: .4rem!important;
+}
+
+#services h3 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 200px;
 }
