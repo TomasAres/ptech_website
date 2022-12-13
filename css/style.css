@@ -60,6 +60,10 @@ h6 {
     font-size: 20px;
 }
 
+.home-text {
+    font-size: 20px;
+}
+
 p {
     font-size: 15px;
 }
@@ -192,9 +196,7 @@ h3.title {
     max-width: 50%;
 }
 
-.home-text {
-    font-size: 20px;
-}
+
 
 p {
     color: var(--gray);
@@ -237,16 +239,27 @@ a:hover {
     background-repeat: no-repeat;
 }
 
-#services img {
+#services .img-wrapper {
     position: sticky;
-    bottom: -600px;
+    bottom: 0;
     z-index: 9;
+    margin-top: -200px;
+
    
 }
 
 #services .col-md-6, #services h3 {
     z-index: 9999!important;
 }
+
+.column-services {
+    padding-top: calc(128px + 56px);
+}
+
+#services h3 {
+    padding-bottom: 168px;
+}
+
 
 
 /* CARD */

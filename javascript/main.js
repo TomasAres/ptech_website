@@ -20,15 +20,15 @@ window.onload = function() {
   
   typewriter
     .typeString('transform digitally')
-    .pauseFor(2500)
+    .pauseFor(3000)
     .deleteChars(19)
     .pauseFor(300)
     .typeString('better analyze data')
-    .pauseFor(2500)
+    .pauseFor(3000)
     .deleteChars(19)
     .pauseFor(300)
     .typeString('make better decisions')
-    .pauseFor(2500)
+    .pauseFor(3000)
 
    
     .start();
