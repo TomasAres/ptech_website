@@ -1,6 +1,7 @@
 import { CountUp } from './countUp.min.js';
 
 
+
 window.onload = function() {
     var countUpYear = new CountUp('year', 1920, { enableScrollSpy: true });
     var countUpExperience = new CountUp('employees', 6000, { enableScrollSpy: true });
@@ -9,3 +10,26 @@ window.onload = function() {
 
     countUp.start();
   }
+
+  var app = document.getElementById('typing');
+
+  var typewriter = new Typewriter(app, {
+    loop: true,
+    delay: 75,
+  });
+  
+  typewriter
+    .typeString('transform digitally')
+    .pauseFor(2500)
+    .deleteChars(19)
+    .pauseFor(300)
+    .typeString('better analyze data')
+    .pauseFor(2500)
+    .deleteChars(19)
+    .pauseFor(300)
+    .typeString('make better decisions')
+    .pauseFor(2500)
+
+   
+    .start();
+  
