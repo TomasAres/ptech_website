@@ -35,37 +35,37 @@ body {
 
 
 h1 {
-    font-size: 79px;
-    line-height: 1;
+    font-size: 77px;
+    line-height: 1.2;
 }
 
 h2 {
-    font-size: 79px;
+    font-size: 77px;
 }
 
 h3 {
-    font-size: 56px;
+    font-size: 54px;
     line-height: 1;
 }
 
 h4 {
-    font-size: 39px;
+    font-size: 37px;
 }
 
 h5 {
-    font-size: 28px;
+    font-size: 26px;
 }
 
 h6 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .home-text {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 p {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .top-sm {
@@ -141,8 +141,12 @@ p {
 }
 
 .hero {
-    height: calc(100vh - 226px);
+    height: 100vh;
     padding-top: 32px;
+}
+
+.hero-subtitle {
+    font-weight: 400;
 }
 
 .hero-bg {
@@ -234,18 +238,28 @@ a:hover {
     background-repeat: no-repeat;
 }
 
+/*
+
 #services {
     background-position: center bottom;
     background-repeat: no-repeat;
+    background-image: url(/img/bg_upperhalf.png);
+    background-attachment: local;
+    background-size: 70%;
 }
+
+*/
 
 #services .img-wrapper {
     position: sticky;
-    bottom: 0;
+    bottom: -350px;
     z-index: 9;
-    margin-top: -200px;
+    text-align: center;
+ 
+}
 
-   
+#services .img-wrapper img {
+    width: 80%;
 }
 
 #services .col-md-6, #services h3 {
@@ -307,7 +321,6 @@ a.card-link {
 }
 
 
-
 .case-study:hover a {
     text-decoration: none;
 }
@@ -328,3 +341,19 @@ a.button-nav {
     position: -webkit-sticky;
     top: 200px;
 }
+
+/* OUR WORK */
+
+
+@media (min-width:1900px) {
+
+    .hero {
+        height: calc(100vh - 226px);
+        padding-top: 32px;
+    }
+
+}
+
+
+
+
