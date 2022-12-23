@@ -37,14 +37,14 @@ window.onload = function() {
     gsap.to(".bg-services", {
       scrollTrigger: {
         trigger: ".column-services",
-        start: "top 40%",
-        end: "bottom top",
+        start: "top 15%",
+        end: "bottom 30%",
         toggleActions: "restart reverse none none",
         markers: true,
         scrub: "1",
       
       }, 
-      scale: 2.5, 
+      scale: 1, 
       opacity: 0,
     }); 
 

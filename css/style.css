@@ -2,12 +2,19 @@
     --black: #111111;
     --gray: rgba(255, 255, 255, .7);
     --primary: #34CCD9;
+    --white: #ffffff;
   }
 
 body {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif!important;
     background: var(--black);
 }
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Noto Sans Display', sans-serif!important;
+}
+
+
 
 .button {
     border: 2px solid var(--primary);
@@ -16,8 +23,12 @@ body {
     border-radius: 5px;
     padding-left: 32px!important;
     padding-right: 32px!important;
-    margin-left: 16px;
     transition: ease-in-out 0.2s;
+}
+
+.navbar .button {
+    margin-left: 16px;
+
 }
 
 .button:hover {
@@ -66,6 +77,11 @@ h6 {
 
 p {
     font-size: 14px;
+    font-weight: 400;
+}
+
+.small {
+    font-size: 10px;
 }
 
 .top-sm {
@@ -138,6 +154,9 @@ p {
 
 .hero-subtitle {
     padding-top: 40px;
+    font-family: 'Noto Sans', sans-serif!important;
+    font-weight: 300;
+
 }
 
 .hero {
@@ -145,9 +164,6 @@ p {
     padding-top: 32px;
 }
 
-.hero-subtitle {
-    font-weight: 400;
-}
 
 .hero-bg {
     background-image: url(/img/bg_hero.png);
@@ -252,14 +268,14 @@ a:hover {
 
 #services .img-wrapper {
     position: sticky;
-    bottom: -350px;
+    bottom: 0px;
     z-index: 9;
     text-align: center;
  
 }
 
 #services .img-wrapper img {
-    width: 80%;
+max-width: 100%; 
 }
 
 #services .col-md-6, #services h3 {
@@ -276,11 +292,13 @@ a:hover {
 
 
 
+
+
 /* CARD */
 
 .card {
-    border: 2px solid var(--primary);
-    background: transparent;
+    border: 2px solid var(--black);
+    background: var(--black);
     padding: 40px 24px 40px;
     color: white;
 }
@@ -288,6 +306,11 @@ a:hover {
 .card, .card p {
     transition: ease-in-out .2s;
 }
+
+.card p {
+    color: var(--gray);
+}
+
 
 .card-body {
     padding: 0;
@@ -309,6 +332,8 @@ a.card-link {
 .card:hover {
     background: var(--primary);
     color: var(--black);
+    border: 2px solid var(--primary);
+
 }
 
 .card:hover .card-link {
@@ -317,7 +342,7 @@ a.card-link {
 }
 
 .card:hover p {
-    color: var(--black)
+    color: var(--black);
 }
 
 
@@ -345,11 +370,91 @@ a.button-nav {
 /* OUR WORK */
 
 
-@media (min-width:1900px) {
+.white-bg {
+    background: var(--white);
+}
+
+.white-bg .home-text {
+    color: var(--black);
+    opacity: .7;
+}
+
+.white-bg .button {
+    background: var(--primary);
+    color: var(--black)!important;
+}
+
+.white-bg .button:hover {
+    background: transparent;
+    color: var(--primary)!important;
+}
+
+
+/* FOOTER */
+
+footer {font-size: 14px;}
+
+footer ul {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.social-list {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.social-list li {
+    float: left;
+    padding-right: 8px;
+}
+
+.social-list a {
+    opacity: .7;
+    transition: ease-in-out .2s;
+
+}
+
+.social-list a:hover {
+    opacity: 1;
+}
+
+.footer-menu-list a {
+    color: var(--gray)
+}
+
+.footer-menu-list a:hover {
+    color: var(--white);
+}
+
+.footer-menu-list li {
+    padding-top: 8px;
+}
+
+.footer-logo {
+    width: 126px;
+    height: 30px;
+}
+
+footer .col-md-3:first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+@media (min-width:1700px) {
 
     .hero {
         height: calc(100vh - 226px);
         padding-top: 32px;
+    }
+
+    #services {
+        max-height: 1800px;
     }
 
 }
