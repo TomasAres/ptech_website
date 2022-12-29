@@ -40,7 +40,7 @@ window.onload = function() {
         start: "top 15%",
         end: "bottom 30%",
         toggleActions: "restart reverse none none",
-        markers: true,
+        markers: false,
         scrub: "1",
       
       }, 
@@ -48,5 +48,16 @@ window.onload = function() {
       opacity: 0,
     }); 
 
+
+    var swiper = new Swiper(".mySwiper", {
+      
+      spaceBetween: 32,
+      pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+      },
+    });
+
     
 
+    

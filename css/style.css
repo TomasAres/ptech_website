@@ -19,10 +19,10 @@ h1, h2, h3, h4, h5 {
 .button {
     border: 2px solid var(--primary);
     color: var(--primary)!important;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 5px;
-    padding-left: 32px!important;
-    padding-right: 32px!important;
+    padding-left: 24px!important;
+    padding-right: 24px!important;
     transition: ease-in-out 0.2s;
 }
 
@@ -187,7 +187,7 @@ header {
 
 .nav-link {
     color: var(--gray);
-    font-size: 15px;
+    font-size: 14px;
     transition: ease-in-out 0.2s;
 }
 
@@ -220,7 +220,11 @@ h3.title {
 
 p {
     color: var(--gray);
+}
+
+.home-text {
     font-weight: 300;
+
 }
 
 .about-numbers p {
@@ -242,6 +246,7 @@ a {
 
 a:hover {
     color: var(--primary);
+    
 }
 
 .service-title {
@@ -252,6 +257,10 @@ a:hover {
     background-image: url(/img/bg_section.png);
     background-position: top right;
     background-repeat: no-repeat;
+}
+
+.numbers p {
+    margin-bottom: 0;
 }
 
 /*
@@ -290,6 +299,11 @@ max-width: 100%;
     padding-bottom: 168px;
 }
 
+#services {
+    max-height: 1800px;
+}
+
+
 
 
 
@@ -297,10 +311,22 @@ max-width: 100%;
 /* CARD */
 
 .card {
-    border: 2px solid var(--black);
     background: var(--black);
-    padding: 40px 24px 40px;
+    padding: 0;
     color: white;
+    border: 0px;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card p {
+    padding-bottom: 16px;
+}
+
+.card-inner {
+    padding: 24px 32px 32px 24px;
 }
 
 .card, .card p {
@@ -320,6 +346,11 @@ max-width: 100%;
     margin-bottom: 0px;
 }
 
+.card-title {
+    padding-bottom: 8px;
+    
+}
+
 .case-study a {
     color: inherit;
 }
@@ -332,7 +363,6 @@ a.card-link {
 .card:hover {
     background: var(--primary);
     color: var(--black);
-    border: 2px solid var(--primary);
 
 }
 
@@ -343,6 +373,7 @@ a.card-link {
 
 .card:hover p {
     color: var(--black);
+    opacity: .7;
 }
 
 
@@ -376,8 +407,9 @@ a.button-nav {
 
 .white-bg .home-text {
     color: var(--black);
-    opacity: .7;
+    opacity: .9;
 }
+
 
 .white-bg .button {
     background: var(--primary);
@@ -386,7 +418,6 @@ a.button-nav {
 
 .white-bg .button:hover {
     background: transparent;
-    color: var(--primary)!important;
 }
 
 
@@ -444,6 +475,9 @@ footer .col-md-3:first-of-type {
     justify-content: space-between;
 }
 
+/* SWIPER */
+
+
 
 
 @media (min-width:1700px) {
@@ -459,6 +493,122 @@ footer .col-md-3:first-of-type {
 
 }
 
+/* MOBILE CHANGES */
 
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 37px;
+        line-height: 1.2;
+    }
+    
+    h2 {
+        font-size: 37px;
+    }
+    
+    h3 {
+        font-size: 37px;
+        line-height: 1;
+    }
+    
+    h4 {
+        font-size: 18px;
+    }
+    
+    h5 {
+        font-size: 18px;
+    }
+    
+    h6 {
+        font-size: 18px;
+    }
+
+    .hero-bg {
+        background-image: url(/img/bg_hero.png);
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .navbar {
+        height: 65px;
+    }
+
+    .hero {
+        height: calc(100vh - 65px);
+        padding-top: 32px;
+    }
+
+    #about-us {
+        background-size: 100%;
+    }
+
+    .top-xl {
+        padding-top: 64px;
+    }
+
+    .column-services {
+        padding-top: 0;
+    }
+
+    #services h3 {
+        padding-bottom: 64px;
+    }
+
+    .bg-services {
+        display: none;
+    }
+
+    #services {
+        max-height: none;
+    }
+
+    #services h3 {
+        position: relative;
+        top: inherit;
+    }
+
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: initial!important;
+        padding-top: 64px;
+    }
+
+    .swiper-pagination-bullet {
+        background: var(--gray)!important;
+    }
+
+    .swiper-pagination-bullet-active {
+        background: var(--primary)!important;
+    }
+
+    #services {
+        background-image: url(/img/bg_services.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+    }
+
+    .service {
+        background: var(--primary);
+        padding: 24px 32px 32px 24px;
+        border-radius: 5px;
+    
+    }
+
+    .service p, .service a {
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--black);
+
+    }
+
+    .service p {
+        opacity: .7;
+    }
+
+  
+
+    
+
+}
 
 
