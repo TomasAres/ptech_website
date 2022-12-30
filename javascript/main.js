@@ -51,7 +51,7 @@ window.onload = function() {
 
     var swiper = new Swiper(".mySwiper", {
       
-      spaceBetween: 32,
+      spaceBetween: 24,
       pagination: {
         el: ".swiper-pagination",
         dynamicBullets: true,
@@ -59,5 +59,18 @@ window.onload = function() {
     });
 
     
+    var swiper = new Swiper(".mySwiperCases", {
+      
+      slidesPerView: 3,
+      spaceBetween: 24,
+      slidesPerGroup: 3,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
 
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
     
