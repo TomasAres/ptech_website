@@ -109,19 +109,19 @@ p {
 }
 
 .bottom-md {
-    padding-bottom: var(--spacing-md);
+    padding-bottom: var(--spacing-md)!important;
 }
 
 .bottom-lg {
-    padding-bottom: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg)!important;
 }
 
 .bottom-xl {
-    padding-bottom: var(--spacing-xl);
+    padding-bottom: var(--spacing-xl)!important;
 }
 
 .bottom-xxl {
-    padding-bottom: var(--spacing-xxl);
+    padding-bottom: var(--spacing-xxl)!important;
 }
 
 /* COLORS */
@@ -157,8 +157,7 @@ p {
 /* HERO */
 
 .hero-subtitle {
-    padding-top: 40px;
-    font-family: 'Noto Sans', sans-serif!important;
+    font-family: var(--font-body);
     font-weight: 300;
 }
 
@@ -534,7 +533,6 @@ footer .col-md-3:first-of-type {
 }
 
 */
-
 
 
 /* RESPONSIVE */
