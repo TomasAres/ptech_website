@@ -49,28 +49,51 @@ window.onload = function() {
     }); 
 
 
-    var swiper = new Swiper(".mySwiper", {
+    var swiper = new Swiper(".mySwiperServices", {
       
       spaceBetween: 24,
       pagination: {
-        el: ".swiper-pagination",
-        dynamicBullets: true,
+        el: ".swiper-services-pagination",
+        clickable: true,
       },
     });
 
-    
-    var swiper = new Swiper(".mySwiperCases", {
+    var swiper = new Swiper(".mySwiperClients", {
       
-      slidesPerView: 3,
+      slidesPerView: 1,
       spaceBetween: 24,
-      slidesPerGroup: 3,
       loop: true,
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
+      },
+    });
 
+
+    
+    var swiper = new Swiper(".mySwiperCases", {
+      
+        loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
       },
       mousewheel: true,
       keyboard: true,
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 24,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 24,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 24,
+        },
+      },
+      
     });
     
