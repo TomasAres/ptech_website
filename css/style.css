@@ -316,7 +316,7 @@ h3.title {
 
 */
 
-.service-title {
+.home .service-title {
     padding-left: 16px;
 }
 
@@ -344,7 +344,7 @@ max-width: 100%;
     padding-bottom: 168px;
 }
 
-#services {
+.home #services {
     max-height: 1800px;
 }
 
@@ -430,6 +430,7 @@ a.card-link {
 
 
 /* OUR WORK */
+
 /* WHITE BG */
 
 .white-bg {
@@ -449,6 +450,10 @@ a.card-link {
 
 .white-bg .button:hover {
     background: transparent;
+}
+
+.white-bg  h3, .white-bg h5 {
+    color: var(--black);
 }
 
 
@@ -578,6 +583,43 @@ footer .col-md-3:first-of-type {
     }
 
 }
+
+
+/* SERVICE PAGE */
+
+.service-page .hero {
+    padding-top: 75px!important;
+    height: auto;
+}
+
+
+#geoservice .hero-bg {
+    background-image: url(/img/bg_geo.png);
+    background-position: bottom right;
+
+}
+
+.breadcrumbs {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.breadcrumbs li {
+    float: left;
+    padding-right: var(--spacing-sm);
+}
+
+
+.breadcrumbs span {
+    color: var(--primary);
+    font-size: 80%;
+}
+
+.breadcrumbs a {
+    font-size: 14px;
+}
+
+
 
 /* MOBILE CHANGES */
 

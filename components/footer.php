@@ -20,7 +20,7 @@
             <div class="footer-menu-title white bold"><span>Navigation</span></div>
             <div class="footer-menu-list-wrapper">
                <ul class="footer-menu-list">
-                  <li><a href="">Home</a></li>
+                  <li><a href="index.php">Home</a></li>
                   <li><a href="">About</a></li>
                   <li><a href="">Services</a></li>
                   <li><a href="">Our work</a></li>
@@ -36,7 +36,7 @@
                <ul class="footer-menu-list">
                   <li><a href="">Software development</a></li>
                   <li><a href="">Data analytics</a></li>
-                  <li><a href="">Geoprocessing</a></li>
+                  <li><a href="geoservices.php">Geoprocessing</a></li>
                   <li><a href="">E-Learning</a></li>
                   <li><a href="">Case studies</a></li>
                </ul>
