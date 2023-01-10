@@ -8,7 +8,6 @@
                 include 'components/head.php';
         ?>
     </head>
-
     <body id="home">
         <header>
             <?php 
@@ -22,6 +21,7 @@
                   include 'components/aboutus-section.php';
                   include 'components/services-section.php';
                   include 'components/ourwork-section.php';
+                  include 'components/clients-section.php';
             ?>
         </main>
         <footer>

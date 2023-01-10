@@ -16,7 +16,7 @@
                   <p class="home-text">
                      Find the right solution for your business with our experienced engineering teams. Take your productivity further with single software solutions
                   </p>
-                  <a href="" class="service-link top-sm d-block">More about software development</a>
+                  <a href="/software-development.php" class="service-link top-sm d-block">More about software development</a>
                </div>
             </div>
             <div class="service top-xl">
@@ -28,7 +28,7 @@
                   <p class="home-text">
                      Discover a more efficient data-based decision-making solution that reduces costs and work times. Present results like you have never seen before
                   </p>
-                  <a href="" class="service-link top-sm d-block">More about data analytics</a>
+                  <a href="/data-analytics.php" class="service-link top-sm d-block">More about data analytics</a>
                </div>
             </div>
             <div class="service top-xl">
@@ -52,7 +52,7 @@
                   <p class="home-text">
                      Our team will help you select or develop learning materials that turn information into clear and interactive content for students to learn at their own pace
                   </p>
-                  <a href="" class="service-link top-sm d-block">More about e-learning</a>
+                  <a href="/elearning.php" class="service-link top-sm d-block">More about e-learning</a>
                </div>
             </div>
          </div>
@@ -62,7 +62,7 @@
    <!-- Service Offering Mobile -->
    <!-- Swiper -->
    <div class="container d-md-none">
-      <h3 class="white semibold">Service offering</h3>
+      <h3 class="white semibold bottom-lg">Service offering</h3>
       <div class="swiper mySwiperServices">
          <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -117,7 +117,7 @@
                      <p class="home-text">
                         Our team will help you select or develop learning materials that turn information into clear and interactive content for students to learn at their own pace
                      </p>
-                     <a href="" class="service-link top-sm d-block">More about e-learning</a>
+                     <a href="elearning.php" class="service-link top-sm d-block">More about e-learning</a>
                   </div>
                </div>
             </div>

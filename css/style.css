@@ -340,9 +340,6 @@ max-width: 100%;
     padding-top: calc(128px + 56px);
 }
 
-#services h3 {
-    padding-bottom: 168px;
-}
 
 .home #services {
     max-height: 1800px;
@@ -606,7 +603,8 @@ footer .col-md-3:first-of-type {
 
 .breadcrumbs li {
     float: left;
-    padding-right: var(--spacing-sm);
+    padding-right: calc(var(--spacing-sm) / 2);
+    color: var(--primary);
 }
 
 
@@ -615,15 +613,62 @@ footer .col-md-3:first-of-type {
     font-size: 80%;
 }
 
-.breadcrumbs a {
-    font-size: 14px;
+
+
+/* ACCORDION */
+
+#accordion .card-header {
+    padding: 0
+
 }
+
+#accordion .card {
+    background: none;
+}
+
+#accordion .card p {
+    color: var(--black);
+    opacity: .9;  
+}
+
+#accordion .card-header {
+    background: none;
+}
+
+#accordion button {
+    padding-left: 0;
+}
+
+#accordion .btn-link {
+    font-weight: 600;
+    color: var(--black)
+}
+
+#accordion .card-header {
+    border-bottom: 1px solid var(--black)
+}
+
+.bg-white .home-text {
+    color: var(--black);
+    opacity: .9;
+}
+
 
 
 
 /* MOBILE CHANGES */
 
 @media (max-width: 600px) {
+
+    :root {
+      
+        --spacing-sm: 16px;
+        --spacing-md: 24px;
+        --spacing-lg: 32px;
+        --spacing-xl: 64px;
+        --spacing-xxl: 96px;
+ 
+    }
 
     h1 {
         font-size: 37px;
@@ -650,6 +695,8 @@ footer .col-md-3:first-of-type {
     h6 {
         font-size: 18px;
     }
+
+ 
 
     .hero-bg {
         background-image: url(/img/bg_hero.png);
@@ -679,9 +726,6 @@ footer .col-md-3:first-of-type {
         padding-top: 0;
     }
 
-    #services h3 {
-        padding-bottom: 64px;
-    }
 
     .bg-services {
         display: none;
@@ -698,7 +742,7 @@ footer .col-md-3:first-of-type {
 
     .swiper-pagination-bullets.swiper-pagination-horizontal {
         bottom: initial!important;
-        padding-top: 64px;
+        padding-top: var(--spacing-md)!important;
     }
 
     .swiper-pagination-bullet {
@@ -709,13 +753,13 @@ footer .col-md-3:first-of-type {
         background: var(--primary)!important;
     }
 
-    #services {
+   #home #services {
         background-image: url(/img/bg_services.png);
         background-repeat: no-repeat;
         background-position: bottom right;
     }
 
-    .service {
+    #home .service {
         background: var(--primary);
         padding: 24px 32px 32px 24px;
         border-radius: 5px;
@@ -735,7 +779,6 @@ footer .col-md-3:first-of-type {
 
     .swiper-pagination-bullets.swiper-pagination-horizontal {
         bottom: 0!important;
-        padding-top: 64px;
     }
 
     .swiper-pagination-bullet {
@@ -746,6 +789,10 @@ footer .col-md-3:first-of-type {
         background: var(--primary)!important;
 
     }
+
+
+
+
 
 
     /* FOOTER MOBILE CHANGES */
@@ -770,11 +817,10 @@ footer .col-md-3:first-of-type {
         /* HEADER MOBILE CHANGES */
 
 
-    header {
-        position: relative;
-        width: auto;
-       
-    }
+        header {
+            position: fixed!important;
+        width: 100%!important;
+        }
 
     header, footer {
         padding-right: 15px;
@@ -809,6 +855,16 @@ footer .col-md-3:first-of-type {
         all: unset;
         font-size: 14px;
         padding-left: 0px!important;
+    }
+
+    /* SERVICE PAGE */
+    .service-page .hero {
+        padding-top: 65px!important;
+        height: auto;
+    }
+
+    .service-page .hero-bg {
+        background-size: 70%;
     }
 
 }
