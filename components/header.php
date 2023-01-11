@@ -8,19 +8,29 @@
          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                <li class="nav-item">
-                  <a class="nav-link gray" href="#">About</a>
+                  <a class="nav-link gray" href="/">Home</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#">Work</a>
+                  <a class="nav-link gray" href="/#about-us">About</a>
+               </li>
+               <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle"  href="/#services" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                 <div class="dropdown-menu">
+                     <a class="dropdown-item" href="/software-development.php">Software development</a>
+                     <a class="dropdown-item" href="/data-analytics.php">Data analytics</a>
+                     <a class="dropdown-item" href="/geoservices.php">Geoprocessing</a>
+                     <a class="dropdown-item" href="/elearning.php">E-Learning</a>
+                  </div>
+               
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
+                  <a class="nav-link" href="/#our-work">Work</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link icon-link" href="#"><img src="img/linkedin.png" alt ="LinkedIn Logo"></a>
+                  <a class="nav-link icon-link" href="https://www.linkedin.com/company/ptechnologies/" target="_blank"><img src="img/linkedin.png" alt ="LinkedIn Logo"></a>
                </li>
                <li class="nav-item"> 
-                  <a class="nav-link button button-nav" href="#">Contact</a>
+                  <a class="nav-link button button-nav" href="/contact">Contact</a>
                </li>
             </ul>
          </div>

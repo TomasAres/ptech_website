@@ -2,7 +2,7 @@
 
 :root {
     --black: #111111;
-    --black-transparent: rgba(17, 17, 17, .9);
+    --black-transparent: rgba(17, 17, 17, .95);
     --gray: rgba(255, 255, 255, .7);
     --primary: #34CCD9;
     --white: #ffffff;
@@ -13,6 +13,7 @@
     --spacing-xxl: 96px;
     --font-body: 'Noto Sans', sans-serif!important;
     --font-title: 'Noto Sans Display', sans-serif!important;
+    --body-font-size: 14px;
 }
 
 /* SPACING 1920px */
@@ -228,6 +229,8 @@ header {
     padding: .5rem 0;
 }
 
+
+
 /* LINKS */
 
 a {
@@ -275,6 +278,49 @@ a.button-nav {
     padding-top: .4rem!important;
     padding-bottom: .4rem!important;
 }
+
+/* DROPDOWN */
+
+.dropdown-menu {
+    background: var(--primary);
+    margin-top: 19px;
+    border: none;
+    border-top: 0px;
+    left: unset;
+    left: 2px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.dropdown-item {
+    color: var(--black);
+    font-size: 14px;
+    padding-bottom: 8px;
+    transition: ease-in-out 0.2s;
+
+}
+
+.dropdown-toggle::after {
+    margin-left: 8px;
+    vertical-align: .1em;
+}
+
+
+.dropdown-item:hover {
+        text-decoration: underline;
+        background: none;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+
+.dropdown-menu .service-link {
+    font-size: var(--body-font-size);
+}
+
 
 /* ABOUT-NUMBERS */
 
@@ -351,6 +397,10 @@ max-width: 100%;
 
 .column-services {
     padding-top: calc(128px + 56px);
+}
+
+.service-logo {
+    padding-right: var(--spacing-sm);
 }
 
 
@@ -636,6 +686,44 @@ footer .col-md-3:first-of-type {
 #accordion .card-header {
     padding: 0
 
+}
+
+#accordion .btn-link {
+    font-weight: 700;
+    color: var(--black);
+    font-size: inherit;
+    padding-top: var(--spacing-sm);
+    padding-bottom: var(--spacing-sm);
+}
+
+
+#accordion .btn-link:hover {
+    text-decoration: none;
+}
+
+#accordion .btn-link:focus {
+    text-decoration: none;
+}
+
+#accordion a:hover {
+    text-decoration: none;
+}
+
+
+#accordion .btn-link::after {
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: .2em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+#geoservice .p-container {
+    float: left;
+    width: 100%;
 }
 
 #accordion .card {

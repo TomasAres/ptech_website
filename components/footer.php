@@ -11,8 +11,8 @@
             <li><span>Sao Paulo</span></li>
          </ul>
          <ul class="social-list small gray">
-            <li><a href=""><img src="/img/linkedin_footer.png" alt="LinkedIn Logo"></a></li>
-            <li><a href=""><img src="/img/email_footer.png" alt="Email"></a></li>
+            <li><a href="https://www.linkedin.com/company/ptechnologies/" target="_blank"><img src="/img/linkedin_footer.png" alt="LinkedIn Logo"></a></li>
+            <li><a href="mailto:ptech@onepeterson.com"><img src="/img/email_footer.png" alt="Email"></a></li>
          </ul>
       </div>
       <div class="col-md-3">
