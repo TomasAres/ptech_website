@@ -672,6 +672,44 @@ footer .col-md-3:first-of-type {
 
 }
 
+#accordion .btn-link {
+    font-weight: 700;
+    color: var(--black);
+    font-size: inherit;
+    padding-top: var(--spacing-sm);
+    padding-bottom: var(--spacing-sm);
+}
+
+
+#accordion .btn-link:hover {
+    text-decoration: none;
+}
+
+#accordion .btn-link:focus {
+    text-decoration: none;
+}
+
+#accordion a:hover {
+    text-decoration: none;
+}
+
+
+#accordion .btn-link::after {
+    display: inline-block;
+    margin-left: 8px;
+    vertical-align: .2em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+#geoservice .p-container {
+    float: left;
+    width: 100%;
+}
+
 #accordion .card {
     background: none;
 }
