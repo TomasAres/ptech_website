@@ -8,11 +8,23 @@
     --white: #ffffff;
     --spacing-sm: 16px;
     --spacing-md: 24px;
-    --spacing-lg: 64px;
-    --spacing-xl: 128px;
-    --spacing-xxl: 200px;
+    --spacing-lg: 32px;
+    --spacing-xl: 64px;
+    --spacing-xxl: 96px;
     --font-body: 'Noto Sans', sans-serif!important;
     --font-title: 'Noto Sans Display', sans-serif!important;
+}
+
+/* SPACING 1920px */
+
+@media (min-width:1600px) {
+    :root {
+        --spacing-sm: 16px;
+        --spacing-md: 24px;
+        --spacing-lg: 64px;
+        --spacing-xl: 128px;
+        --spacing-xxl: 200px;
+    }
 }
 
 /* TYPOGRAPHY */
@@ -20,6 +32,7 @@
 body {
     font-family: var(--font-body);
     background: var(--black);
+    font-size: 14px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -345,6 +358,13 @@ max-width: 100%;
     max-height: 1800px;
 }
 
+#services h3 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 200px;
+}
+
+
 /* CARD */
 
 .card {
@@ -416,13 +436,6 @@ a.card-link {
 
 .case-study:hover a {
     text-decoration: none;
-}
-
-
-#services h3 {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 200px;
 }
 
 
@@ -542,27 +555,6 @@ footer .col-md-3:first-of-type {
 }
 
 
-
-
-/*
-
-.swiper-button-next, .swiper-button-prev {
-    top: unset!important;
-    bottom: 0px!important;
-    z-index: 9999!important;
-}
-
-.swiper-button-next::after, .swiper-button-prev::after {
-
-    font-size: 14px!important;
-    font-weight: 600;
-    color: var(--black);
-
-}
-
-*/
-
-
 /* RESPONSIVE */
 
 /* 1920x1080 */
@@ -613,6 +605,30 @@ footer .col-md-3:first-of-type {
     font-size: 80%;
 }
 
+.service-page .hero {
+    height: 100vh;
+}
+
+.data-list {
+    list-style: none;
+    padding-left: 0;
+    color: var(--black);
+    opacity: .9;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.data-list li {
+    padding-top: var(--spacing-sm);
+}
+
+.data-list li:first-child {
+    padding-top: 0;
+}
+
+.data-list li span {
+    text-decoration: underline;
+}
 
 
 /* ACCORDION */
@@ -660,15 +676,6 @@ footer .col-md-3:first-of-type {
 
 @media (max-width: 600px) {
 
-    :root {
-      
-        --spacing-sm: 16px;
-        --spacing-md: 24px;
-        --spacing-lg: 32px;
-        --spacing-xl: 64px;
-        --spacing-xxl: 96px;
- 
-    }
 
     h1 {
         font-size: 37px;

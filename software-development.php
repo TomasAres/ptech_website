@@ -16,10 +16,17 @@
 			<?php 
                 $serviceName="Software development";
                 $heroTitle="Custom software development";
-                $heroBody="Take your productivity further with single solution software possibilities that fit your needs. And if you already have a software and need help in updating, our experts will identify your needs to take your business to the next level.";
-                $mainTitle="How we do it";
-                $pOne="We constantly create courses of diverse topics to get the ball rolling. We want to make this platform our knowledge database and grow even further with everyone's input. We consider that learning is vital to boost our creativity and this is why we keep uploading courses and training materials accessible to everyone. Our goal is to encourage teams to take advantage of this learning opportunity.";
-                $pTwo="If you already have courses or new courses ideas, contact our team at elearning.support@controlunion.com so we can start working side by side to have it available online as soon as possible. Let's work together to make our knowledge platform grow!    We apply design thinking and data driven decision processes combined with sprint methodologies to build digital solutions in the pursuit of a more efficient performance that will improve the customer journey.";
+                $heroBody="We help in the end-to-end custom software development process adjusted exclusively to your business needs, challenges, and objectives. We understand your requirements and turn your ideas into deliverables with maximum business proficiency.";
+                $mainTitle="Unique and modern tech services";
+                $pOne="We offer tech services to address any of your specific business needs. With vast experience, Peterson Technologies offers diverse custom software development services to develop and deliver the right software for your company. Our service includes:";
+                $pTwo='
+                        <ul class="data-list">
+                                <li><span>Web development:</span> We provide both back-end and front-end development. Our team builds web applications powered by efficient and mantainable code, with stunning user interfaces.</li>
+                                <li><span>Mobile applications:</span> Smartphones, tablets or wearables. Follow your users where they are with carefully crafted mobile apps.
+                                </li>
+                                <li><span>Cloud development:</span> Migrate from legacy systems through cloud transformation by deploying on selected cloud platforms.</li>
+                                <li><span>UX/UI design:</span> Great code deserves an equally stunning visual representation. Our Product Design team combines beautiful interfaces with captivating user experience.</li>
+                        </ul>';
                 $extra=" ";
                 include 'components/hero-services-section.php';
                 include 'components/services-main-section.php';

@@ -1,8 +1,8 @@
-<section id="clients" class="white-bg container-fluid">
+<section id="clients">
    
     <!-- Let's Work -->
-    <div class="container-fluid">
-      <div class="container text-center bottom-xxl">
+    <div class="container-fluid white-bg bottom-xxl ">
+      <div class="container text-center">
          <div class="row justify-content-center">
             <div class="col-md-12">
                <h3 class="semibold">Top companies trust<br>our services</h3>
@@ -16,7 +16,7 @@
                   </div>
                   <div class="swiper-pagination"></div>
                </div>
-               <div class="button-wrapper top-lg"><a class="button" href="#">Contact Our Team</a></div>
+               <div class="button-wrapper top-xl"><a class="button" href="#">Contact Our Team</a></div>
             </div>
          </div>
       </div>

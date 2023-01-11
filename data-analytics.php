@@ -17,10 +17,16 @@
                 $serviceName="Data analytics";
                 $heroTitle="Clear decisions with data analytics";
                 $heroBody="Discover a more efficient data-based decision-making solution that reduces costs and work times and presents results like you have never seen before. Make decisions based on reliable data. Build effective management models based on KPI and KSI. ";
-                $mainTitle="How we do it";
-                $pOne="We constantly create courses of diverse topics to get the ball rolling. We want to make this platform our knowledge database and grow even further with everyone's input. We consider that learning is vital to boost our creativity and this is why we keep uploading courses and training materials accessible to everyone. Our goal is to encourage teams to take advantage of this learning opportunity.";
-                $pTwo="If you already have courses or new courses ideas, contact our team at elearning.support@controlunion.com so we can start working side by side to have it available online as soon as possible. Let's work together to make our knowledge platform grow!    We apply design thinking and data driven decision processes combined with sprint methodologies to build digital solutions in the pursuit of a more efficient performance that will improve the customer journey.";
-                $extra=" ";
+                $mainTitle="We are data driven";
+                $pOne="In this technological world, data is constantly being analyzed. However, the misuse of data due to an incorrect analysis can lead to more than just a headache. Our data analysis service was created for our clients to discover a more efficient data-based decision-making solution that reduces costs and work times and provides information that creates new opportunities to help their businesses grow. We add value to the analysis of your data in 3 steps:";
+                $pTwo='
+                <ul class="data-list">
+                    <li><span>Assessment:</span> We review your business needs by verifying and consolidating data from different sources.</li>
+                    <li><span>Proposal:</span> We propose tailor-made solutions to meet your needs.</li>
+                    <li><span>Outcome:</span> We set up automated repositories, model and cross data to deliver reports that
+                    will generate added value for your business.</li>
+                </ul>';
+                $extra='<div class="video-wrapper top-lg"><iframe width="560" height="315" src="https://www.youtube.com/embed/L-08qD-tGNA?controls=0?showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>';
                 include 'components/hero-services-section.php';
                 include 'components/services-main-section.php';
                 include 'components/ourwork-section.php';
@@ -31,3 +37,5 @@
 		</footer>
 	</body>
 </html>
+
+

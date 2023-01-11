@@ -48,9 +48,9 @@
             <div class="footer-menu-title white bold"><span>Aditional</span></div>
             <div class="footer-menu-list-wrapper">
                <ul class="footer-menu-list">
-                  <li><a href="https://www.petersoncontrolunion.com/en">Peterson</a></li>
-                  <li><a href="https://www.petersoncontrolunion.com/en">Control Union</a></li>
-                  <li><a href="https://academyonline.pcugroup.com/">Academy</a></li>
+                  <li><a href="https://www.petersoncontrolunion.com/en" target="_blank">Peterson</a></li>
+                  <li><a href="https://www.petersoncontrolunion.com/en" target="_blank">Control Union</a></li>
+                  <li><a href="https://academyonline.pcugroup.com/" target="_blank">Academy</a></li>
                   <li><a href="">Vacancies</a></li>
                   <li><a href="">Privacy policy</a></li>
                </ul>

@@ -1,4 +1,4 @@
-<section class="container-fluid hero-bg top-xxl bottom-xxl" id="hero">
+<section class="container-fluid hero-bg" id="hero">
    <div class="hero d-flex flex-column justify-content-center ">
    <div class="container">
       <div class="row">
