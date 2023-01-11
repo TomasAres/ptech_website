@@ -34,7 +34,7 @@
               
                   <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body">
-                      <p class="top-sm bottom-md home-text">We provide a service that allows clients to vectorize analog cartographic documents, develop alternative layers, and spatialize tabular data using geographic databases. Our team has experience working with geographic data, so we can offer you a solution that is tailored to your needs.</p> 
+                      <p class="top-sm bottom-md home-text">Our service allows clients to vectorize analog cartographic documents, develop alternative layers, and spatialize tabular data using geographic databases. Our team has experience working with geographic data, so we can offer you a solution that is tailored to your needs.</p> 
                     </div>
                   </div>
                 </div>
@@ -49,6 +49,14 @@
                   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                     <div class="card-body">
                     <p class="top-sm bottom-md home-text">  We provide a comprehensive monitoring service to our clients, assisting them in identifying, understanding, and improving their organizational culture, as well as tracking and optimizing their development cycles and processes. Our monitoring service can help you identify areas for improvement, optimize your operations, and ensure that everything is running smoothly and efficiently by collecting and analyzing data on these various systems and processes. </p>
+                    <p class="home-text">Applications:</p>
+                    <ul class="home-text">
+    <li>Culture identification</li>
+    <li>Measurement of planted and harvested areas</li>
+    <li>Development cycle monitoring</li>
+    <li>Inconsistencies detection</li>
+    <li>Assistance in physical inspections</li>
+</ul>
                     </div>
                   </div>
                 </div>
@@ -62,7 +70,15 @@
                   </div>
                   <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                     <div class="card-body">
-                    <p class="top-sm bottom-md home-text">By analyzing data over time we can detect any change or deviation from established regulations or guidelines. We can help clients confirm legal environmental precepts and use temporal analysis to find interesting occurrences in data by looking for specific events or trends. Finally, we can detect deforestation by analyzing satellite imagery over time to identify changes in vegetation cover. </p>
+                    <p class="top-sm bottom-md home-text">By analyzing data over time we can detect any change or deviation from established regulations or guidelines.</p>
+                    <p class="home-text">Applications:</p>
+                    <ul class="home-text">
+    <li>Confirmation of legal/environmental precepts</li>
+    <li>Identification of occurrences of interest</li>
+    <li>Historical data validation</li>
+    <li>Deforestation detection</li>
+
+</ul>
                     </div>
                   </div>
                 </div>
@@ -77,11 +93,16 @@
                   </div>
                   <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                     <div class="card-body">
-                    <p class="top-sm bottom-md home-text">Spatial analysis is a technique used to analyze data based on its location or geography. It involves looking at data from a spatial perspective and employing tools and techniques to understand patterns, trends, and relationships.
-              
-              We can use spatial analysis to assist clients with logistics analysis by analyzing data on transportation networks, distribution centers, and other logistics-related factors in order to identify optimal routes and strategies.
-              
+                    <p class="top-sm bottom-md home-text">Spatial analysis is a technique used to analyze data based on its location or geography. It involves looking at data from a spatial perspective and employing tools and techniques to understand patterns, trends, and relationships.    
               </p>
+              <p class="home-text">Applications:</p>
+              <ul class="home-text">
+<li>Logistics analysis for optimal routes</li>
+<li>Construction of spatial indexes</li>
+<li>Analysis of influece areas or competition</li>
+<li>Optimal spatial solution identification</li>
+
+</ul>
                     </div>
                   </div>
                 </div>
