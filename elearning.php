@@ -18,7 +18,7 @@
                 $heroTitle="We make learning easy and effective";
                 $heroBody="E-learning enables students to learn anytime and anywhere through a structured course. It enables the development of perfect learning content through the application of instructional design principles to perfectly analyze the basic requirements of learning as well as learning objectives.";
                 $mainTitle="Affordable, flexible, and fast learning";
-                $pOne="We develop learning materials that turn the information into clear, meaningful, and contextual content, making the acquisition of knowledge and skills more effective and appealing. Our methodology makes the development process more streamlined and productive and will also provide a better e-learning experience for your students. ";
+                $pOne="We develop learning materials that turn information into clear, meaningful, and contextual content, making the acquisition of knowledge and skills more effective and appealing. Our methodology makes the development process more streamlined and productive and will also provide a better e-learning experience for your students. ";
                 $pTwo='
                 <div id="accordion">
                 <div class="card">

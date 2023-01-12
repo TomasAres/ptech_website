@@ -22,7 +22,8 @@
                 $heroTitle="Business applied geographical data";
                 $heroBody="Our geoprocessing service offering makes analyzing and managing geographic data easier. Real world applications include crop and stock monitoring, property appraisal, ﬁre detection, mycotoxins detection and more.";
                 $mainTitle="Our geoservices";
-                $pOne=' <div id="accordion">
+                $pOne="Our geoprocessing service offering makes analyzing and managing geographic data easier. Real world applications include crop and stock monitoring, property appraisal, ﬁre detection, mycotoxins detection and more.";
+                $pTwo=' <div id="accordion">
                 <div class="card">
                   <div class="card-header" id="headingOne">
                     <h5 class="mb-0">
@@ -107,7 +108,7 @@
                   </div>
                 </div>
               </div>';
-                $pTwo="";
+
                 $extra=" ";
                 include 'components/hero-services-section.php';
                 include 'components/services-main-section.php';
