@@ -4,26 +4,26 @@
          <div class="row">
             <div class="col-md-6">
                <div class="numbers border-bottom-black  d-flex justify-content-between align-items-center pb-3">
-                  <h5 class="semibold"><?php echo $contentOne;?></h5>   
-                  <p><?php echo $titleOne;?></p>
+                  <p>Countries working<br>with us</p>
+                  <h3 class="semibold count-number" id="countries">+80</h3>
                </div>
             </div>
             <div class="col-md-6">
                <div class="numbers border-bottom-black  d-flex justify-content-between align-items-center pb-3 pt-3 pt-md-0">
-                  <h5 class="semibold"><?php echo $contentTwo;?></h5>
-                  <p><?php echo $titleTwo;?></p>
+                  <p>Employees arround<br>the world</p>
+                  <h3 class="semibold count-number" id="employees">+6000</h3>
                </div>
             </div>
             <div class="col-md-6">
                <div class="numbers border-bottom-black  d-flex justify-content-between align-items-center pt-3 pb-3">
-                  <h5 class="semibold"><?php echo $contentThree;?></h5>
-                  <p><?php echo $titleThree;?></p>
+                  <p>Years of trayectory<br>and experience</p>
+                  <h3 class="semibold count-number" id="trayectory">+100</h3>
                </div>
             </div>
             <div class="col-md-6">
                <div class="numbers border-bottom-black  d-flex justify-content-between align-items-center pt-3 pb-3">
-                  <h5 class="semibold"><?php echo $contentFour;?></h5>   
-                  <p><?php echo $titleFour;?></p>
+                  <p>Year of<br>foundation</p>
+                  <h3 class="semibold count-number" id="year">1920</h3>
                </div>
             </div>
          </div>

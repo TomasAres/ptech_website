@@ -17,7 +17,7 @@
         <main>
             <?php 
                   include 'components/hero-section.php';
-                  include 'components/numbers-section.php';
+                  include 'components/numbers-section-home.php';
                   include 'components/aboutus-section.php';
                   include 'components/services-section.php';
                   include 'components/ourwork-section.php';
