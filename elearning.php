@@ -14,6 +14,8 @@
 		</header>
 		<main>
 			<?php 
+                $breadcrumbOne="Services";
+                $breadcrumbOneLink="/#services";
                 $serviceName="E-Learning";
                 $heroTitle="We make learning easy and effective";
                 $heroBody="E-learning enables students to learn anytime and anywhere through a structured course. It enables the development of perfect learning content through the application of instructional design principles to perfectly analyze the basic requirements of learning as well as learning objectives.";

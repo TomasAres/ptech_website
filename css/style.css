@@ -485,6 +485,20 @@ a.card-link {
     text-decoration: none;
 }
 
+.case-study .card .image-wrapper {
+max-height: 100px!important;
+overflow: hidden;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+
+}
+
+.case-study .card img {
+height: 100%;
+width: 100%;
+}
+
+
 
 /* OUR WORK */
 
@@ -602,6 +616,11 @@ footer .col-md-3:first-of-type {
 }
 
 /* SERVICE PAGE */
+
+
+.service-page .service-logo, .case-study-page .service-logo {
+    margin-bottom: 3px;
+}
 
 
 #geoservice .hero-bg {
@@ -729,6 +748,14 @@ footer .col-md-3:first-of-type {
     opacity: .9;
 }
 
+/* CASE STUDIES */
+
+@media (min-width:700px) {
+    .case-study-page .hero h3 {
+        width: 160%!important;
+    }
+}
+
 
 /* RESPONSIVE */
 
@@ -738,7 +765,7 @@ footer .col-md-3:first-of-type {
 @media (min-width:1700px) {
 
     .hero {
-        height: 80vh;
+        height: calc(100vh - 253.38px);
         padding-top: 75px;
         
     }

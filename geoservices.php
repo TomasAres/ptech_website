@@ -18,6 +18,8 @@
         <main>
 
         <?php 
+                $breadcrumbOne="Services";
+                $breadcrumbOneLink="/#services";
                 $serviceName="Geoprocessing";
                 $heroTitle="Business applied geographical data";
                 $heroBody="Our geoprocessing service offering makes analyzing and managing geographic data easier. Real world applications include crop and stock monitoring, property appraisal, ﬁre detection, mycotoxins detection and more.";
@@ -28,7 +30,7 @@
                   <div class="card-header" id="headingOne">
                     <h5 class="mb-0">
                       <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Geographical databases
+                      <img src="img/icons/geodb_icon.svg" alt="Software development icon" class="service-logo" height="24" />Geographical databases
                       </button>
                     </h5>
                   </div>
@@ -43,7 +45,7 @@
                   <div class="card-header" id="headingTwo">
                     <h5 class="mb-0">
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Monitoring
+                      <img src="img/icons/monitoring_icon.svg" alt="Monitoring icon" class="service-logo" height="24" />Monitoring
                       </button>
                     </h5>
                   </div>
@@ -65,7 +67,7 @@
                   <div class="card-header" id="headingThree">
                     <h5 class="mb-0">
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Temporal analysis
+                      <img src="img/icons/temporalanalysis_icon.svg" alt="Temporal analysis icon" class="service-logo" height="24" />Temporal analysis
                       </button>
                     </h5>
                   </div>
@@ -88,7 +90,7 @@
                   <div class="card-header" id="headingFour">
                     <h5 class="mb-0">
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      Spatial analysis
+                      <img src="img/icons/spatialanalysis_icon.svg" alt="Spatial analysis icon" class="service-logo" height="24" />Spatial analysis
                       </button>
                     </h5>
                   </div>

@@ -9,7 +9,7 @@
          <div class="col-md-6 column-services">
             <div class="service">
                <div class="service-header d-inline d-flex align-items-center">
-                  <img src="img/software_icon.svg" alt="Software development icon" class="service-logo" height="27" />
+                  <img src="img/icons/software_icon.svg" alt="Software development icon" class="service-logo" height="27" />
                   <h5 class="service-title bold white pt-2">Software development</h5>
                </div>
                <div class="service-body top-md">
@@ -21,7 +21,7 @@
             </div>
             <div class="service top-xl">
                <div class="service-header d-inline d-flex align-items-center">
-                  <img src="img/data_icon.svg" alt="Software development icon" class="service-logo" height="22" />
+                  <img src="img/icons/data_icon.svg" alt="Software development icon" class="service-logo" height="22" />
                   <h5 class="service-title bold white pt-2">Data analytics</h5>
                </div>
                <div class="service-body top-md">
@@ -33,7 +33,7 @@
             </div>
             <div class="service top-xl">
                <div class="service-header d-inline d-flex align-items-center">
-                  <img src="img/geo_icon.svg" alt="Software development icon" class="service-logo" height="24" />
+                  <img src="img/icons/geo_icon.svg" alt="Software development icon" class="service-logo" height="24" />
                   <h5 class="service-title bold white pt-2">Geoprocessing</h5>
                </div>
                <div class="service-body top-md">
@@ -45,7 +45,7 @@
             </div>
             <div class="service top-xl">
                <div class="service-header d-inline d-flex align-items-center">
-                  <img src="img/elearning_icon.svg" alt="Software development icon" class="service-logo" height="24" />
+                  <img src="img/icons/elearning_icon.svg" alt="Software development icon" class="service-logo" height="24" />
                   <h5 class="service-title bold white pt-2">E-Learning</h5>
                </div>
                <div class="service-body top-md">

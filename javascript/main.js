@@ -97,3 +97,5 @@ window.onload = function() {
       
     });
 
+
+    $(".case-study-page #our-work h3").html("More case studies");

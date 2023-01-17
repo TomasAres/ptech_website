@@ -5,7 +5,7 @@
          <div class="col-md-6 align-self-start">
             <div class="breadcrumbs-wrapper">
                <ul class="breadcrumbs">
-                  <li><a href="./#services">Services</a></li>
+                  <li><a href="<?php echo $breadcrumbOneLink;?>"><?php echo $breadcrumbOne;?></a></li>
                   <li><span>></span></li>
                   <li><?php echo $serviceName;?></li>
                </ul>

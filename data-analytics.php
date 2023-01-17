@@ -13,7 +13,9 @@
 			<?php include 'components/header.php' ;?>
 		</header>
 		<main>
-			<?php 
+			<?php     
+                $breadcrumbOne="Services";
+                $breadcrumbOneLink="/#services";
                 $serviceName="Data analytics";
                 $heroTitle="Clear decisions with data analytics";
                 $heroBody="Discover a more efficient data-based decision-making solution that reduces costs and work times and presents results like you have never seen before. Make decisions based on reliable data. Build effective management models based on KPI and KSI. ";

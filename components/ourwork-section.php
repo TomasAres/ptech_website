@@ -2,7 +2,7 @@
    <div class="container">
       <div class="row">
          <div class="col-md-6 align-self-start">
-            <h3 class="semibold bottom-xl">Our work</h3>
+            <h3 class="semibold bottom-xl">Case studies</h3>
          </div>
          <div class="w-100"></div>
       </div>
@@ -11,77 +11,45 @@
    <div class="container">
       <div class="swiper mySwiperCases">
          <div class="swiper-wrapper bottom-xl">
-            <div class="swiper-slide">
-               <div class="case-study">
-                  <a href="">
-                     <div class="card">
-                        <img src="/img/casestudy_1.jpg" alt="">
-                        <div class="card-inner">
-                           <h6 class="card-title bold">
-                              Peterson Technologies has partnered with Nestlé
-                           </h6>
-                           <p class="card-body">
-                              We use our new system to detect and prevent mycotoxing generation 
-                           </p>
-                  <a href="" class="card-link d-inline top-md">View case study</a>
-                  </div>
-                  </div>
-                  </a>
-               </div>
+            <div class="swiper-slide">             
+               <?php 
+                  $cardLink="/mycotoxin-development.php";
+                  $cardImg="img/mycotoxins_solution.jpeg";
+                  $cardImgAlt="Mycotoxin infested crop";
+                  $cardTitle="Mycotoxin development probability calculation";
+                  $cardBody="We created a solution for mycotoxin development in crops";
+                  include 'components/card.php';
+               ?>
             </div>
-            <div class="swiper-slide">
-               <div class="case-study">
-                  <a href="">
-                     <div class="card">
-                        <img src="/img/casestudy_2.jpg" alt="">
-                        <div class="card-inner">
-                           <h6 class="card-title bold">
-                              Peterson Technologies has partnered with Nestlé
-                           </h6>
-                           <p class="card-body">
-                              We use our new system to detect and prevent mycotoxing generation 
-                           </p>
-                  <a href="" class="card-link d-inline top-md">View case study</a>
-                  </div>
-                  </div>
-                  </a>
-               </div>
+            <div class="swiper-slide">             
+               <?php 
+                  $cardLink="/mycotoxin-development.php";
+                  $cardImg="img/mycotoxins_problem.jpeg";
+                  $cardImgAlt="";
+                  $cardTitle="PAMS, a digital platform for efficiency and transparency";
+                  $cardBody="We created a solution for mycotoxin development in crops";
+                  include 'components/card.php';
+               ?>
             </div>
-            <div class="swiper-slide">
-               <div class="case-study">
-                  <a href="">
-                     <div class="card">
-                        <img src="/img/casestudy_3.jpg" alt="">
-                        <div class="card-inner">
-                           <h6 class="card-title bold">
-                              Peterson Technologies has partnered with Nestlé
-                           </h6>
-                           <p class="card-body">
-                              We use our new system to detect and prevent mycotoxing generation 
-                           </p>
-                  <a href="" class="card-link d-inline top-md">View case study</a>
-                  </div>
-                  </div>
-                  </a>
-               </div>
+            <div class="swiper-slide">             
+               <?php 
+                  $cardLink="/mycotoxin-development.php";
+                  $cardImg="img/mycotoxins_problem.jpeg";
+                  $cardImgAlt="";
+                  $cardTitle="CONNECTED, a global supply chain traceability service";
+                  $cardBody="We created a solution for mycotoxin development in crops";
+                  include 'components/card.php';
+               ?>
             </div>
-            <div class="swiper-slide">
-               <div class="case-study">
-                  <a href="">
-                     <div class="card">
-                        <img src="/img/casestudy_3.jpg" alt="">
-                        <div class="card-inner">
-                           <h6 class="card-title bold">
-                              Peterson Technologies has partnered with Nestlé
-                           </h6>
-                           <p class="card-body">
-                              We use our new system to detect and prevent mycotoxing generation 
-                           </p>
-                  <a href="" class="card-link d-inline top-md">View case study</a>
-                  </div>
-                  </div>
-                  </a>
-               </div>
+            <div class="swiper-slide">             
+               <?php 
+                  $cardLink="/mycotoxin-development.php";
+                  $cardImg="img/mycotoxins_problem.jpeg";
+                  $cardImgAlt="";
+                  $cardTitle="Remote harvest monitoring for financial institutions";
+                  $cardBody="We created a solution for mycotoxin development in crops";
+                  include 'components/card.php';
+               ?>
             </div>
          </div>
          <div class="swiper-pagination"></div>
