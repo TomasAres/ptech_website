@@ -20,7 +20,7 @@
         <?php 
                 $breadcrumbOne="Services";
                 $breadcrumbOneLink="/#services";
-                $serviceName="Geoprocessing";
+                $serviceName="Geoservices";
                 $heroTitle="Business applied geographical data";
                 $heroBody="Our geoprocessing service offering makes analyzing and managing geographic data easier. Real world applications include crop and stock monitoring, property appraisal, ﬁre detection, mycotoxins detection and more.";
                 $mainTitle="Our geoservices";
@@ -102,7 +102,7 @@
               <ul class="home-text">
 <li>Logistics analysis for optimal routes</li>
 <li>Construction of spatial indexes</li>
-<li>Analysis of influece areas or competition</li>
+<li>Analysis of influence areas or competition</li>
 <li>Optimal spatial solution identification</li>
 
 </ul>
@@ -111,7 +111,7 @@
                 </div>
               </div>';
 
-                $extra=" ";
+                $extra='<div class="video-wrapper top-lg"><iframe width="100%" height="315" src="https://www.youtube.com/embed/-XnzCbfuDig?controls=0?showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>';
                 include 'components/hero-services-section.php';
                 include 'components/services-main-section.php';
                 include 'components/ourwork-section.php';

@@ -16,10 +16,10 @@
 			<?php 
                 $breadcrumbOne="Case studies";
                 $breadcrumbOneLink="/#our-work";
-                $serviceName="Mycotoxin development probability calculation";
-                $heroTitle="Mycotoxin development probability calculation";
+                $serviceName="Mycotoxins risk analysis";
+                $heroTitle="Mycotoxins risk analysis";
                 $heroBody="Peterson Technologies has successfully collaborated to create a solution for mycotoxin development in crops. This was achieved by developing a proprietary algorithm to undertake the analysis and crossing of data.";
-                $mainTitle="Say goodbye to mycotoxins";
+                $mainTitle="Prevent the mycotoxin problem";
                 $pOne="Mycotoxins are toxic compounds that are naturally produced by certain types of moulds. They are a quality, health and food safety issue for many companies globally as they cause disease and can contaminate foods.";
                 $pTwo=' <div id="accordion">
                 <div class="card">
@@ -88,7 +88,7 @@
                 $titleOne='Client';
                 $contentOne='Mars';
                 $titleTwo='Service';
-                $contentTwo='Geoprocessing';
+                $contentTwo='Geoservices';
                 $titleThree='Industry';
                 $contentThree='Alimentary';
                 $titleFour='Year';

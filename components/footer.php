@@ -36,7 +36,7 @@
                <ul class="footer-menu-list">
                   <li><a href="software-development.php">Software development</a></li>
                   <li><a href="data-analytics.php">Data analytics</a></li>
-                  <li><a href="geoservices.php">Geoprocessing</a></li>
+                  <li><a href="geoservices.php">Geoservices</a></li>
                   <li><a href="elearning.php">E-Learning</a></li>
                   <li><a href="/#our-work">Case studies</a></li>
                </ul>

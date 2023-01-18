@@ -18,7 +18,7 @@
                  <div class="dropdown-menu">
                      <a class="dropdown-item" href="/software-development.php">Software development</a>
                      <a class="dropdown-item" href="/data-analytics.php">Data analytics</a>
-                     <a class="dropdown-item" href="/geoservices.php">Geoprocessing</a>
+                     <a class="dropdown-item" href="/geoservices.php">Geoservices</a>
                      <a class="dropdown-item" href="/elearning.php">E-Learning</a>
                   </div>
                

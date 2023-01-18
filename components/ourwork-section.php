@@ -15,19 +15,19 @@
                <?php 
                   $cardLink="/mycotoxin-development.php";
                   $cardImg="img/mycotoxins_solution.jpeg";
-                  $cardImgAlt="Mycotoxin infested crop";
-                  $cardTitle="Mycotoxin development probability calculation";
-                  $cardBody="We created a solution for mycotoxin development in crops";
+                  $cardImgAlt="Mycotoxins infested crop";
+                  $cardTitle="Mycotoxins risk analysis with our geoservices";
+                  $cardBody="We created a solution for mycotoxin development in crops.";
                   include 'components/card.php';
                ?>
             </div>
             <div class="swiper-slide">             
                <?php 
-                  $cardLink="/mycotoxin-development.php";
+                  $cardLink="/pams-platform.php";
                   $cardImg="img/mycotoxins_problem.jpeg";
                   $cardImgAlt="";
                   $cardTitle="PAMS, a digital platform for efficiency and transparency";
-                  $cardBody="We created a solution for mycotoxin development in crops";
+                  $cardBody="Centralized management system to collect, manage and visualize project-specific data.";
                   include 'components/card.php';
                ?>
             </div>

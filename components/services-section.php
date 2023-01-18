@@ -34,7 +34,7 @@
             <div class="service top-xl">
                <div class="service-header d-inline d-flex align-items-center">
                   <img src="img/icons/geo_icon.svg" alt="Software development icon" class="service-logo" height="24" />
-                  <h5 class="service-title bold white pt-2">Geoprocessing</h5>
+                  <h5 class="service-title bold white pt-2">Geoservices</h5>
                </div>
                <div class="service-body top-md">
                   <p class="home-text">

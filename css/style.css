@@ -34,6 +34,7 @@ body {
     font-family: var(--font-body);
     background: var(--black);
     font-size: 14px;
+    color:var(--black);
 }
 
 h1, h2, h3, h4, h5 {
@@ -675,34 +676,33 @@ footer .col-md-3:first-of-type {
 
 /* ACCORDION */
 
-#accordion .card-header {
+#accordion .card-header, #accordionTwo .card-header {
     padding: 0
 
 }
 
-#accordion .btn-link {
+#accordion .btn-link, #accordionTwo .btn-link {
     font-weight: 700;
-    color: var(--black);
     font-size: inherit;
     padding-top: var(--spacing-sm);
     padding-bottom: var(--spacing-sm);
 }
 
 
-#accordion .btn-link:hover {
+#accordion .btn-link:hover, #accordionTwo .btn-link:hover {
     text-decoration: none;
 }
 
-#accordion .btn-link:focus {
+#accordion .btn-link:focus, #accordionTwo .btn-link:focus {
     text-decoration: none;
 }
 
-#accordion a:hover {
+#accordion a:hover, #accordionTwo a:hover {
     text-decoration: none;
 }
 
 
-#accordion .btn-link::after {
+#accordion .btn-link::after, #accordionTwo .btn-link::after {
     display: inline-block;
     margin-left: 8px;
     vertical-align: .2em;
@@ -717,29 +717,53 @@ footer .col-md-3:first-of-type {
     width: 100%;
 }
 
-#accordion .card {
+#accordion .card, #accordionTwo .card {
     background: none;
 }
 
-#accordion .card p {
+.bg-white #accordion .card p, .bg-white #accordionTwo .card p {
     color: var(--black);
     opacity: .9;  
 }
 
-#accordion .card-header {
+.bg-white #accordion .btn-link, .bg-white #accordionTwo .btn-link {
+    color: var(--black);
+}
+
+#accordion .card p, #accordionTwo .card p {
+    color: var(--gray);
+}
+
+#accordionTwo .card:hover p {
+    opacity: 1;
+}
+
+#accordion p:hover, #accordionTwo p:hover {
+    color: var(--gray);
+}
+
+ #accordion .btn-link, #accordionTwo .btn-link {
+    color: var(--white);
+}
+
+
+#accordion .card-header, #accordionTwo .card-header {
     background: none;
 }
 
-#accordion button {
+#accordion button, #accordionTwo button {
     padding-left: 0;
 }
 
-#accordion .btn-link {
+#accordion .btn-link, #accordionTwo .btn-link {
     font-weight: 600;
-    color: var(--black)
 }
 
-#accordion .card-header {
+#accordion .card-header, #accordionTwo .card-header {
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.bg-white #accordion .card-header, .bg-white #accordionTwo .card-header {
     border-bottom: 1px solid var(--black)
 }
 
@@ -747,6 +771,8 @@ footer .col-md-3:first-of-type {
     color: var(--black);
     opacity: .9;
 }
+
+
 
 /* CASE STUDIES */
 
@@ -782,11 +808,6 @@ footer .col-md-3:first-of-type {
   
 
 }
-
-
-
-
-
 
 
 /* MOBILE CHANGES */
