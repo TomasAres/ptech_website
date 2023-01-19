@@ -33,7 +33,7 @@
             </div>
             <div class="swiper-slide">             
                <?php 
-                  $cardLink="/mycotoxin-development.php";
+                  $cardLink="/connected-platform.php";
                   $cardImg="img/mycotoxins_problem.jpeg";
                   $cardImgAlt="";
                   $cardTitle="CONNECTED, a global supply chain traceability service";
