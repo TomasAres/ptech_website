@@ -21,20 +21,30 @@
                 $heroBody="Knowledge is power, and traceability provides information that can reduce risks and improve efficiency for operations. Connected is a market driven and responsive web service, with a multi-stakeholder collaborative management that offers different solutions for any supply chain.";
                 $mainTitle="Easy supply chain traceability";
                 $pOne="Understanding your supply chain is becoming more and more important, with consumers’ demands to learn more about a product's origins and production methods increasing amid a tightening regulatory framework.";
-                $pTwo='Map-based visualization and filtering capabilities are available to users for planning purposes and for getting better insights. In addition to standard PDF reports and maps, PAMS also provides a live data link that connects the available data to external reporting tools such as PowerBI. Aditional PAMS features include:';
-                $extra='<div id="accordion" class="bottom-xxl">
+                $pTwo='<div id="accordion" class="bottom-xxl">
                 <div class="card">
                   <div class="card-header" id="headingOne">
                     <h5 class="mb-0">
                       <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                     Advanced mapping tools
+                     The problem
                       </button>
                     </h5>
                   </div>
               
                   <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body">
-                      <p class="top-sm bottom-md home-text">PAMS users can add location data to any object. Locations can be represented as points, lines (for linear objects such as roads and rivers), as well as areas. For efficient navigation, background maps and an address search function is  available.</p> 
+                        <ul class="home-text top-sm">
+    <li>Global sourcing is inherently complex</li>
+    <li>Supply chains are opaque</li>
+    <li>Social & environmental impacts throughout the chain</li>
+    <li>Supply chains are not linear or static</li>
+    <li>Regulation likely to increase</li>
+    <li>Data is hard to capture and manage in a consistent way</li>
+    <li>Not all Suppliers support transparency</li>
+    <li>Complex chains can hide various risks</li>
+
+
+</ul>
                     </div>
                   </div>
                 </div>
@@ -42,48 +52,36 @@
                   <div class="card-header" id="headingTwo">
                     <h5 class="mb-0">
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      On-site data capture
+                      The solution
                       </button>
                     </h5>
                   </div>
                   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                     <div class="card-body">
-                    <p class="top-sm bottom-md home-text">GPS data can be captured directly on-site using a smartphone. You can track the locations of assets and capture enclosed areas such as facilities or farms. The dedicated App collects validated GPS coordinates eliminating the risk of tampered location data.</p>
+                    <p class="top-sm bottom-md home-text">A platform built for brands to access data about the organizations that are part of their supply chain allowing them to track not only the materials used to make their products (from raw material to finished garment) but all occurring transactions through online reports and interactive maps. Connected platform features:</p>
+                    <ul class="home-text top-sm">
+    <li>Blockchain based platform</li>
+    <li>Traceability</li>
+    <li>Supply chain mapping</li>
+    <li>Detailed monitoring including material types, volumes per order, overview</li>
+    <li>Maps of material flow and chain complexity</li>
+    <li>Transaction certificates in real time for all tier levels</li>
+    <li>Customizable data & analytics with PowerBI integration</li>
+    <li>ERP system integration</li>
+    <li>Global map view</li>
+    <li>Mass balance and stock management</li>
+
+
+
+</ul>
                     </div>
                   </div>
                 </div>
-                <div class="card">
-                  <div class="card-header" id="headingThree">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Drones and satellite imagery
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                    <div class="card-body">
-                    <p class="top-sm bottom-md home-text">A birds eye view provides an objective evaluation for any asset. You can import aerial or satellite data as geo-tagged images which are pinned to their true locations. You and your team can then analyze the imagery and register insightful observations. This is also useful to monitor remote locations saving lots of travel time and costs.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingFour">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      Custom maps and sensor data
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                    <div class="card-body">
-                    <p class="top-sm bottom-md home-text">
-                    Thematic maps can be integrated into your project giving you a deeper geographic understanding of your sourcing area. Estate boundaries, concession areas and conservation zones can be combined to build a solid basis for sustainability claims. PAMS can also connect to your own companys database and IOT sensors.</p>
-                    </div>
-                  </div>
-                </div>
+                
               
         
               </div>';
+                $extra='';
                 $titleOne='Clients';
                 $contentOne='Hanes, H&M, Patagonia';
                 $titleTwo='Service';
@@ -97,21 +95,20 @@
                 include 'components/services-main-section.php';
         ?>
         <?php
-               $mainTitle="PAMS use cases";
+               $mainTitle="Connected features";
                $pOne='<div id="accordionTwo">
                <div class="card">
                  <div class="card-header" id="headingFive">
                    <h5 class="mb-0">
                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                   Farm management
+                    Transaction certificate service
                      </button>
                    </h5>
                  </div>
              
                  <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" data-parent="#accordionTwo">
                    <div class="card-body">
-                     <p class="top-sm bottom-md home-text">PAMS brings transparency to large farming enterprises by including precision farming technology into daily operations.
-                     The farm log in PAMS keeps track of all inputs applied to specific fields thereby providing insights about available resources and identifying yield limiting factors.
+                     <p class="top-sm bottom-md home-text">The Connected Lite service provides brands tier 1 transaction certificates in a consolidated and digital way. 
                      </p> 
                    </div>
                  </div>
@@ -120,15 +117,24 @@
                  <div class="card-header" id="headingSix">
                    <h5 class="mb-0">
                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                     Inspection & audits
+                     Certified traceability service
                      </button>
                    </h5>
                  </div>
                  <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionTwo">
                    <div class="card-body">
-                   <p class="top-sm bottom-md home-text">Our clients use PAMS to conduct field surveys, audits and inspections using paperless checklists.
-                   Field technicians use their smartphones to report their findings and collect documentary evidence. Project and account managers then automatically generate reports in real time.
+                   <p class="top-sm home-text">Connected Certified service provides users with transaction certificates in real time for every tier level. It also provides:
                    </p>
+                   <p class="home-text">Traceability monitoring with details on material types, volumes per order, overview maps of material flow and chain complexity
+                    </p>
+                    <p class="home-text">Traceability analysis that allows brands to access data about the organizations that are part of its supply chain. Brands can track material used in their products through online reports and interactive maps. These maps show all organizations in the supply chain and shipments between them. Brands and suppliers can submit, accept, fulfil, and edit orders and shipments. 
+                    </p>
+                    <p class="home-text">Traceability monitoring and suppliers’ automatic notifications, a feature that provides brands with a report on their traceability status (delivered under request), identifying where the traceability stops (i.e., which organizations are not cooperating) and to monitor the progress over time.
+                    </p>
+                    <p class="home-text">Stock management for suppliers to see all stock registered and available to use when creating shipments. Users can select which input lot(s) from the stock have been used to produce the materials being shipped.
+                    </p>
+                    <p class="home-text bottom-md">Analysis functionality where brands can view data on the organizations that are in its supply chain and track materials used in their products (from raw material to finished garment). The analysis is provided through online reports and interactive maps.
+                    </p>
                    </div>
                  </div>
                </div>
@@ -136,13 +142,13 @@
                  <div class="card-header" id="headingSeven">
                    <h5 class="mb-0">
                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                     Sustainability & CSR
+                     Supplier engagement service
                      </button>
                    </h5>
                  </div>
                  <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionTwo">
                    <div class="card-body">
-                   <p class="top-sm bottom-md home-text">Sustainability managers use PAMS to document the impact of their projects. You can monitor the status of social and environmental criteria, such as the spread of schools and sanitation in remote villages or the regeneration of degraded ecosystems.</p>
+                   <p class="top-sm bottom-md home-text">Uniquely, Connected is a collaborative platform where different companies from different industries can participate. The interface is built to capture data in a straightforward way and being owned by a third-party company, is completely impartial as regards the data and information obtained. Engagement services cover trainings and onboarding activities, local and global helpdesk</p>
                    </div>
                  </div>
                </div>
@@ -150,14 +156,14 @@
                  <div class="card-header" id="headingEight">
                    <h5 class="mb-0">
                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                     Pest management
+                     Supplier analysis
                      </button>
                    </h5>
                  </div>
                  <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionTwo">
                    <div class="card-body">
                    <p class="top-sm bottom-md home-text">
-                   Rodents and insects infestation can cause large losses to commodities which are stored in warehouses.</p>
+                   In addition to the supply chain overview, detailed single chain analysis is important to allow stakeholders to understand where do the materials they are using are coming from and where do their products go. Originating from a single shipment, the system traverses all chains downstream and will highlight where a product, say yarn, is used.</p>
                    </div>
                  </div>
                </div>
@@ -166,35 +172,19 @@
                  <div class="card-header" id="headingNine">
                    <h5 class="mb-0">
                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                     Ocean bound plastic
+                     ERP, PLM and order management integration service
                      </button>
                    </h5>
                  </div>
                  <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionTwo">
                    <div class="card-body">
                    <p class="top-sm bottom-md home-text">
-                   Companies wanting to certify to Ocean Bound Plastic can use PAMS to manage their collectors, document their activities and prove compliance to the OBP rules. You can Geo-reference your OBP collections,
-keep all the daily record data in an organized way and facilitate
-the traceability of your collected OBP.</p>
+                   To initiate an order with a supplier, many data elements need to be provided by the brand, be read, and utilized by the supplier. A standard order may contain more than 80 single data elements. Peterson’s bespoke system integration services, allows automatic integration of order and shipment data. The API services of Connected can be adapted to create seamless data flow from the client system into the platform services and back.</p>
                    </div>
                  </div>
                </div>
 
-               <div class="card">
-               <div class="card-header" id="headingTen">
-                 <h5 class="mb-0">
-                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                   Treaceability
-                   </button>
-                 </h5>
-               </div>
-               <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionTwo">
-                 <div class="card-body">
-                 <p class="top-sm bottom-md home-text">
-                 Knowing the suppliers you source from is fundamental to improve your sustainability efforts, especially in relation to achieving a deforestation-free supply chain.  That’s where traceability comes in. Using PAMS you can understand how much of your products can be traced to the country of origin or to a supplier within that country. </p>
-                 </div>
-               </div>
-             </div>
+               
              
        
              </div>';
