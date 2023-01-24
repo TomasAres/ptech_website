@@ -59,3 +59,5 @@
       </div>
    </div>
 </div>
+
+<?php include 'components/cookies-alert.php';?>

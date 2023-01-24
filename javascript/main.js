@@ -99,3 +99,27 @@ window.onload = function() {
 
 
     $(".case-study-page #our-work h3").html("More case studies");
+
+
+// Cookies
+
+
+$(document).ready(function(){
+  $('#cookieReset').click(function(){
+    cookieConsent.reset();
+  });
+});
+
+$(document).ready(function(){
+  $('#trackingLog').click(function(){
+    console.log('trackingAllowed:', cookieConsent.trackingAllowed());
+  });
+});
+
+const cookieConsent = new CookieConsent({
+  contentUrl: "cookie-consent-content",
+  privacyPolicyUrl: "privacy-policy-mockup.html",
+  blockAccess: true, 
+
+})
+

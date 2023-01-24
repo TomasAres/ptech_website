@@ -30,7 +30,7 @@
                   <div class="card-header" id="headingOne">
                     <h5 class="mb-0">
                       <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      <img src="img/icons/geodb_icon.svg" alt="Software development icon" class="service-logo" height="24" />Geographical databases
+                      <img src="img/icons/geodb_icon.svg" alt="Software development icon" class="service-logo" height="20" />Geographical databases
                       </button>
                     </h5>
                   </div>
@@ -45,7 +45,7 @@
                   <div class="card-header" id="headingTwo">
                     <h5 class="mb-0">
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      <img src="img/icons/monitoring_icon.svg" alt="Monitoring icon" class="service-logo" height="24" />Monitoring
+                      <img src="img/icons/monitoring_icon.svg" alt="Monitoring icon" class="service-logo" height="20" />Monitoring
                       </button>
                     </h5>
                   </div>
@@ -67,7 +67,7 @@
                   <div class="card-header" id="headingThree">
                     <h5 class="mb-0">
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      <img src="img/icons/temporalanalysis_icon.svg" alt="Temporal analysis icon" class="service-logo" height="24" />Temporal analysis
+                      <img src="img/icons/temporalanalysis_icon.svg" alt="Temporal analysis icon" class="service-logo" height="20" />Temporal analysis
                       </button>
                     </h5>
                   </div>
@@ -90,7 +90,7 @@
                   <div class="card-header" id="headingFour">
                     <h5 class="mb-0">
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      <img src="img/icons/spatialanalysis_icon.svg" alt="Spatial analysis icon" class="service-logo" height="24" />Spatial analysis
+                      <img src="img/icons/spatialanalysis_icon.svg" alt="Spatial analysis icon" class="service-logo" height="20" />Spatial analysis
                       </button>
                     </h5>
                   </div>

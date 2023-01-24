@@ -30,9 +30,15 @@
                   <a class="nav-link icon-link" href="https://www.linkedin.com/company/ptechnologies/" target="_blank"><img src="img/linkedin.png" alt ="LinkedIn Logo"></a>
                </li>
                <li class="nav-item"> 
-                  <a class="nav-link button button-nav" href="/contact">Contact</a>
+                  <a class="nav-link button button-nav" href="/contact.php">Contact</a>
                </li>
             </ul>
+            <button id="cookieReset">Show the cookie settings dialog</button>
+                    <button id="trackingLog">Log the status to the developer
+    console
+</button>
          </div>
       </nav>
    </div>
+
+ 
