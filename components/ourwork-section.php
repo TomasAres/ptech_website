@@ -14,7 +14,7 @@
             <div class="swiper-slide">             
                <?php 
                   $cardLink="/mycotoxin-development.php";
-                  $cardImg="img/mycotoxins_solution.jpeg";
+                  $cardImg="img/casestudies/mycotoxins_header.jpeg";
                   $cardImgAlt="Mycotoxins infested crop";
                   $cardTitle="Mycotoxins risk analysis with our geoservices";
                   $cardBody="We created a solution for mycotoxin development in crops.";
@@ -24,8 +24,8 @@
             <div class="swiper-slide">             
                <?php 
                   $cardLink="/pams-platform.php";
-                  $cardImg="img/mycotoxins_problem.jpeg";
-                  $cardImgAlt="";
+                  $cardImg="img/casestudies/pams_header.jpeg";
+                  $cardImgAlt="Field inspector using phone app";
                   $cardTitle="PAMS, a digital platform for efficiency and transparency";
                   $cardBody="Centralized management system to collect, manage and visualize project-specific data.";
                   include 'components/card.php';
@@ -34,20 +34,20 @@
             <div class="swiper-slide">             
                <?php 
                   $cardLink="/connected-platform.php";
-                  $cardImg="img/mycotoxins_problem.jpeg";
-                  $cardImgAlt="";
+                  $cardImg="img/casestudies/connected_header.jpeg";
+                  $cardImgAlt="Cargo ships";
                   $cardTitle="CONNECTED, a global supply chain traceability service";
-                  $cardBody="We created a solution for mycotoxin development in crops";
+                  $cardBody="A platform for brands to access data about the organizations on their supply chain.";
                   include 'components/card.php';
                ?>
             </div>
             <div class="swiper-slide">             
                <?php 
-                  $cardLink="/mycotoxin-development.php";
-                  $cardImg="img/mycotoxins_problem.jpeg";
-                  $cardImgAlt="";
-                  $cardTitle="Remote harvest monitoring for financial institutions";
-                  $cardBody="We created a solution for mycotoxin development in crops";
+                  $cardLink="/harvest-monitoring.php";
+                  $cardImg="img/casestudies/monitoring_header.jpeg";
+                  $cardImgAlt="Field aereal view";
+                  $cardTitle="Remote harvest monitoring for financial institution";
+                  $cardBody="We offered our service in Brazil's commited sugarcane areas.";
                   include 'components/card.php';
                ?>
             </div>

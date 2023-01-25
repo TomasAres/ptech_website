@@ -82,7 +82,7 @@
                <div class="col-md-6">
                   <div class="card-inner">
                      <h6 class="card-title bold">
-                        Vitnam
+                        Vietnam
                      </h6>
                      <p class="card-body border-bottom-black">
                         De la rue 2312</br>Ho Chi Minh

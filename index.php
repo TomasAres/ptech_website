@@ -9,11 +9,7 @@
         ?>
     </head>
     <body id="home">
-        <header>
-            <?php 
-                  include 'components/header.php';
-            ?>
-        </header>
+            <?php include 'components/header.php'; ?>
         <main>
             <?php 
                   include 'components/hero-section.php';

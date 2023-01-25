@@ -16,7 +16,7 @@
                   </div>
                   <div class="swiper-pagination"></div>
                </div>
-               <div class="button-wrapper top-xl"><a class="button" href="/contact.php">Contact Our Team</a></div>
+               <div class="button-wrapper top-xl"><a class="button big" href="/contact.php">Contact our team</a></div>
             </div>
          </div>
       </div>

@@ -40,7 +40,7 @@
                   <p class="home-text">
                      Manage and analyze geographical data for various uses: crop or stock monitoring, property appraisal, ﬁre detection, management decisions, and more
                   </p>
-                  <a href="/geoservices.php" class="service-link top-sm d-block">More about geoprocessing</a>
+                  <a href="/geoservices.php" class="service-link top-sm d-block">More about geoservices</a>
                </div>
             </div>
             <div class="service top-xl">
@@ -58,7 +58,7 @@
          </div>
       </div>
    </div>
-   <div class="img-wrapper w-100"><img src="/img/bg_services.png" alt="" class="bg-services" /></div>
+   <div class="img-wrapper w-75 w-lg-100 m-auto"><img src="/img/bg_services.png" alt="" class="bg-services" /></div>
    <!-- Service Offering Mobile -->
    <!-- Swiper -->
    <div class="container d-md-none">

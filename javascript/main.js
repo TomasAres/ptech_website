@@ -3,10 +3,10 @@ import { CountUp } from './countUp.min.js';
 
 
 window.onload = function() {
-    var countUpYear = new CountUp('year', 1920, { enableScrollSpy: true });
-    var countUpExperience = new CountUp('employees', 6000, { enableScrollSpy: true });
-    var countUpTrayectory = new CountUp('trayectory', 100, { enableScrollSpy: true });
-    var countUpCountries = new CountUp('countries', 80, { enableScrollSpy: true })
+    var countUpYear = new CountUp('year', 1920, { enableScrollSpy: true, scrollSpyOnce: true });
+    var countUpExperience = new CountUp('employees', 6000, { enableScrollSpy: true, scrollSpyOnce: true });
+    var countUpTrayectory = new CountUp('trayectory', 100, { enableScrollSpy: true, scrollSpyOnce: true });
+    var countUpCountries = new CountUp('countries', 80, { enableScrollSpy: true, scrollSpyOnce: true })
 
     countUp.start();
   }
@@ -74,11 +74,13 @@ window.onload = function() {
     var swiper = new Swiper(".mySwiperCases", {
       
         loop: true,
+        autoplay: {
+          delay: 4000,
+        },
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
       },
-      mousewheel: true,
       keyboard: true,
       breakpoints: {
         640: {
@@ -118,8 +120,17 @@ $(document).ready(function(){
 
 const cookieConsent = new CookieConsent({
   contentUrl: "cookie-consent-content",
-  privacyPolicyUrl: "privacy-policy-mockup.html",
+  privacyPolicyUrl: "privacy-policy.php",
   blockAccess: true, 
 
 })
 
+var prev = 0;
+var $window = $(window);
+var nav = $('.header');
+
+$window.on('scroll', function(){
+  var scrollTop = $window.scrollTop();
+  nav.toggleClass('hidden', scrollTop > prev);
+  prev = scrollTop;
+});

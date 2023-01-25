@@ -24,7 +24,7 @@
                   <li><a href="/#about-us">About</a></li>
                   <li><a href="/#services">Services</a></li>
                   <li><a href="/#our-work">Our work</a></li>
-                  <li><a href="/contact">Contact</a></li>
+                  <li><a href="/contact.php">Contact</a></li>
                </ul>
             </div>
          </div>
@@ -51,8 +51,8 @@
                   <li><a href="https://www.petersoncontrolunion.com/en" target="_blank">Peterson</a></li>
                   <li><a href="https://www.petersoncontrolunion.com/en" target="_blank">Control Union</a></li>
                   <li><a href="https://academyonline.pcugroup.com/" target="_blank">Academy</a></li>
-                  <li><a href="">Vacancies</a></li>
-                  <li><a href="">Privacy policy</a></li>
+                  <li><a href="#">Vacancies</a></li>
+                  <li><a href="privacy-policy.php">Privacy policy</a></li>
                </ul>
             </div>
          </div>

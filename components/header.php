@@ -1,3 +1,4 @@
+<header class="header">
 
    <div class="container">
       <nav class="navbar navbar-expand-lg">
@@ -33,12 +34,14 @@
                   <a class="nav-link button button-nav" href="/contact.php">Contact</a>
                </li>
             </ul>
-            <button id="cookieReset">Show the cookie settings dialog</button>
+                     <div class="d-none">           
+                    <button id="cookieReset">Show the cookie settings dialog</button>
                     <button id="trackingLog">Log the status to the developer
     console
 </button>
+</div> 
          </div>
       </nav>
    </div>
 
- 
+</header>
