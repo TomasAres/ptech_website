@@ -68,7 +68,7 @@
             <div class="swiper-slide">
                <div class="service">
                   <div class="service-header d-inline d-flex align-items-center">
-                     <img src="img/softdev_icon.png" alt="Software development icon" class="service-logo" />
+                     <img src="img/icons/software_icon.svg" alt="Software development icon" class="service-logo" />
                      <h5 class="service-title bold pt-2">Software development</h5>
                   </div>
                   <div class="service-body top-md">
@@ -82,7 +82,7 @@
             <div class="swiper-slide">
                <div class="service">
                   <div class="service-header d-inline d-flex align-items-center">
-                     <img src="img/softdev_icon.png" alt="Software development icon" class="service-logo" />
+                     <img src="img/icons/data_icon.svg" alt="Data analytics icon" class="service-logo" />
                      <h5 class="service-title bold pt-2">Data analytics</h5>
                   </div>
                   <div class="service-body top-md">
@@ -96,8 +96,8 @@
             <div class="swiper-slide">
                <div class="service">
                   <div class="service-header d-inline d-flex align-items-center">
-                     <img src="img/softdev_icon.png" alt="Software development icon" class="service-logo" />
-                     <h5 class="service-title bold pt-2">Geoprocessing</h5>
+                     <img src="img/icons/geo_icon.svg" alt="Geoservices icon" class="service-logo" />
+                     <h5 class="service-title bold pt-2">Geoservices</h5>
                   </div>
                   <div class="service-body top-md">
                      <p class="home-text">
@@ -110,7 +110,7 @@
             <div class="swiper-slide">
                <div class="service">
                   <div class="service-header d-inline d-flex align-items-center">
-                     <img src="img/softdev_icon.png" alt="Software development icon" class="service-logo" />
+                     <img src="img/icons/elearning_icon.svg" alt="Elearning icon" class="service-logo" />
                      <h5 class="service-title bold pt-2">E-Learning</h5>
                   </div>
                   <div class="service-body top-md">

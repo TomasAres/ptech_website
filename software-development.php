@@ -10,9 +10,7 @@
         ?>
 	</head>
 	<body id="software-development" class="service-page">
-		<header>
 			<?php include 'components/header.php' ;?>
-		</header>
 		<main>
 			<?php 
                 $breadcrumbOne="Services";

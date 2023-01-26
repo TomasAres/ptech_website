@@ -9,9 +9,7 @@
         ?>
 	</head>
 	<body id="data-analytics" class="service-page">
-		<header>
 			<?php include 'components/header.php' ;?>
-		</header>
 		<main>
 			<?php     
                 $breadcrumbOne="Services";

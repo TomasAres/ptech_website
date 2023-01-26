@@ -9,9 +9,7 @@
         ?>
 	</head>
 	<body id="harvest-monitoring" class="case-study-page">
-		<header>
 			<?php include 'components/header.php' ;?>
-		</header>
 		<main>
 			<?php 
                 $breadcrumbOne="Case studies";

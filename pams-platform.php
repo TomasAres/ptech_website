@@ -9,9 +9,7 @@
         ?>
 	</head>
 	<body id="pams-platform" class="case-study-page">
-		<header>
 			<?php include 'components/header.php' ;?>
-		</header>
 		<main>
 			<?php 
                 $breadcrumbOne="Case studies";

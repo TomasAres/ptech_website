@@ -10,11 +10,9 @@
     </head>
 
     <body id="geoservice" class="service-page">
-        <header>
             <?php 
                   include 'components/header.php';
             ?>
-        </header>
         <main>
 
         <?php 

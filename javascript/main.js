@@ -132,9 +132,13 @@ const cookieConsent = new CookieConsent({
 var prev = 0;
 var $window = $(window);
 var nav = $('.header');
+var menu = $('.navbar-toggler')
+var navbar = $('#navbarNav')
 
 $window.on('scroll', function(){
   var scrollTop = $window.scrollTop();
   nav.toggleClass('hidden', scrollTop > prev);
+  menu.toggleClass('collapsed', scrollTop > prev).attr('aria-expanded', 'false', scrollTop > prev);
+  navbar.removeClass('show', scrollTop > prev);
   prev = scrollTop;
 });

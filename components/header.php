@@ -30,8 +30,11 @@
                <li class="nav-item">
                   <a class="nav-link icon-link" href="https://www.linkedin.com/company/ptechnologies/" target="_blank"><img src="img/linkedin.png" alt ="LinkedIn Logo"></a>
                </li>
-               <li class="nav-item"> 
+               <li class="nav-item d-none d-md-block"> 
                   <a class="nav-link button button-nav" href="/contact.php">Contact</a>
+               </li>
+               <li class="nav-item d-md-none"> 
+                  <a class="nav-link gray" href="/contact.php">Contact</a>
                </li>
             </ul>
                      <div class="d-none">           

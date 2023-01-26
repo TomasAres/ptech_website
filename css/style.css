@@ -183,7 +183,7 @@ p {
 }
 
 .hero-bg {
-    background-image: url(/img/bg_hero.png);
+    background-image: url(/img/bg_hero.jpg);
     background-position: bottom right;
     background-repeat: no-repeat;
 }
@@ -219,8 +219,8 @@ transform: translateY(-100%);
     background: var(--black-transparent);
     z-index: 99999!important;
     transition: ease-in-out .4s;
-
 }
+
 
 .nav-link {
     color: var(--gray);
@@ -384,7 +384,7 @@ h3.title {
 
 
 #about-us {
-    background-image: url(/img/bg_section.png);
+    background-image: url(/img/bg_section.jpg);
     background-position: top right;
     background-repeat: no-repeat;
 }
@@ -700,13 +700,6 @@ left: unset!important;
     text-align: left;
 }
 
-
-#geoservice .hero-bg {
-    background-image: url(/img/bg_geo.png);
-    background-position: bottom right;
-
-}
-
 .breadcrumbs {
     padding-left: 0px;
     list-style: none;
@@ -893,7 +886,7 @@ form label {
 }
 
 #contact .hero {
-    background: url(/img/bg_contact.png);
+    background: url(/img/bg_contact.jpg);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -1149,7 +1142,7 @@ input:not(:placeholder-shown):not(:focus):invalid {
  
 
     .hero-bg {
-        background-image: url(/img/bg_hero.png);
+        background-image: url(/img/bg_hero.jpg);
         background-position: bottom right;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -1295,7 +1288,7 @@ input:not(:placeholder-shown):not(:focus):invalid {
     }
 
     .navbar-nav {
-        padding-top: var(--spacing-md);
+        padding-top: var(--spacing-sm);
     }
 
     .icon-link {
@@ -1314,10 +1307,45 @@ input:not(:placeholder-shown):not(:focus):invalid {
         padding-left: 0px!important;
     }
 
+    .navbar-nav {
+        width: 100vw;
+        margin-left: -30px!important;
+        background: var(--black-transparent);
+        padding-left: 30px;
+        padding-bottom: var(--spacing-md);
+    }
+
+    .navbar-collapse {
+        margin-top: 8px;
+    }
+
+    .dropdown-menu {
+        background: transparent;  
+        padding-top: 0;     
+    }
+
+    .dropdown-menu a {
+        color: var(--gray);
+    }
+
     /* SERVICE PAGE */
 
     .service-page .hero-bg {
         background-size: 70%;
+    }
+
+    /* SWIPER */ 
+
+    .swiper-button-next, .swiper-button-prev {
+        display: none!important;
+    }
+
+    /* SERVICE LOGO SVG CHANGE COLOR */
+
+    .service-logo {
+        filter: brightness(0) saturate(100%) invert(0%) sepia(71%) saturate(6466%) hue-rotate(172deg) brightness(75%) contrast(87%);
+        height: 22px;
+
     }
 
 }

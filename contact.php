@@ -9,11 +9,9 @@
          ?>
    </head>
    <body id="contact">
-      <header>
          <?php 
             include 'components/header.php';
             ?>
-      </header>
       <main>
          <section class="container-fluid services-main-section" >
             <div class="hero d-flex flex-column justify-content-center ">
@@ -46,7 +44,7 @@
                   </div>
                </form>
             </div>
-            <div class="col-md-6 offset-1 top-lg" id="offices">
+            <div class="col-md-6 offset-1 top-lg d-none" id="offices">
             <h3 class="semibold bottom-lg">Our offices</h3>
 
             <div class="row">

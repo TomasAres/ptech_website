@@ -9,9 +9,7 @@
         ?>
 	</head>
 	<body id="connected-platform" class="case-study-page">
-		<header>
-			<?php include 'components/header.php' ;?>
-		</header>
+		<?php include 'components/header.php' ;?>
 		<main>
 			<?php 
                 $breadcrumbOne="Case studies";
