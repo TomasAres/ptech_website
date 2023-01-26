@@ -17,10 +17,10 @@
                <li class="nav-item dropdown">
                  <a class="nav-link dropdown-toggle"  href="/#services" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
                  <div class="dropdown-menu">
-                     <a class="dropdown-item" href="/software-development.php">Software development</a>
                      <a class="dropdown-item" href="/data-analytics.php">Data analytics</a>
                      <a class="dropdown-item" href="/geoservices.php">Geoservices</a>
                      <a class="dropdown-item" href="/elearning.php">E-Learning</a>
+                     <a class="dropdown-item" href="/connected-platform.php">Supply chain traceability</a>
                   </div>
                
                </li>

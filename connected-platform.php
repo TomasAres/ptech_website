@@ -12,8 +12,8 @@
 		<?php include 'components/header.php' ;?>
 		<main>
 			<?php 
-                $breadcrumbOne="Case studies";
-                $breadcrumbOneLink="/#our-work";
+                $breadcrumbOne="Services";
+                $breadcrumbOneLink="/#services";
                 $serviceName="Connected, a global supply chain traceability service";
                 $heroTitle="Connected, a global supply chain traceability service";
                 $heroBody="Knowledge is power, and traceability provides information that can reduce risks and improve efficiency for operations. Connected is a market driven and responsive web service, with a multi-stakeholder collaborative management that offers different solutions for any supply chain.";
@@ -80,16 +80,7 @@
         
               </div>';
                 $extra='';
-                $titleOne='Clients';
-                $contentOne='Hanes, H&M, Patagonia';
-                $titleTwo='Service';
-                $contentTwo='Software development, geoservices';
-                $titleThree='Industry';
-                $contentThree='Software as a service';
-                $titleFour='Year';
-                $contentFour='2020';
                 include 'components/hero-services-section.php';
-                include 'components/numbers-section.php';
                 include 'components/services-main-section.php';
         ?>
         <?php
@@ -189,6 +180,7 @@
                $pTwo='';
                $extra='';
                 include 'components/services-main-section-dark.php';
+                include 'components/request-demo.php';
                 include 'components/ourwork-section.php';
         ?>
 		</main>

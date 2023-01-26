@@ -34,7 +34,7 @@
             <div class="footer-menu-title white bold"><span>Services</span></div>
             <div class="footer-menu-list-wrapper">
                <ul class="footer-menu-list">
-                  <li><a href="software-development.php">Software development</a></li>
+                  <li><a href="connected-platform.php">Supply chain treaceability</a></li>
                   <li><a href="data-analytics.php">Data analytics</a></li>
                   <li><a href="geoservices.php">Geoservices</a></li>
                   <li><a href="elearning.php">E-Learning</a></li>

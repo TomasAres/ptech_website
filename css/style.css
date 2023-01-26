@@ -564,6 +564,12 @@ width: 100%;
     border: none;
 }
 
+.button {
+    background: var(--primary);
+    color: var(--black)!important;
+    border: none;
+}
+
 .white-bg .button:hover {
     background: var(--primary-dark);
     text-decoration: none;
@@ -1055,6 +1061,7 @@ input:valid, textarea:valid {
 input:not(:placeholder-shown):not(:focus):invalid {
     border-bottom: 1px solid red;
 }
+
 
 /* CASE STUDIES */
 
