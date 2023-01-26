@@ -2,7 +2,7 @@
    <div class="container">
       <div class="row">
          <div class="col-md-6 align-self-start">
-            <h3 class="semibold bottom-xl">Case studies</h3>
+            <h3 class="semibold bottom-xl">Our work and products</h3>
          </div>
          <div class="w-100"></div>
       </div>
@@ -53,6 +53,8 @@
             </div>
          </div>
          <div class="swiper-pagination"></div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
       </div>
    </div>
   

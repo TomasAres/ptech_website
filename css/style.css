@@ -284,7 +284,7 @@ a.button {
 
 }
 
-a.button-nav {
+a.button-nav, .button-form {
     background-color: var(--primary)!important;
     color: var(--black)!important;
     border: none;
@@ -308,7 +308,7 @@ a.button-nav {
     margin: auto;
 }
 
-a.button-nav:hover {
+a.button-nav:hover, .button-form:hover {
     background-color: var(--primary-dark)!important;
 }
 
@@ -339,9 +339,7 @@ a.button-nav:hover {
 
 
 .dropdown-item:hover {
-        text-decoration: underline;
-        background: none;
-
+    background: var(--primary-dark);
 }
 
 .dropdown:hover .dropdown-menu {
@@ -539,7 +537,14 @@ width: 100%;
 
 
 
+
+
 /* OUR WORK */
+
+#home #our-work {
+    z-index: 99999;
+    position: relative;
+}
 
 /* WHITE BG */
 
@@ -659,6 +664,30 @@ footer .col-md-3:first-of-type {
     text-align: center;
 
 }
+
+.swiper-button-next, .swiper-button-prev {
+    bottom: 0!important;
+    top: unset!important;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 18px!important;
+    color: var(--black);
+    opacity: .5;
+    font-weight: 600;
+
+}
+
+.swiper-button-prev {
+right: 40px!important;
+left: unset!important;
+}
+
+.swiper-button-prev:hover:after, .swiper-button-next:hover:after {
+    color: var(--primary)!important;
+    opacity: 1!important;
+}
+
 
 /* SERVICE PAGE */
 
@@ -831,6 +860,7 @@ footer .col-md-3:first-of-type {
 form label {
     color: var(--primary);
     font-weight: 600;
+    margin-bottom: 0;
     
 }
 
@@ -859,7 +889,7 @@ form label {
 
 .form-control::placeholder {
     color: var(--gray);
-    font-size: 18px;
+    font-size: var(--body-font-size);
 }
 
 #contact .hero {
@@ -1019,8 +1049,19 @@ h3.modal-title {
 
 .cookie-consent-modal .modal-content-wrap .modal-content .modal-footer .buttons .btn.btn-secondary:hover {
     text-decoration: underline;
+    background: var(--primary-dark);
 }
 
+
+/* FORM */
+
+input:valid, textarea:valid {
+    border-bottom: 1px solid green;
+}
+
+input:not(:placeholder-shown):not(:focus):invalid {
+    border-bottom: 1px solid red;
+}
 
 /* CASE STUDIES */
 
@@ -1051,6 +1092,22 @@ h3.modal-title {
 
     #services {
         max-height: 1800px;
+    }
+
+    .form-control::placeholder {
+        color: var(--gray);
+        font-size: 18px;
+    }
+
+    form label {
+
+        margin-bottom: 8px;
+        
+    }
+
+    #contact form .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 
   

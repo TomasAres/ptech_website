@@ -3,7 +3,7 @@
    <head>
       <?php 
          $description="Peterson Technologies, we detect, optimize, and enhance innovative ideas and solutions, transforming them into services.";
-         $keywords="peterson technologies, control union, it, software development, e-learning, elearning, e learning, app development, custom software, blockchain, geoservices, geomapping, data analytics, powerbi";
+         $keywords="peterson technologies, control union, it, software development, e-learning, elearning, e learning, app development, custom software, blockchain, geoservices, geomapping, data analytics, powerbi, contact us";
          $title="Peterson Technologies - Contact";
          include 'components/head.php';
          ?>
@@ -19,28 +19,30 @@
             <div class="hero d-flex flex-column justify-content-center ">
             <div class="container">
             <div class="row">
-            <div class="col-md-5 top-lg">
+            <div class="col-md-5">
             <h3 class="semibold white bottom-lg">Let's connect</h3>
 
-               <form>
+               <form action="https://formsubmit.co/cc82b323f8739412afda7a9e8a53ee23" method="POST">
                   <div class="form-group">
                      <label for="formGroupExampleInput">Full name</label>
-                     <input type="text" class="form-control" id="fullName" placeholder="John Simons">
+                     <input type="text" class="form-control" id="fullName" name="fullname" placeholder="John Simons" required>
                   </div>
-                  <div class="form-group">
+                  <div class="row">
+                  <div class="form-group col-6">
                      <label for="exampleInputEmail1">Email address</label>
-                     <input type="email" class="form-control" id="emailAdress" aria-describedby="emailHelp" placeholder="name@company.com">
+                     <input type="email" class="form-control" id="emailAdress" name="email" aria-describedby="emailHelp" placeholder="name@company.com" required>
                   </div>
-                  <div class="form-group">
+                  <div class="form-group col-6">
                      <label for="exampleInputEmail1">Phone number</label>
-                     <input type="tel" class="form-control" id="phoneNumber" aria-describedby="phoneNumber" placeholder="+49 1241-1231-5122">
+                     <input type="tel" class="form-control" id="phoneNumber" name="tel" aria-describedby="phoneNumber" placeholder="4912411232" pattern="^[0-9]+$" required>
+                  </div>
                   </div>
                   <div class="form-group">
                      <label for="exampleFormControlTextarea1">Message</label>
-                     <textarea class="form-control" id="formMessage" rows="3"></textarea>
+                     <textarea class="form-control" id="formMessage" rows="3" name="message" required></textarea>
                   </div>
                   <div class="button-wrapper top-md">
-                     <button type="submit" class="button form-btn">Submit</button>
+                     <button type="submit" class="button button-form">Submit</button>
                   </div>
                </form>
             </div>

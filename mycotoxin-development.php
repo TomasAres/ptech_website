@@ -3,8 +3,8 @@
 	<head>
 		<?php 
                 $description="Peterson Technologies, we detect, optimize, and enhance innovative ideas and solutions, transforming them into services.";
-                $keywords="peterson technologies, control union, it, software development, e-learning, elearning, e learning, app development, custom software, blockchain, geoservices, geomapping, data analytics, powerbi";
-                $title="Peterson Technologies - Data Analytics";
+                $keywords="peterson technologies, control union, it, software development, e-learning, elearning, e learning, app development, custom software, blockchain, geoservices, geomapping, data analytics, powerbi, mycotoxins, crops, risk, analysis, mycotoxins analysis";
+                $title="Peterson Technologies - Mycotoxins risk analysis";
                 include 'components/head.php';
         ?>
 	</head>

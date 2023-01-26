@@ -2,9 +2,9 @@
 <html lang="en">
 	<head>
 		<?php 
-                $description="Peterson Technologies, we detect, optimize, and enhance innovative ideas and solutions, transforming them into services.";
-                $keywords="peterson technologies, control union, it, software development, e-learning, elearning, e learning, app development, custom software, blockchain, geoservices, geomapping, data analytics, powerbi";
-                $title="Peterson Technologies - Data Analytics";
+                $description="Transparency improves efficiency by identifying bottlenecks, minimizing wastefulness, and maximizing the impact of spent resources. PAMS brings more transparency to your projects by providing a safe digital environment to share critical information.";
+                $keywords="peterson technologies, control union, it, software development, e-learning, elearning, e learning, app development, custom software, blockchain, geoservices, geomapping, data analytics, powerbi, pams, digital, platform, digital platform, efficiency, transparency";
+                $title="Peterson Technologies - PAMS, a digital platform for efficiency and transparency";
                 include 'components/head.php';
         ?>
 	</head>

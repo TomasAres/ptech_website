@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<?php 
-                $description="Peterson Technologies, we detect, optimize, and enhance innovative ideas and solutions, transforming them into services.";
+                $description="Discover a more efficient data-based decision-making solution that reduces costs and work times and presents results like you have never seen before. Make decisions based on reliable data. Build effective management models based on KPI and KSI.";
                 $keywords="peterson technologies, control union, it, software development, e-learning, elearning, e learning, app development, custom software, blockchain, geoservices, geomapping, data analytics, powerbi";
                 $title="Peterson Technologies - Data Analytics";
                 include 'components/head.php';

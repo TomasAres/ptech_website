@@ -2,9 +2,9 @@
 <html lang="en">
 	<head>
 		<?php 
-                $description="Peterson Technologies, we detect, optimize, and enhance innovative ideas and solutions, transforming them into services.";
-                $keywords="peterson technologies, control union, it, software development, e-learning, elearning, e learning, app development, custom software, blockchain, geoservices, geomapping, data analytics, powerbi";
-                $title="Peterson Technologies - Data Analytics";
+                $description="Peterson Technologies specialists and data scientists employ cutting-edge remote sensing technologies for effective harvest monitoring in Brazil’s committed sugarcane areas.";
+                $keywords="peterson technologies, control union, it, software development, e-learning, elearning, e learning, app development, custom software, blockchain, geoservices, geomapping, data analytics, powerbi, remote, harvest, monitoring, remote harvest monitoring";
+                $title="Peterson Technologies - Remote harvest monitoring for financial institution";
                 include 'components/head.php';
         ?>
 	</head>

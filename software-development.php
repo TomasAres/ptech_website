@@ -2,7 +2,8 @@
 <html lang="en">
 	<head>
 		<?php 
-                $description="Peterson Technologies, we detect, optimize, and enhance innovative ideas and solutions, transforming them into services.";
+                $description="We help in the end-to-end custom software development process adjusted exclusively to your business needs, challenges, and objectives. We understand your requirements and turn your ideas into deliverables with maximum business proficiency.";
+                $mainTitle="Unique and modern tech services";
                 $keywords="peterson technologies, control union, it, software development, e-learning, elearning, e learning, app development, custom software, blockchain, geoservices, geomapping, data analytics, powerbi";
                 $title="Peterson Technologies - Software Development";
                 include 'components/head.php';
