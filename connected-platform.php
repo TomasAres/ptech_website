@@ -14,9 +14,9 @@
 			<?php 
                 $breadcrumbOne="Services";
                 $breadcrumbOneLink="/#services";
-                $serviceName="Connected, a global supply chain traceability service";
-                $heroTitle="Connected, a global supply chain traceability service";
-                $heroBody="Knowledge is power, and traceability provides information that can reduce risks and improve efficiency for operations. Connected is a market driven and responsive web service, with a multi-stakeholder collaborative management that offers different solutions for any supply chain.";
+                $serviceName="CONNECTED, a global supply chain traceability service";
+                $heroTitle="CONNECTED, a global supply chain traceability service";
+                $heroBody="Knowledge is power, and traceability provides information that can reduce risks and improve efficiency for operations. CONNECTED is a market driven and responsive web service, with a multi-stakeholder collaborative management that offers different solutions for any supply chain.";
                 $mainTitle="Easy supply chain traceability";
                 $pOne="Understanding your supply chain is becoming more and more important, with consumers’ demands to learn more about a product's origins and production methods increasing amid a tightening regulatory framework.";
                 $pTwo='<div id="accordion" class="bottom-xxl">
