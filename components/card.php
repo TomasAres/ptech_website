@@ -11,7 +11,7 @@
                            <p class="card-body">
                              <?php echo $cardBody;?>
                            </p>
-                  <a href="<?php echo $cardLink;?>" class="card-link d-inline top-md">View case study</a>
+                  <a href="<?php echo $cardLink;?>" class="card-link d-inline top-md">{{view_detail}}</a>
                   </div>
                   </div>
                   </a>

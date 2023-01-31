@@ -5,7 +5,7 @@
       <div class="container text-center">
          <div class="row justify-content-center">
             <div class="col-md-12">
-               <h3 class="semibold">Top companies trust<br>our services</h3>
+               <h3 class="semibold w-50 m-auto">{{ourclients_title}}</h3>
                <div class="client-logos-wrapper w-100 text-center top-sm d-none d-md-block"><img src="/img/clientlogos.png" alt="Client Logos" class="client-logos" ></div>
                <!-- Swiper Mobile Only -->
                <div class="swiper mySwiperClients d-md-none">
@@ -16,7 +16,7 @@
                   </div>
                   <div class="swiper-pagination"></div>
                </div>
-               <div class="button-wrapper top-xl"><a class="button big" href="/contact.php">Contact our team</a></div>
+               <div class="button-wrapper top-xl"><a class="button big" href="/contact.php">{{contact_our_team}}</a></div>
             </div>
          </div>
       </div>

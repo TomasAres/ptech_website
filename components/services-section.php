@@ -4,56 +4,56 @@
    <div class="container d-none d-md-block">
       <div class="row">
          <div class="col-md-6">
-            <h3 class="white semibold">Service offering</h3>
+            <h3 class="white semibold">{{services_title}}</h3>
          </div>
          <div class="col-md-6 column-services">
             
             <div class="service">
                <div class="service-header d-inline d-flex align-items-center">
                   <img src="img/icons/data_icon.svg" alt="Software development icon" class="service-logo" height="22" />
-                  <h5 class="service-title bold white pt-2">Data analytics</h5>
+                  <h5 class="service-title bold white pt-2">{{data_analytics}}</h5>
                </div>
                <div class="service-body top-md">
                   <p class="home-text">
-                     Discover a more efficient data-based decision-making solution that reduces costs and work times. Present results like you have never seen before
+                     {{data_analytics_description}}
                   </p>
-                  <a href="/data-analytics.php" class="service-link top-sm d-block">More about data analytics</a>
+                  <a href="/data-analytics.php" class="service-link top-sm d-block">{{data_analytics_link}}</a>
                </div>
             </div>
             <div class="service top-xl">
                <div class="service-header d-inline d-flex align-items-center">
                   <img src="img/icons/geo_icon.svg" alt="Software development icon" class="service-logo" height="24" />
-                  <h5 class="service-title bold white pt-2">Geoservices</h5>
+                  <h5 class="service-title bold white pt-2">{{geoservices}}</h5>
                </div>
                <div class="service-body top-md">
                   <p class="home-text">
-                     Manage and analyze geographical data for various uses: crop or stock monitoring, property appraisal, ﬁre detection, management decisions, and more
+                  {{geoservices_description}}
                   </p>
-                  <a href="/geoservices.php" class="service-link top-sm d-block">More about geoservices</a>
+                  <a href="/geoservices.php" class="service-link top-sm d-block">{{geoservices_link}}</a>
                </div>
             </div>
             <div class="service top-xl">
                <div class="service-header d-inline d-flex align-items-center">
                   <img src="img/icons/elearning_icon.svg" alt="Software development icon" class="service-logo" height="24" />
-                  <h5 class="service-title bold white pt-2">E-Learning</h5>
+                  <h5 class="service-title bold white pt-2">{{elearning}}</h5>
                </div>
                <div class="service-body top-md">
                   <p class="home-text">
-                     We will help you select or develop learning materials that turn information into clear and interactive content for students to learn at their own pace
+                  {{elearning_description}}
                   </p>
-                  <a href="/elearning.php" class="service-link top-sm d-block">More about e-learning</a>
+                  <a href="/elearning.php" class="service-link top-sm d-block">{{elearning_link}}</a>
                </div>
             </div>
             <div class="service top-xl">
                <div class="service-header d-inline d-flex align-items-center">
                   <img src="img/icons/supplychain_icon.svg" alt="Software development icon" class="service-logo" height="29" />
-                  <h5 class="service-title bold white pt-2">Supply chain traceability</h5>
+                  <h5 class="service-title bold white pt-2">{{supplychain_traceability}}</h5>
                </div>
                <div class="service-body top-md">
                   <p class="home-text">
-                     We have developed CONNECTED, an open platform enabling you to trace suppliers and materials along your entire supply chain, from finished products to the source of raw material.
+                  {{supplychain_traceability_description}}
                   </p>
-                  <a href="/connected-platform.php" class="service-link top-sm d-block">More about CONNECTED</a>
+                  <a href="/connected-platform.php" class="service-link top-sm d-block">{{supplychain_traceability_link}}</a>
                </div>
             </div>
          </div>
@@ -63,7 +63,7 @@
    <!-- Service Offering Mobile -->
    <!-- Swiper -->
    <div class="container d-md-none">
-      <h3 class="white semibold bottom-lg">Service offering</h3>
+      <h3 class="white semibold bottom-lg">{{services_title}}</h3>
       <div class="swiper mySwiperServices">
          <div class="swiper-wrapper">
             <div class="swiper-slide">

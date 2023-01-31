@@ -2,7 +2,7 @@
    <div class="container">
       <div class="row">
          <div class="col-md-6 align-self-start">
-            <h3 class="semibold bottom-xl">Our work and products</h3>
+            <h3 class="semibold bottom-xl">{{ourwork_title}}</h3>
          </div>
          <div class="w-100"></div>
       </div>
@@ -16,8 +16,8 @@
                   $cardLink="/mycotoxin-development.php";
                   $cardImg="img/casestudies/mycotoxins_header.jpeg";
                   $cardImgAlt="Mycotoxins infested crop";
-                  $cardTitle="Mycotoxins risk analysis with our geoservices";
-                  $cardBody="We created a solution for mycotoxin development in crops.";
+                  $cardTitle="{{ourwork_mycotoxins_title}}";
+                  $cardBody="{{ourwork_mycotoxins_description}}";
                   include 'components/card.php';
                ?>
             </div>
@@ -26,8 +26,8 @@
                   $cardLink="/pams-platform.php";
                   $cardImg="img/casestudies/pams_header.jpeg";
                   $cardImgAlt="Field inspector using phone app";
-                  $cardTitle="PAMS, a digital platform for efficiency and transparency";
-                  $cardBody="Centralized management system to collect, manage and visualize project-specific data.";
+                  $cardTitle="{{ourwork_pams_title}}";
+                  $cardBody="{{ourwork_pams_description}}";
                   include 'components/card.php';
                ?>
             </div>
@@ -36,8 +36,8 @@
                   $cardLink="/connected-platform.php";
                   $cardImg="img/casestudies/connected_header.jpeg";
                   $cardImgAlt="Cargo ships";
-                  $cardTitle="CONNECTED, a global supply chain traceability service";
-                  $cardBody="A platform for brands to access data about the organizations on their supply chain.";
+                  $cardTitle="{{ourwork_connected_title}}";
+                  $cardBody="{{ourwork_connected_description}}";
                   include 'components/card.php';
                ?>
             </div>
@@ -46,8 +46,8 @@
                   $cardLink="/harvest-monitoring.php";
                   $cardImg="img/casestudies/monitoring_header.jpeg";
                   $cardImgAlt="Field aereal view";
-                  $cardTitle="Remote harvest monitoring for financial institution";
-                  $cardBody="We offered our service in Brazil's commited sugarcane areas.";
+                  $cardTitle="{{ourwork_harvest_title}}";
+                  $cardBody="{{ourwork_harvest_description}}";
                   include 'components/card.php';
                ?>
             </div>

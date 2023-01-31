@@ -8,7 +8,7 @@
                 include 'components/head.php';
         ?>
     </head>
-    <body id="home">
+    <body id="home" class="en">
             <?php include 'components/header.php'; ?>
         <main>
             <?php 
