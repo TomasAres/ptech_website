@@ -12,27 +12,27 @@
 			<?php include 'components/header.php' ;?>
 		<main>
 			<?php     
-                $breadcrumbOne="Services";
+                $breadcrumbOne="{{services}}";
                 $breadcrumbOneLink="/#services";
-                $serviceName="Data analytics";
-                $heroTitle="Clear decisions with data analytics";
-                $heroBody="Discover a more efficient data-based decision-making solution that reduces costs and work times and presents results like you have never seen before. Make decisions based on reliable data. Build effective management models based on KPI and KSI. ";
-                $mainTitle="We are data driven";
-                $pOne="In this technological world, data is constantly being analyzed. However, the misuse of data due to an incorrect analysis can lead to more than just a headache. Our data analysis service was created for our clients to discover a more efficient data-based decision-making solution that reduces costs and work times and provides information that creates new opportunities to help their businesses grow. We add value to the analysis of your data in 3 steps:";
+                $serviceName="{{data_analytics}}";
+                $heroTitle="{{data_analytics_hero_title}}";
+                $heroBody="{{data_analytics_hero_p}} ";
+                $mainTitle="{{data_analytics_first_title}}";
+                $pOne="{{data_analytics_first_p}}";
                 $pTwo='
                 <div id="accordion">
                 <div class="card">
                   <div class="card-header" id="headingOne">
                     <h5 class="mb-0">
                       <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                     01. Assessment
+                     {{assessment}}
                       </button>
                     </h5>
                   </div>
               
                   <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body">
-                      <p class="top-sm bottom-md home-text">We review your business needs by verifying and consolidating data from different sources.</p> 
+                      <p class="top-sm bottom-md home-text">{{assessment_p}}.</p> 
                     </div>
                   </div>
                 </div>
@@ -40,13 +40,13 @@
                   <div class="card-header" id="headingTwo">
                     <h5 class="mb-0">
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      02. Proposal
+                      {{proposal}}
                       </button>
                     </h5>
                   </div>
                   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                     <div class="card-body">
-                    <p class="top-sm bottom-md home-text">We propose tailor-made solutions to meet your needs.</p>
+                    <p class="top-sm bottom-md home-text">{{proposal_p}}</p>
                     </div>
                   </div>
                 </div>
@@ -54,13 +54,13 @@
                   <div class="card-header" id="headingThree">
                     <h5 class="mb-0">
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      03. Outcome
+                      {{outcome}}
                       </button>
                     </h5>
                   </div>
                   <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                     <div class="card-body">
-                    <p class="top-sm bottom-md home-text">We set up automated repositories, model and cross data to deliver reports that will generate added value for your business.</p>
+                    <p class="top-sm bottom-md home-text">{{outcome_p}}</p>
                     </div>
                   </div>
                 </div>

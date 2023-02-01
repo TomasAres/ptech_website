@@ -151,7 +151,6 @@ var swiper = new Swiper(".mySwiperCases", {
   },
 });
 
-$(".case-study-page #our-work h3").html("More case studies");
 
 // Cookies
 
@@ -228,3 +227,7 @@ $("#pt").click(function () {
   $("body").addClass("pt");
   $("body").removeClass("en").removeClass("es");
 });
+
+tolgee.use(LanguageStorage());
+
+

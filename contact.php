@@ -18,29 +18,29 @@
             <div class="container">
             <div class="row">
             <div class="col-md-5">
-            <h3 class="semibold white bottom-lg">Let's connect</h3>
+            <h3 class="semibold white bottom-lg">{{letsconnect}}</h3>
 
                <form action="https://formsubmit.co/cc82b323f8739412afda7a9e8a53ee23" method="POST">
                   <div class="form-group">
-                     <label for="formGroupExampleInput">Full name</label>
-                     <input type="text" class="form-control" id="fullName" name="fullname" placeholder="John Simons" required>
+                     <label for="formGroupExampleInput">{{full_name}}</label>
+                     <input type="text" class="form-control" id="fullName" name="fullname" placeholder="{{name_placeholder}}" required>
                   </div>
                   <div class="row">
                   <div class="form-group col-6">
-                     <label for="exampleInputEmail1">Email address</label>
-                     <input type="email" class="form-control" id="emailAdress" name="email" aria-describedby="emailHelp" placeholder="name@company.com" required>
+                     <label for="exampleInputEmail1">{{email_adress}}</label>
+                     <input type="email" class="form-control" id="emailAdress" name="email" aria-describedby="emailHelp" placeholder="{{email_placeholder}}" required>
                   </div>
                   <div class="form-group col-6">
-                     <label for="exampleInputEmail1">Phone number</label>
-                     <input type="tel" class="form-control" id="phoneNumber" name="tel" aria-describedby="phoneNumber" placeholder="4912411232" pattern="^[0-9]+$" required>
+                     <label for="exampleInputEmail1">{{phone_number}}</label>
+                     <input type="tel" class="form-control" id="phoneNumber" name="tel" aria-describedby="phoneNumber" placeholder="{{phone_number_placeholder}}" pattern="^[0-9]+$" required>
                   </div>
                   </div>
                   <div class="form-group">
-                     <label for="exampleFormControlTextarea1">Message</label>
+                     <label for="exampleFormControlTextarea1">{{message}}</label>
                      <textarea class="form-control" id="formMessage" rows="3" name="message" required></textarea>
                   </div>
                   <div class="button-wrapper top-md">
-                     <button type="submit" class="button button-form">Submit</button>
+                     <button type="submit" class="button button-form">{{submit_button}}</button>
                   </div>
                </form>
             </div>

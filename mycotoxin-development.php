@@ -12,26 +12,26 @@
 			<?php include 'components/header.php' ;?>
 		<main>
 			<?php 
-                $breadcrumbOne="Case studies";
+                $breadcrumbOne="{{case_studies}}";
                 $breadcrumbOneLink="/#our-work";
-                $serviceName="Mycotoxins risk analysis";
-                $heroTitle="Mycotoxins risk analysis";
-                $heroBody="Peterson Technologies has successfully collaborated to create a solution for mycotoxin development in crops. This was achieved by developing a proprietary algorithm to undertake the analysis and crossing of data.";
-                $mainTitle="Prevent the mycotoxin problem";
-                $pOne="Mycotoxins are toxic compounds that are naturally produced by certain types of moulds. They are a quality, health and food safety issue for many companies globally as they cause disease and can contaminate foods.";
+                $serviceName="{{ourwork_mycotoxins_title}}";
+                $heroTitle="{{ourwork_mycotoxins_title}}";
+                $heroBody="{{mycotoxins_hero_p}}";
+                $mainTitle="{{mycotoxins_first_title}}";
+                $pOne="{{mycotoxins_first_p}}";
                 $pTwo=' <div id="accordion">
                 <div class="card">
                   <div class="card-header" id="headingOne">
                     <h5 class="mb-0">
                       <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      <img src="img/icons/problem_icon.svg" alt="Problem icon" class="service-logo" height="24" />Problem
+                      <img src="img/icons/problem_icon.svg" alt="Problem icon" class="service-logo" height="24" />{{the_problem}}
                       </button>
                     </h5>
                   </div>
               
                   <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                     <div class="card-body">
-                      <p class="top-sm bottom-md home-text">We were originally approached by Mars, the company behind many globally recognizable brands, with the challenge of helping them to anticipate the probability of different types of mycotoxins occurring in different grain supply locations which caused yield losses, reduced crop value, adverse and toxic effects in animals and both acute and chronic health issues in humans.</p> 
+                      <p class="top-sm bottom-md home-text">{{mycotoxins_problem_p}}</p> 
                       <img src="img/mycotoxins_problem.jpeg" alt="Mycotoxin ruined crop" class="img-case-study bottom-md">
                     </div>
                   </div>
@@ -40,13 +40,13 @@
                   <div class="card-header" id="headingTwo">
                     <h5 class="mb-0">
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <img src="img/icons/solution_icon.svg" alt="Solution icon" class="service-logo" height="28" />Solution
+                        <img src="img/icons/solution_icon.svg" alt="Solution icon" class="service-logo" height="28" />{{the_solution}}
                       </button>
                     </h5>
                   </div>
                   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                     <div class="card-body">
-                    <p class="top-sm bottom-md home-text">We developed a proprietary algorithm to undertake the analysis and crossing of agricultural, climate, and pedology data which was able to accurately predict the probabilty of mycotoxin development in different areas.</p>
+                    <p class="top-sm bottom-md home-text">{{mycotoxins_solution_p}}</p>
                     <img src="img/mycotoxins_solution.jpeg" alt="Mycotoxin software" class="img-case-study bottom-md">
 
                     </div>
@@ -59,21 +59,21 @@
                   <h5 class="mb-0">
                   
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                     <img src="img/icons/results_icon.svg" alt="Result icon" class="service-logo" height="27" />Results
+                     <img src="img/icons/results_icon.svg" alt="Result icon" class="service-logo" height="27" />{{results}}
                     </button>
                   </h5>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                   <div class="card-body">
-                  <p class="top-sm bottom-md home-text">In less than a year, the project expanded to three more clients - and has successfully delivered 40 reports in five different countries which include:</p>
+                  <p class="top-sm bottom-md home-text">{{mycotoxins_results_p}}</p>
                 <ul class="home-text">
-<li>Agricultural estimates of planted area, production and yield</li>
-<li>Risk classification: spatial analysis of risk occurrence</li>
-<li>Technical notes with individualized bibliographic review</li>
-<li>Regional overview with general production information</li>
-<li>Final consolidated table with risk per supplier</li>
+<li>{{mycotoxins_result_li_1}}</li>
+<li>{{mycotoxins_result_li_2}}</li>
+<li>{{mycotoxins_result_li_3}}</li>
+<li>{{mycotoxins_result_li_4}}</li>
+<li>{{mycotoxins_result_li_5}}</li>
 </ul>
-<p class="top-sm bottom-md home-text">The service is applicable to any location in the world and takes only one day.</p>
+<p class="top-sm bottom-md home-text">{{mycotoxins_solution_p_2}}</p>
 
                   </div>
                 </div>
@@ -83,14 +83,14 @@
         
               </div>';
                 $extra='';
-                $titleOne='Client';
-                $contentOne='Mars';
-                $titleTwo='Service';
-                $contentTwo='Geoservices';
-                $titleThree='Industry';
-                $contentThree='Alimentary';
-                $titleFour='Year';
-                $contentFour='2022';
+                $titleOne='{{client}}';
+                $contentOne='{{mars}}';
+                $titleTwo='{{service}}';
+                $contentTwo='{{geoservices}}';
+                $titleThree='{{industry}}';
+                $contentThree='{{alimentary}}';
+                $titleFour='{{year}}';
+                $contentFour='{{2022}}';
                 include 'components/hero-services-section.php';
                 include 'components/numbers-section.php';
                 include 'components/services-main-section.php';
