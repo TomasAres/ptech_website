@@ -1,5 +1,5 @@
 <header class="header">
-
+<div id="loading" style="background:red;width:100vw;height:100vh;"></div>
    <div class="container">
       <nav class="navbar navbar-expand-lg">
          <a class="navbar-brand" href="../index.php"><img src="img/ptech_logo.png" alt="Logo Peterson Technologies" class="logo-img"></a>

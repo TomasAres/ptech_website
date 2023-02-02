@@ -1085,6 +1085,10 @@ input:not(:placeholder-shown):not(:focus):invalid {
   color: var(--gray);
 }
 
+#languageSelector .nav-link:hover {
+  color: var(--white);
+}
+
 #languageSelector .dropdown-item {
   cursor: pointer;
 }
