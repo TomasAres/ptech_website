@@ -2,7 +2,7 @@
 <div id="loading" style="background:red;width:100vw;height:100vh;"></div>
    <div class="container">
       <nav class="navbar navbar-expand-lg">
-         <a class="navbar-brand" href="../index.php"><img src="img/ptech_logo.png" alt="Logo Peterson Technologies" class="logo-img"></a>
+         <a class="navbar-brand" href="../index.php"><img src="../img/ptech_logo.png" alt="Logo Peterson Technologies" class="logo-img"></a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
          <img src="/img/icons/menu.svg" alt="Expandable menu" class="navbar-toggler-icon" width="20" height="20">
          </button>
@@ -17,10 +17,10 @@
                <li class="nav-item dropdown">
                  <a class="nav-link dropdown-toggle"  href="/#services" role="button" aria-haspopup="true" aria-expanded="false">{{services}}</a>
                  <div class="dropdown-menu">
-                     <a class="dropdown-item" href="/data-analytics.php">{{data_analytics}}</a>
-                     <a class="dropdown-item" href="/geoservices.php">{{geoservices}}</a>
-                     <a class="dropdown-item" href="/elearning.php">{{elearning}}</a>
-                     <a class="dropdown-item" href="/connected-platform.php">{{supplychain_traceability}}</a>
+                     <a class="dropdown-item" href="/solutions/data-analytics.php">{{data_analytics}}</a>
+                     <a class="dropdown-item" href="/solutuins//geoservices.php">{{geoservices}}</a>
+                     <a class="dropdown-item" href="/solutions/elearning.php">{{elearning}}</a>
+                     <a class="dropdown-item" href="/solutions/connected-platform.php">{{supplychain_traceability}}</a>
                   </div>
                
                </li>
@@ -37,7 +37,7 @@
                
                </li>
                <li class="nav-item">
-                  <a class="nav-link icon-link" href="https://www.linkedin.com/company/ptechnologies/" target="_blank"><img src="img/linkedin.png" alt ="LinkedIn Logo"></a>
+                  <a class="nav-link icon-link" href="https://www.linkedin.com/company/ptechnologies/" target="_blank"><img src="../img/linkedin.png" alt ="LinkedIn Logo"></a>
                </li>
                <li class="nav-item d-none d-md-block"> 
                   <a class="nav-link button button-nav" href="/contact.php">{{contact}}</a>

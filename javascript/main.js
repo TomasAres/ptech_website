@@ -62,7 +62,7 @@ typewriter
   .pauseFor(3000)
   .deleteChars(24)
   .pauseFor(300)
-  .typeString("tomar mejores decisiones")
+  .typeString("tomar melhores decisões")
   .pauseFor(3000)
 
   .start();
@@ -85,7 +85,7 @@ typewriter
   .pauseFor(3000)
   .deleteChars(24)
   .pauseFor(300)
-  .typeString("tomar melhores decisões")
+  .typeString("tomar mejores decisiones")
   .pauseFor(3000)
 
   .start();

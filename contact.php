@@ -5,12 +5,12 @@
          $description="Peterson Technologies, we detect, optimize, and enhance innovative ideas and solutions, transforming them into services.";
          $keywords="peterson technologies, control union, it, software development, e-learning, elearning, e learning, app development, custom software, blockchain, geoservices, geomapping, data analytics, powerbi, contact us";
          $title="Peterson Technologies - Contact";
-         include 'components/head.php';
+         include( $_SERVER['DOCUMENT_ROOT'] .  '/components/head.php');
          ?>
    </head>
    <body id="contact">
          <?php 
-            include 'components/header.php';
+            include( $_SERVER['DOCUMENT_ROOT'] .  '/components/header.php');
             ?>
       <main>
          <section class="container-fluid services-main-section" >
@@ -112,11 +112,11 @@
             </div>
          </section>
 
-         <?php include 'components/clients-section.php';?>
+         <?php include( $_SERVER['DOCUMENT_ROOT'] .  '/components/clients-section.php');?>
 
       </main>
       <footer>
-         <?php include 'components/footer.php';?>
+         <?php include( $_SERVER['DOCUMENT_ROOT'] .  '/components/footer.php');?>
       </footer>
    </body>
 </html>

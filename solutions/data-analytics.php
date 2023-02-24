@@ -5,11 +5,11 @@
                 $description="Discover a more efficient data-based decision-making solution that reduces costs and work times and presents results like you have never seen before. Make decisions based on reliable data. Build effective management models based on KPI and KSI.";
                 $keywords="peterson technologies, control union, it, software development, e-learning, elearning, e learning, app development, custom software, blockchain, geoservices, geomapping, data analytics, powerbi";
                 $title="Peterson Technologies - Data Analytics";
-                include 'components/head.php';
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/head.php');
         ?>
 	</head>
 	<body id="data-analytics" class="service-page">
-			<?php include 'components/header.php' ;?>
+			<?php include( $_SERVER['DOCUMENT_ROOT'] .  '/components/header.php');?>
 		<main>
 			<?php     
                 $breadcrumbOne="{{services}}";
@@ -68,13 +68,13 @@
         
               </div>';
                 $extra='<div class="video-wrapper top-lg"><iframe width="100%" height="315" src="https://www.youtube.com/embed/L-08qD-tGNA?controls=0?showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>';
-                include 'components/hero-services-section.php';
-                include 'components/services-main-section.php';
-                include 'components/ourwork-section.php';
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/hero-services-section.php');
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-main-section.php');
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/ourwork-section.php');
         ?>
 		</main>
 		<footer>
-			<?php include 'components/footer.php';?>
+			<?php include( $_SERVER['DOCUMENT_ROOT'] .  '/components/footer.php');?>
 		</footer>
 	</body>
 </html>

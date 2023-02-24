@@ -5,11 +5,11 @@
                 $description="Knowledge is power, and traceability provides information that can reduce risks and improve efficiency for operations. Connected is a market driven and responsive web service, with a multi-stakeholder collaborative management that offers different solutions for any supply chain.";
                 $keywords="peterson technologies, control union, it, software development, e-learning, elearning, e learning, app development, custom software, blockchain, geoservices, geomapping, data analytics, powerbi, traceability, connected, platform, supply, chain, supply chain";
                 $title="Peterson Technologies - Connected, a global supply chain traceability service";
-                include 'components/head.php';
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/head.php');
         ?>
 	</head>
 	<body id="connected-platform" class="case-study-page">
-		<?php include 'components/header.php' ;?>
+		<?php include( $_SERVER['DOCUMENT_ROOT'] .  '/components/header.php');?>
 		<main>
 			<?php 
                 $breadcrumbOne="{{services}}";
@@ -80,8 +80,8 @@
         
               </div>';
                 $extra='';
-                include 'components/hero-services-section.php';
-                include 'components/services-main-section.php';
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/hero-services-section.php');
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-main-section.php');
         ?>
         <?php
                $mainTitle="{{connected_features}}";
@@ -182,13 +182,13 @@
              </div>';
                $pTwo='';
                $extra='';
-                include 'components/services-main-section-dark.php';
-                include 'components/request-demo.php';
-                include 'components/ourwork-section.php';
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-main-section-dark.php');
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/request-demo.php');
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/ourwork-section.php');
         ?>
 		</main>
 		<footer>
-			<?php include 'components/footer.php';?>
+			<?php include( $_SERVER['DOCUMENT_ROOT'] .  '/components/footer.php');?>
 		</footer>
 	</body>
 </html>
