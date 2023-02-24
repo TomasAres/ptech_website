@@ -5,11 +5,12 @@
                 $description="Transparency improves efficiency by identifying bottlenecks, minimizing wastefulness, and maximizing the impact of spent resources. PAMS brings more transparency to your projects by providing a safe digital environment to share critical information.";
                 $keywords="peterson technologies, control union, it, software development, e-learning, elearning, e learning, app development, custom software, blockchain, geoservices, geomapping, data analytics, powerbi, pams, digital, platform, digital platform, efficiency, transparency";
                 $title="Peterson Technologies - PAMS, a digital platform for efficiency and transparency";
-                include 'components/head.php';
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/head.php');
         ?>
 	</head>
 	<body id="pams-platform" class="case-study-page">
-			<?php include 'components/header.php' ;?>
+			<?php                 include( $_SERVER['DOCUMENT_ROOT'] .  '/components/header.php');
+?>
 		<main>
 			<?php 
                 $breadcrumbOne="{{case_studies}}";
@@ -90,9 +91,9 @@
                 $contentThree='{{saas}}';
                 $titleFour='{{year}}';
                 $contentFour='{{2020}}';
-                include 'components/hero-services-section.php';
-                include 'components/numbers-section.php';
-                include 'components/services-main-section.php';
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/hero-services-section.php');
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/numbers-section.php');
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-main-section.php');
         ?>
         <?php
                $mainTitle="{{pams_use_cases}}";
@@ -194,12 +195,13 @@
              </div>';
                $pTwo='';
                $extra='';
-                include 'components/services-main-section-dark.php';
-                include 'components/ourwork-section.php';
+               include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-main-section-dark.php');
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/ourwork-section.php');
         ?>
 		</main>
 		<footer>
-			<?php include 'components/footer.php';?>
+			<?php include( $_SERVER['DOCUMENT_ROOT'] .  '/components/footer.php');
+?>
 		</footer>
 	</body>
 </html>

@@ -60,4 +60,4 @@
    </div>
 </div>
 
-<?php include 'components/cookies-alert.php';?>
+<?php include( $_SERVER['DOCUMENT_ROOT'] .  '/components/cookies-alert.php');?>

@@ -10,56 +10,56 @@
             
             <div class="service">
                <div class="service-header d-inline d-flex align-items-center">
-                  <img src="img/icons/data_icon.svg" alt="Software development icon" class="service-logo" height="22" />
+                  <img src="../img/icons/data_icon.svg" alt="Software development icon" class="service-logo" height="22" />
                   <h5 class="service-title bold white pt-2">{{data_analytics}}</h5>
                </div>
                <div class="service-body top-md">
                   <p class="home-text">
                      {{data_analytics_description}}
                   </p>
-                  <a href="/data-analytics.php" class="service-link top-sm d-block">{{data_analytics_link}}</a>
+                  <a href="../solutions/data-analytics.php" class="service-link top-sm d-block">{{data_analytics_link}}</a>
                </div>
             </div>
             <div class="service top-xl">
                <div class="service-header d-inline d-flex align-items-center">
-                  <img src="img/icons/geo_icon.svg" alt="Software development icon" class="service-logo" height="24" />
+                  <img src="../img/icons/geo_icon.svg" alt="Software development icon" class="service-logo" height="24" />
                   <h5 class="service-title bold white pt-2">{{geoservices}}</h5>
                </div>
                <div class="service-body top-md">
                   <p class="home-text">
                   {{geoservices_description}}
                   </p>
-                  <a href="/geoservices.php" class="service-link top-sm d-block">{{geoservices_link}}</a>
+                  <a href="../solutions/geoservices.php" class="service-link top-sm d-block">{{geoservices_link}}</a>
                </div>
             </div>
             <div class="service top-xl">
                <div class="service-header d-inline d-flex align-items-center">
-                  <img src="img/icons/elearning_icon.svg" alt="Software development icon" class="service-logo" height="24" />
+                  <img src="../img/icons/elearning_icon.svg" alt="Software development icon" class="service-logo" height="24" />
                   <h5 class="service-title bold white pt-2">{{elearning}}</h5>
                </div>
                <div class="service-body top-md">
                   <p class="home-text">
                   {{elearning_description}}
                   </p>
-                  <a href="/elearning.php" class="service-link top-sm d-block">{{elearning_link}}</a>
+                  <a href="../solutions/elearning.php" class="service-link top-sm d-block">{{elearning_link}}</a>
                </div>
             </div>
             <div class="service top-xl">
                <div class="service-header d-inline d-flex align-items-center">
-                  <img src="img/icons/supplychain_icon.svg" alt="Software development icon" class="service-logo" height="29" />
+                  <img src="../img/icons/supplychain_icon.svg" alt="Software development icon" class="service-logo" height="29" />
                   <h5 class="service-title bold white pt-2">{{supplychain_traceability}}</h5>
                </div>
                <div class="service-body top-md">
                   <p class="home-text">
                   {{supplychain_traceability_description}}
                   </p>
-                  <a href="/connected-platform.php" class="service-link top-sm d-block">{{supplychain_traceability_link}}</a>
+                  <a href="../solutions/connected-platform.php" class="service-link top-sm d-block">{{supplychain_traceability_link}}</a>
                </div>
             </div>
          </div>
       </div>
    </div>
-   <div class="img-wrapper w-75 w-lg-100 m-auto"><img src="/img/bg_services.png" alt="" class="bg-services" /></div>
+   <div class="img-wrapper w-75 w-lg-100 m-auto"><img src="..//img/bg_services.png" alt="" class="bg-services" /></div>
    <!-- Service Offering Mobile -->
    <!-- Swiper -->
    <div class="container d-md-none">
@@ -69,56 +69,56 @@
             <div class="swiper-slide">
                <div class="service">
                   <div class="service-header d-inline d-flex align-items-center">
-                     <img src="img/icons/software_icon.svg" alt="Software development icon" class="service-logo" />
-                     <h5 class="service-title bold pt-2">Software development</h5>
+                     <img src="../img/icons/data_icon.svg" alt="Data analytics icon" class="service-logo" />
+                     <h5 class="service-title bold pt-2">{{data_analytics}}</h5>
                   </div>
                   <div class="service-body top-md">
                      <p class="home-text">
-                        Find the right solution for your business with our experienced engineering teams. Take your productivity further with single software solutions
+                     {{data_analytics_description}}
                      </p>
-                     <a href="" class="service-link top-sm d-block">More about software development</a>
+                     <a href="../solutions/data-analytics.php" class="service-link top-sm d-block">{{data_analytics_link}}</a>
                   </div>
                </div>
             </div>
             <div class="swiper-slide">
                <div class="service">
                   <div class="service-header d-inline d-flex align-items-center">
-                     <img src="img/icons/data_icon.svg" alt="Data analytics icon" class="service-logo" />
-                     <h5 class="service-title bold pt-2">Data analytics</h5>
+                     <img src="../img/icons/geo_icon.svg" alt="Geoservices icon" class="service-logo" />
+                     <h5 class="service-title bold pt-2">{{geoservices}}</h5>
                   </div>
                   <div class="service-body top-md">
                      <p class="home-text">
-                        Discover a more efficient data-based decision-making solution that reduces costs and work times. Present results like you have never seen before
+                     {{geoservices_description}}
                      </p>
-                     <a href="" class="service-link top-sm d-block">More about data analytics</a>
+                     <a href="../solutions/geoservices.php" class="service-link top-sm d-block">{{geoservices_link}}</a>
                   </div>
                </div>
             </div>
             <div class="swiper-slide">
                <div class="service">
                   <div class="service-header d-inline d-flex align-items-center">
-                     <img src="img/icons/geo_icon.svg" alt="Geoservices icon" class="service-logo" />
-                     <h5 class="service-title bold pt-2">Geoservices</h5>
+                     <img src="../img/icons/elearning_icon.svg" alt="Elearning icon" class="service-logo" />
+                     <h5 class="service-title bold pt-2">{{elearning}}</h5>
                   </div>
                   <div class="service-body top-md">
                      <p class="home-text">
-                        Manage and analyze geographical data for various uses: crop or stock monitoring, property appraisal, ﬁre detection, management decisions, and more
+                     {{elearning_description}}
                      </p>
-                     <a href="" class="service-link top-sm d-block">More about geoprocessing</a>
+                     <a href="../solutions/elearning.php" class="service-link top-sm d-block">{{elearning_link}}</a>
                   </div>
                </div>
             </div>
             <div class="swiper-slide">
                <div class="service">
                   <div class="service-header d-inline d-flex align-items-center">
-                     <img src="img/icons/elearning_icon.svg" alt="Elearning icon" class="service-logo" />
-                     <h5 class="service-title bold pt-2">E-Learning</h5>
+                     <img src="../img/icons/supplychain_icon.svg" alt="Supply Chain Traecaiblity icon" class="service-logo" />
+                     <h5 class="service-title bold pt-2">{{supplychain_traceability}}</h5>
                   </div>
                   <div class="service-body top-md">
                      <p class="home-text">
-                        Our team will help you select or develop learning materials that turn information into clear and interactive content for students to learn at their own pace
+                     {{supplychain_traceability_description}}
                      </p>
-                     <a href="elearning.php" class="service-link top-sm d-block">More about e-learning</a>
+                     <a href="" class="service-link top-sm d-block">{{supplychain_traceability_link}}</a>
                   </div>
                </div>
             </div>

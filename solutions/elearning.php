@@ -5,11 +5,11 @@
                 $description="E-learning enables students to learn anytime and anywhere through a structured course. It enables the development of perfect learning content through the application of instructional design principles to perfectly analyze the basic requirements of learning as well as learning objectives.";
                 $keywords="peterson technologies, control union, it, software development, e-learning, elearning, e learning, app development, custom software, blockchain, geoservices, geomapping, data analytics, powerbi";
                 $title="Peterson Technologies - E-Learning";
-                include 'components/head.php';
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/head.php');
         ?>
 	</head>
 	<body id="elearning" class="service-page">
-			<?php include 'components/header.php' ;?>
+			<?php  include( $_SERVER['DOCUMENT_ROOT'] .  '/components/header.php');?>
 		<main>
 			<?php 
                 $breadcrumbOne="{{services}}";
@@ -98,13 +98,13 @@
         
               </div>';
                 $extra='<div class="video-wrapper top-lg"><iframe width="100%" height="315" src="https://www.youtube.com/embed/zKjfpI4LrlQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>';
-                include 'components/hero-services-section.php';
-                include 'components/services-main-section.php';
-                include 'components/ourwork-section.php';
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/hero-services-section.php');
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-main-section.php');
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/ourwork-section.php');                
         ?>
 		</main>
 		<footer>
-			<?php include 'components/footer.php';?>
+			<?php  include( $_SERVER['DOCUMENT_ROOT'] .  '/components/footer.php');?>
 		</footer>
 	</body>
 </html>
