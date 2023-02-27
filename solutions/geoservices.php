@@ -23,6 +23,8 @@
                 $heroBody="{{geoservices_hero_p}}";
                 $mainTitle="{{geoservices_first_title}}";
                 $pOne="{{geoservices_first_p}}";
+                $img="../img/geoservices_img.jpg";
+                $imgAlt="Geo Image";
                 $pTwo=' <div id="accordion">
                 <div class="card">
                   <div class="card-header" id="headingOne">

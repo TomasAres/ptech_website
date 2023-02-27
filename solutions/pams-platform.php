@@ -21,6 +21,8 @@
                 $mainTitle="{{pams_first_title}}";
                 $pOne="{{pams_first_p}}";
                 $pTwo='{{pams_second_p}}';
+                $img="../img/pams_img.jpg";
+                $imgAlt="PAMS Plaform Image";
                 $extra='<div id="accordion" class="bottom-xxl">
                 <div class="card">
                   <div class="card-header" id="headingOne">

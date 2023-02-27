@@ -19,6 +19,8 @@
                 $heroBody="{{connected_hero_p}}";
                 $mainTitle="{{connected_first_title}}";
                 $pOne="{{connected_first_p}}";
+                $img="../img/connected_img.jpg";
+                $imgAlt="Connected Platform Image";
                 $pTwo='<div id="accordion" class="bottom-xxl">
                 <div class="card">
                   <div class="card-header" id="headingOne">

@@ -19,6 +19,8 @@
                 $heroBody="{{data_analytics_hero_p}} ";
                 $mainTitle="{{data_analytics_first_title}}";
                 $pOne="{{data_analytics_first_p}}";
+                $img="../img/da_img.jpg";
+                $imgAlt="Data Analytics Image";
                 $pTwo='
                 <div id="accordion">
                 <div class="card">

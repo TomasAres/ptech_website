@@ -20,6 +20,8 @@
                 $heroBody="{{mycotoxins_hero_p}}";
                 $mainTitle="{{mycotoxins_first_title}}";
                 $pOne="{{mycotoxins_first_p}}";
+                $img="../img/mycotoxins_img.jpg";
+                $imgAlt="Mycotoxin Image";
                 $pTwo=' <div id="accordion">
                 <div class="card">
                   <div class="card-header" id="headingOne">

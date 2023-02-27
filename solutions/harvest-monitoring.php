@@ -20,6 +20,8 @@
                 $heroBody="{{harvest_hero_p}}";
                 $mainTitle="{{harvest_first_title}}";
                 $pOne='{{harves_first_p}}';
+                $img="../img/monitoring_img.jpg";
+                $imgAlt="Remote monitoring Image";
                 $pTwo='{{harvest_second_p}}';
                 $extra='<img src="../img/remotemonitoring_1.jpeg" alt="Remote monitoring dashboard" class="img-case-study w-100 top-sm">
                 <img src="../img/remotemonitoring_2.jpeg" alt="Remote monitoring dashboard" class="img-case-study w-100 top-md">';

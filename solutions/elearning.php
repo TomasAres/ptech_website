@@ -19,6 +19,8 @@
                 $heroBody="{{elearning_hero_p}}";
                 $mainTitle="{{elearning_first_title}}";
                 $pOne="{{elearning_first_p}}";
+                $img="../img/elearning_img.jpg";
+                $imgAlt="Elearning Platform Image";
                 $pTwo='
                 <div id="accordion">
                 <div class="card">

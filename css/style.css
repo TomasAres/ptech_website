@@ -192,6 +192,12 @@ p {
 }
 
 .hero-bg {
+  background-image: url(/img/bg_services.jpg);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+#home .hero-bg {
   background-image: url(/img/bg_hero.jpg);
   background-position: bottom right;
   background-repeat: no-repeat;
@@ -1111,19 +1117,13 @@ input:not(:placeholder-shown):not(:focus):invalid {
 
 /* CASE STUDIES */
 
-@media (min-width: 700px) {
-  .case-study-page .hero h3 {
-    width: 160% !important;
-  }
-}
-
 /* RESPONSIVE */
 
 /* 1920x1080 */
 
 @media (min-width: 1700px) {
   .hero {
-    height: calc(100vh - 253.38px);
+    height: 85vh;
     padding-top: 75px;
   }
 
