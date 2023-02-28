@@ -4,8 +4,10 @@
     <div class="container-fluid white-bg bottom-xxl ">
       <div class="container text-center">
          <div class="row justify-content-center">
-            <div class="col-md-12">
-               <h3 class="semibold w-50 m-auto">{{ourclients_title}}</h3>
+            <div class="col-md-6">
+               <h3 class="semibold m-auto">{{ourclients_title}}</h3>
+               </div>   
+                  <div class="col-md-12">
                <div class="client-logos-wrapper w-100 text-center top-sm d-none d-md-block"><img src="/img/clientlogos.png" alt="Client Logos" class="client-logos" ></div>
                <!-- Swiper Mobile Only -->
                <div class="swiper mySwiperClients d-md-none">
@@ -19,6 +21,7 @@
                <div class="button-wrapper top-xl"><a class="button big" href="/contact.php">{{contact_our_team}}</a></div>
             </div>
          </div>
+      </div>
       </div>
    </div>
 

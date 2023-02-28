@@ -122,7 +122,7 @@ var swiper = new Swiper(".mySwiperClients", {
 });
 
 var swiper = new Swiper(".mySwiperCases", {
-  loop: true,
+  loop: false,
   autoplay: {
     delay: 4000,
   },

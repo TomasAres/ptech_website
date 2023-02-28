@@ -192,6 +192,7 @@
   "temporal_analysis_p": "Analizando los datos a lo largo del tiempo podemos detectar cualquier cambio o desviación de las normas o directrices establecidas.",
   "the_problem": "El problema",
   "the_solution": "La solución",
+  "terms_conditions": "Términos y condiciones",
   "traceability": "Trazabilidad\n",
   "traceability_p": "Conocer los proveedores de los que se abastece es fundamental para mejorar sus esfuerzos de sostenibilidad, especialmente en relación con el logro de una cadena de suministro libre de deforestación. Ahí es donde entra en juego la trazabilidad. Al usar PAMS, puede comprender cuántos de sus productos se pueden rastrear hasta el país de origen o hasta un proveedor dentro de ese país.\n",
   "transaction_certificate_service": "Servicio de certificados de transacción",
@@ -200,5 +201,6 @@
   "vacancies": "Vacantes",
   "view_detail": "Ver detalle",
   "work": "Trabajo",
-  "year": "Año"
+  "year": "Año",
+  "aboutus_section_link": "Conocé más acerca de nuestra empresa"
 }

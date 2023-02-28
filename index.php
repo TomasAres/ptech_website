@@ -18,6 +18,7 @@
                   include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-section.php');
                   include( $_SERVER['DOCUMENT_ROOT'] .  '/components/ourwork-section.php');
                   include( $_SERVER['DOCUMENT_ROOT'] .  '/components/clients-section.php');
+                  include( $_SERVER['DOCUMENT_ROOT'] .  '/components/loader.php');
             ?>
         </main>
         <footer>

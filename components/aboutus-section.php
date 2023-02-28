@@ -13,6 +13,7 @@
                <p class="home-text">
                   {{home_aboutus_second_paragraph}}
                </p>
+               <a href="../about-us.php" class="service-link top-sm d-block">{{aboutus_section_link}}</a>
             </div>
          </div>
       </div>

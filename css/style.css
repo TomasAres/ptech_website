@@ -924,7 +924,7 @@ form label {
 
 .cookie-consent-modal .modal-content-wrap .modal-content {
   color: var(--gray) !important;
-  z-index: 999999999999 !important;
+  z-index: 999999999999999999999 !important;
   max-width: 750px !important;
   padding-right: var(--spacing-md) !important;
   padding-left: var(--spacing-md) !important;
@@ -939,7 +939,7 @@ form label {
 }
 
 .cookie-consent-modal {
-  z-index: 99999 !important;
+  z-index: 999999999999999999999 !important;
 }
 
 .cookie-consent-modal.block-access .modal-content-wrap {
@@ -1115,6 +1115,13 @@ input:not(:placeholder-shown):not(:focus):invalid {
   display: block;
 }
 
+#operations img {
+  max-width: 75%;
+  display: flex;
+  align-self: center;
+  margin: auto;
+}
+
 /* CASE STUDIES */
 
 /* RESPONSIVE */
@@ -1125,6 +1132,10 @@ input:not(:placeholder-shown):not(:focus):invalid {
   .hero {
     height: 85vh;
     padding-top: 75px;
+  }
+
+  #aboutus .hero {
+    height: calc(100vh - 254px);
   }
 
   #home .hero {
@@ -1275,6 +1286,10 @@ input:not(:placeholder-shown):not(:focus):invalid {
     background: var(--primary) !important;
   }
 
+  #operations img {
+    max-width: 100%;
+  }
+
   /* FOOTER MOBILE CHANGES */
 
   .social-list {
@@ -1378,4 +1393,61 @@ input:not(:placeholder-shown):not(:focus):invalid {
       hue-rotate(172deg) brightness(75%) contrast(87%);
     height: 22px;
   }
+
+  .team-member .card {
+    height: auto !important;
+  }
+}
+
+/* LOADER */
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 35px;
+  height: 35px;
+  margin: 0px;
+  border-radius: 50%;
+  border: 6px solid var(--primary);
+  border-color: var(--primary) transparent var(--primary) transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--black);
+  z-index: 9999999999999 !important;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden !important;
+}
+
+.team-member .card {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 24px;
+  height: 300px;
+}
+
+.team-row {
+  grid-row-gap: 32px;
 }

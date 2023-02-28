@@ -1,5 +1,4 @@
 <header class="header">
-<div id="loading" style="background:red;width:100vw;height:100vh;"></div>
    <div class="container">
       <nav class="navbar navbar-expand-lg">
          <a class="navbar-brand" href="../index.php"><img src="../img/ptech_logo.png" alt="Logo Peterson Technologies" class="logo-img"></a>
@@ -11,8 +10,15 @@
                <li class="nav-item">
                   <a class="nav-link gray" href="../">{{home}}</a>
                </li>
-               <li class="nav-item">
-                  <a class="nav-link gray" href="../#about-us">{{about}}</a>
+               <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle"  href="../about-us.php" role="button" aria-haspopup="true" aria-expanded="false">{{about}}</a>
+                 <div class="dropdown-menu">
+                     <a class="dropdown-item" href="../about-us.php">About us</a>
+                     <a class="dropdown-item" href="../about-us.php#our-team">Our team</a>
+                     <a class="dropdown-item" href="#">Partners</a>
+                     <a class="dropdown-item" href="#">Vacancies</a>
+                  </div>
+               
                </li>
                <li class="nav-item dropdown">
                  <a class="nav-link dropdown-toggle"  href="/#services" role="button" aria-haspopup="true" aria-expanded="false">{{services}}</a>
@@ -27,12 +33,12 @@
                <li class="nav-item">
                   <a class="nav-link" href="../#our-work">{{work}}</a>
                </li>
-               <li class="nav-item dropdown" id="languageSelector">
+               <li class="nav-item dropdown d-none" id="languageSelector">
                  <a class="nav-link dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">{{language}}</a>
                  <div class="dropdown-menu">
                      <a class="dropdown-item" id="en">{{lan_english}}</a>
                      <a class="dropdown-item" id="es">{{lan_spanish}}</a>
-                     <a class="dropdown-item" id="pt">{{lan_portuguese}}</a>
+                     <a class="dropdown-item d-none" id="pt">{{lan_portuguese}}</a>
                   </div>
                
                </li>

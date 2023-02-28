@@ -21,7 +21,7 @@
             <div class="footer-menu-list-wrapper">
                <ul class="footer-menu-list">
                   <li><a href="/">{{home}}</a></li>
-                  <li><a href="/#about-us">{{about}}</a></li>
+                  <li><a href="/about-us.php">{{about}}</a></li>
                   <li><a href="/#services">{{services}}</a></li>
                   <li><a href="/#our-work">{{work}}</a></li>
                   <li><a href="/contact.php">{{contact}}</a></li>
@@ -51,8 +51,8 @@
                   <li><a href="https://www.petersoncontrolunion.com/en" target="_blank">Peterson</a></li>
                   <li><a href="https://www.petersoncontrolunion.com/en" target="_blank">Control Union</a></li>
                   <li><a href="https://academyonline.pcugroup.com/" target="_blank">Academy</a></li>
-                  <li><a href="#">{{vacancies}}</a></li>
-                  <li><a href="privacy-policy.php">{{privacy_policy}}</a></li>
+                  <li><a href="../terms-conditions.php">{{terms_conditions}}</a></li>
+                  <li><a href="../privacy-policy.php">{{privacy_policy}}</a></li>
                </ul>
             </div>
          </div>

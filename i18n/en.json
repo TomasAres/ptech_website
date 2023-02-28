@@ -192,6 +192,7 @@
   "temporal_analysis_p": "By analyzing data over time we can detect any change or deviation from established regulations or guidelines.",
   "the_problem": "The problem",
   "the_solution": "The solution",
+  "terms_conditions": "Terms and conditions",
   "traceability": "Traceability",
   "traceability_p": "Knowing the suppliers you source from is fundamental to improve your sustainability efforts, especially in relation to achieving a deforestation-free supply chain. That’s where traceability comes in. Using PAMS you can understand how much of your products can be traced to the country of origin or to a supplier within that country.\n\n",
   "transaction_certificate_service": "Transaction certificate service\n                     ",
@@ -200,5 +201,8 @@
   "vacancies": "Vacancies",
   "view_detail": "View detail",
   "work": "Work",
-  "year": "Year"
+  "year": "Year",
+  "about_hero_title": "We are the leader in global IT solutions",
+  "about_hero_p": "At Peterson Technologies we detect, optimize, and enhance innovative ideas and solutions, transforming them into services that meet the changing business and market requirements generating added value. We are always trying to be ahead of our client’s needs and that's why innovation is our core business.",
+  "aboutus_section_link": "Learn more about our company"
 }
