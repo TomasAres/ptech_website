@@ -1122,6 +1122,10 @@ input:not(:placeholder-shown):not(:focus):invalid {
   margin: auto;
 }
 
+.hero-services-img {
+  height: 400px;
+}
+
 /* CASE STUDIES */
 
 /* RESPONSIVE */
@@ -1132,6 +1136,10 @@ input:not(:placeholder-shown):not(:focus):invalid {
   .hero {
     height: 85vh;
     padding-top: 75px;
+  }
+
+  .hero-services-img {
+    height: 500px;
   }
 
   #aboutus .hero {
@@ -1207,9 +1215,15 @@ input:not(:placeholder-shown):not(:focus):invalid {
     padding-top: 32px;
   }
 
+  .hero-services-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
   .hero {
-    padding-top: calc(var(--spacing-xxl) + 65px);
-    padding-bottom: var(--spacing-xxl);
+    padding-top: calc(var(--spacing-md) + 65px);
+    padding-bottom: var(--spacing-xl);
     height: auto;
   }
 
@@ -1450,4 +1464,18 @@ input:not(:placeholder-shown):not(:focus):invalid {
 
 .team-row {
   grid-row-gap: 32px;
+}
+
+.services-main-section {
+  background-position: right 280px;
+  background-repeat: no-repeat;
+  background-size: 45%;
+}
+
+#connected-platform .services-main-section {
+  background-image: url(../img/connected_bg.jpg);
+}
+
+.services-main-section-img {
+  width: 100%;
 }

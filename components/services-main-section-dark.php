@@ -5,7 +5,7 @@
             <h3 class="semibold white"><?php echo $mainTitle;?></h3>
          </div>
          <div class="w-100"></div>
-         <div class="col-md-7 offset-md-5">
+         <div class="col-md-6">
             <div class="p-container top-xl">
                <p class="home-text">
                <?php echo $pOne;?>               </p>
@@ -15,6 +15,7 @@
                <?php echo $extra;?>
             </div>
          </div>
+         
       </div>
    </div>
 </section>

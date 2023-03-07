@@ -21,7 +21,9 @@
                 $pOne="{{connected_first_p}}";
                 $img="../img/connected_img.jpg";
                 $imgAlt="Connected Platform Image";
-                $pTwo='<div id="accordion" class="bottom-xxl">
+                $imgSection="../img/connected_section_img.jpg";
+                $imgSectionAlt="Connected Platform";
+                $pTwo='<div id="accordion" class="bottom-lg">
                 <div class="card">
                   <div class="card-header" id="headingOne">
                     <h5 class="mb-0">
@@ -81,9 +83,9 @@
               
         
               </div>';
-                $extra='';
+              $extra='<div class="video-wrapper bottom-xxl"><iframe width="100%" height="315" src="https://www.youtube.com/embed/OJm1tzOOljY?controls=0?showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>';
                 include( $_SERVER['DOCUMENT_ROOT'] .  '/components/hero-services-section.php');
-                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-main-section.php');
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-main-section-img.php');
         ?>
         <?php
                $mainTitle="{{connected_features}}";
@@ -178,6 +180,26 @@
                  </div>
                </div>
 
+
+               <div class="card">
+                 <div class="card-header" id="headingTen">
+                   <h5 class="mb-0">
+                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                     Customizability and integration services
+                     </button>
+                   </h5>
+                 </div>
+                 <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionTwo">
+                   <div class="card-body">
+                   <p class="top-sm bottom-md home-text">
+                   CONNECTED offers a wide range of integration services, allowing you to easily connect your existing systems and data to our platform.
+                   </p>
+                   <p class="home-text">
+                      In adition, our platform is highly customizable to meet the unique needs of each client. Our team can work with you to tailor the system to your exact requirements.
+                   </p>
+                   </div>
+                 </div>
+               </div>
                
              
        
@@ -185,7 +207,6 @@
                $pTwo='';
                $extra='';
                 include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-main-section-dark.php');
-                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/request-demo.php');
                 include( $_SERVER['DOCUMENT_ROOT'] .  '/components/ourwork-section.php');
         ?>
 		</main>
