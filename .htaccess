@@ -1,0 +1,2 @@
+RewriteEngine on RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^ %{REQUEST_FILENAME}.php [NC,L]

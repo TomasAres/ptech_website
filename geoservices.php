@@ -9,7 +9,7 @@
         ?>
     </head>
 
-    <body id="geoservice" class="service-page">
+    <body id="geoservice" class="service-page has-video">
             <?php 
                   include 'components/header.php';
             ?>
@@ -88,7 +88,7 @@
                   <div class="card-header" id="headingFour">
                     <h5 class="mb-0">
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      <img src="img/icons/spatialanalysis_icon.svg" alt="Spatial analysis icon" class="service-logo" height="20" />{{spatial_analysis}}
+                      <img src="img/icons/spatialanalysis_icon.svg" alt="Spatial analysis icon" class="service-logo" height="22" />{{spatial_analysis}}
                       </button>
                     </h5>
                   </div>

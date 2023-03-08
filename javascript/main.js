@@ -4,8 +4,9 @@ window.onload = function () {
   var countUpYear = new CountUp("year", 1920, {
     enableScrollSpy: true,
     scrollSpyOnce: true,
+    separator: "",
   });
-  var countUpExperience = new CountUp("employees", 6000, {
+  var countUpExperience = new CountUp("employees", 5000, {
     enableScrollSpy: true,
     scrollSpyOnce: true,
   });

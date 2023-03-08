@@ -8,7 +8,7 @@
                 include( $_SERVER['DOCUMENT_ROOT'] .  '/components/head.php');
         ?>
 	</head>
-	<body id="connected-platform" class="case-study-page">
+	<body id="connected-platform" class="case-study-page has-video">
 		<?php include( $_SERVER['DOCUMENT_ROOT'] .  '/components/header.php');?>
 		<main>
 			<?php 
@@ -83,9 +83,10 @@
               
         
               </div>';
-              $extra='<div class="video-wrapper bottom-xxl"><iframe width="100%" height="315" src="https://www.youtube.com/embed/OJm1tzOOljY?controls=0?showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>';
+              $extra='<img src="../img/connected_section_img.jpg" alt="Connected Platform" class="services-main-section-img bottom-xxl">';
+              $video='https://www.youtube.com/embed/OJm1tzOOljY';
                 include( $_SERVER['DOCUMENT_ROOT'] .  '/components/hero-services-section.php');
-                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-main-section-img.php');
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-main-section.php');
         ?>
         <?php
                $mainTitle="{{connected_features}}";
@@ -204,7 +205,8 @@
              
        
              </div>';
-               $pTwo='';
+               $pTwo='
+               ';
                $extra='';
                 include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-main-section-dark.php');
                 include( $_SERVER['DOCUMENT_ROOT'] .  '/components/ourwork-section.php');

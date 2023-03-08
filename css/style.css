@@ -209,6 +209,10 @@ p {
   margin-left: 16px;
 }
 
+.logo-img {
+  width: 130px !important;
+}
+
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-top: 0.4rem;
   padding-left: 0.4rem;
@@ -445,6 +449,16 @@ h3.title {
 
 #services {
   max-height: 1400px;
+}
+
+/* SERVICE VIDEO */
+
+.video-column {
+  display: none;
+}
+
+.has-video .video-column {
+  display: block;
 }
 
 /* CARD */
@@ -1139,7 +1153,7 @@ input:not(:placeholder-shown):not(:focus):invalid {
   }
 
   .hero-services-img {
-    height: 500px;
+    height: 440px;
   }
 
   #aboutus .hero {

@@ -1,4 +1,4 @@
-<section id="our-work" class="white-bg container-fluid top-xxl bottom-xxl">
+<section id="case-studies" class="white-bg container-fluid top-xxl bottom-xxl">
    <div class="container">
       <div class="row">
          <div class="col-md-6 align-self-start">
@@ -13,7 +13,7 @@
          <div class="swiper-wrapper bottom-xl">
             <div class="swiper-slide">             
                <?php 
-                  $cardLink="../solutions/mycotoxin-development.php";
+                  $cardLink="../solutions/mycotoxin-development";
                   $cardImg="../img/casestudies/mycotoxins_header.jpeg";
                   $cardImgAlt="Mycotoxins infested crop";
                   $cardTitle="{{ourwork_mycotoxins_title}}";
@@ -23,7 +23,7 @@
             </div>
             <div class="swiper-slide">             
                <?php 
-                  $cardLink="../solutions/pams-platform.php";
+                  $cardLink="../solutions/pams-platform";
                   $cardImg="../img/casestudies/pams_header.jpeg";
                   $cardImgAlt="Field inspector using phone app";
                   $cardTitle="{{ourwork_pams_title}}";
@@ -33,7 +33,7 @@
             </div>
             <div class="swiper-slide">             
                <?php 
-                  $cardLink="../solutions/connected-platform.php";
+                  $cardLink="../solutions/connected-platform";
                   $cardImg="../img/casestudies/connected_header.jpeg";
                   $cardImgAlt="Cargo ships";
                   $cardTitle="{{ourwork_connected_title}}";
@@ -43,7 +43,7 @@
             </div>
             <div class="swiper-slide">             
                <?php 
-                  $cardLink="../solutions/harvest-monitoring.php";
+                  $cardLink="../solutions/harvest-monitoring";
                   $cardImg="../img/casestudies/monitoring_header.jpeg";
                   $cardImgAlt="Field aereal view";
                   $cardTitle="{{ourwork_harvest_title}}";

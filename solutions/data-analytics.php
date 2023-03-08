@@ -8,7 +8,7 @@
                 include( $_SERVER['DOCUMENT_ROOT'] .  '/components/head.php');
         ?>
 	</head>
-	<body id="data-analytics" class="service-page">
+	<body id="data-analytics" class="service-page has-video">
 			<?php include( $_SERVER['DOCUMENT_ROOT'] .  '/components/header.php');?>
 		<main>
 			<?php     
@@ -69,7 +69,8 @@
               
         
               </div>';
-                $extra='<div class="video-wrapper top-lg"><iframe width="100%" height="315" src="https://www.youtube.com/embed/L-08qD-tGNA?controls=0?showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>';
+                $extra='';
+                $video='https://www.youtube.com/embed/L-08qD-tGNA';
                 include( $_SERVER['DOCUMENT_ROOT'] .  '/components/hero-services-section.php');
                 include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-main-section.php');
                 include( $_SERVER['DOCUMENT_ROOT'] .  '/components/ourwork-section.php');

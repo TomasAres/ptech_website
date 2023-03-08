@@ -17,7 +17,7 @@
                   <p class="home-text">
                      {{data_analytics_description}}
                   </p>
-                  <a href="../solutions/data-analytics.php" class="service-link top-sm d-block">{{data_analytics_link}}</a>
+                  <a href="../solutions/data-analytics" class="service-link top-sm d-block">{{data_analytics_link}}</a>
                </div>
             </div>
             <div class="service top-xl">
@@ -29,7 +29,7 @@
                   <p class="home-text">
                   {{geoservices_description}}
                   </p>
-                  <a href="../solutions/geoservices.php" class="service-link top-sm d-block">{{geoservices_link}}</a>
+                  <a href="../solutions/geoservices" class="service-link top-sm d-block">{{geoservices_link}}</a>
                </div>
             </div>
             <div class="service top-xl">
@@ -41,7 +41,7 @@
                   <p class="home-text">
                   {{elearning_description}}
                   </p>
-                  <a href="../solutions/elearning.php" class="service-link top-sm d-block">{{elearning_link}}</a>
+                  <a href="../solutions/elearning" class="service-link top-sm d-block">{{elearning_link}}</a>
                </div>
             </div>
             <div class="service top-xl">
@@ -53,7 +53,7 @@
                   <p class="home-text">
                   {{supplychain_traceability_description}}
                   </p>
-                  <a href="../solutions/connected-platform.php" class="service-link top-sm d-block">{{supplychain_traceability_link}}</a>
+                  <a href="../solutions/connected-platform" class="service-link top-sm d-block">{{supplychain_traceability_link}}</a>
                </div>
             </div>
          </div>
@@ -76,7 +76,7 @@
                      <p class="home-text">
                      {{data_analytics_description}}
                      </p>
-                     <a href="../solutions/data-analytics.php" class="service-link top-sm d-block">{{data_analytics_link}}</a>
+                     <a href="../solutions/data-analytics" class="service-link top-sm d-block">{{data_analytics_link}}</a>
                   </div>
                </div>
             </div>
@@ -90,7 +90,7 @@
                      <p class="home-text">
                      {{geoservices_description}}
                      </p>
-                     <a href="../solutions/geoservices.php" class="service-link top-sm d-block">{{geoservices_link}}</a>
+                     <a href="../solutions/geoservices" class="service-link top-sm d-block">{{geoservices_link}}</a>
                   </div>
                </div>
             </div>
@@ -104,7 +104,7 @@
                      <p class="home-text">
                      {{elearning_description}}
                      </p>
-                     <a href="../solutions/elearning.php" class="service-link top-sm d-block">{{elearning_link}}</a>
+                     <a href="../solutions/elearning" class="service-link top-sm d-block">{{elearning_link}}</a>
                   </div>
                </div>
             </div>
@@ -118,7 +118,7 @@
                      <p class="home-text">
                      {{supplychain_traceability_description}}
                      </p>
-                     <a href="" class="service-link top-sm d-block">{{supplychain_traceability_link}}</a>
+                     <a href="../solutions/connected-platform" class="service-link top-sm d-block">{{supplychain_traceability_link}}</a>
                   </div>
                </div>
             </div>

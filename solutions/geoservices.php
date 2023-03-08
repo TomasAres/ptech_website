@@ -9,7 +9,7 @@
         ?>
     </head>
 
-    <body id="geoservice" class="service-page">
+    <body id="geoservice" class="service-page has-video">
             <?php 
                    include( $_SERVER['DOCUMENT_ROOT'] .  '/components/header.php');
             ?>
@@ -90,7 +90,7 @@
                   <div class="card-header" id="headingFour">
                     <h5 class="mb-0">
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                      <img src="../img/icons/spatialanalysis_icon.svg" alt="Spatial analysis icon" class="service-logo" height="20" />{{spatial_analysis}}
+                      <img src="../img/icons/spatialanalysis_icon.svg" alt="Spatial analysis icon" class="service-logo" height="22" />{{spatial_analysis}}
                       </button>
                     </h5>
                   </div>
@@ -111,7 +111,8 @@
                 </div>
               </div>';
 
-                $extra='<div class="video-wrapper top-lg"><iframe width="100%" height="315" src="https://www.youtube.com/embed/-XnzCbfuDig?controls=0?showinfo=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>';
+                $extra='';
+                $video='https://www.youtube.com/embed/-XnzCbfuDig';
                   include( $_SERVER['DOCUMENT_ROOT'] .  '/components/hero-services-section.php');
                   include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-main-section.php');
                   include( $_SERVER['DOCUMENT_ROOT'] .  '/components/ourwork-section.php'); 

@@ -14,7 +14,7 @@
          </div>
       
       </div>
-      <div class="button-wrapper top-xl"><a class="button big" href="../contact.php">Request a demo</a></div>
+      <div class="button-wrapper top-xl"><a class="button big" href="../contact">Request a demo</a></div>
    </div>
    </div>
    </div>

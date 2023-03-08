@@ -20,11 +20,11 @@
             <div class="footer-menu-title white bold"><span>{{navigation}}</span></div>
             <div class="footer-menu-list-wrapper">
                <ul class="footer-menu-list">
-                  <li><a href="/">{{home}}</a></li>
-                  <li><a href="/about-us.php">{{about}}</a></li>
-                  <li><a href="/#services">{{services}}</a></li>
-                  <li><a href="/#our-work">{{work}}</a></li>
-                  <li><a href="/contact.php">{{contact}}</a></li>
+                  <li><a href="./">{{home}}</a></li>
+                  <li><a href="./about-us">{{about}}</a></li>
+                  <li><a href="./#services">{{services}}</a></li>
+                  <li><a href="./#our-work">{{work}}</a></li>
+                  <li><a href="./contact">{{contact}}</a></li>
                </ul>
             </div>
          </div>
@@ -34,11 +34,11 @@
             <div class="footer-menu-title white bold"><span>{{services_title}}</span></div>
             <div class="footer-menu-list-wrapper">
                <ul class="footer-menu-list">
-                  <li><a href="data-analytics.php">{{data_analytics}}</a></li>
-                  <li><a href="geoservices.php">{{geoservices}}</a></li>
-                  <li><a href="elearning.php">{{elearning}}</a></li>
-                  <li><a href="connected-platform.php">{{supplychain_traceability}}</a></li>
-                  <li><a href="/#our-work">{{ourwork_title}}</a></li>
+                  <li><a href="data-analytics">{{data_analytics}}</a></li>
+                  <li><a href="geoservices">{{geoservices}}</a></li>
+                  <li><a href="elearning">{{elearning}}</a></li>
+                  <li><a href="connected-platform">{{supplychain_traceability}}</a></li>
+                  <li><a href="./#our-work">{{ourwork_title}}</a></li>
                </ul>
             </div>
          </div>
