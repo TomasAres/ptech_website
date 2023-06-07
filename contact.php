@@ -20,7 +20,7 @@
             <div class="col-md-5">
             <h3 class="semibold white bottom-lg">{{letsconnect}}</h3>
 
-               <form action="https://formsubmit.co/cc82b323f8739412afda7a9e8a53ee23" method="POST">
+               <form action="send-email.php" method="POST">
                   <div class="form-group">
                      <label for="formGroupExampleInput">{{full_name}}</label>
                      <input type="text" class="form-control" id="fullName" name="fullname" placeholder="{{name_placeholder}}" required>

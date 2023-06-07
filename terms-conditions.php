@@ -53,6 +53,13 @@
    9.	Governing Law and Jurisdiction</br>
    These Terms and Conditions shall be governed by and construed in accordance with the laws of the state where Company is headquartered, without giving effect to any principles of conflicts of law. Any legal action or proceeding arising out of or related to these Terms and Conditions or the use of our website shall be brought exclusively in a federal or state court located in the same state where Company is headquartered. You hereby consent to the jurisdiction of and venue in such courts and waive any objection as to inconvenient forum.
 </p>
+<p>
+   10.	Legal notice</br>
+   Peterson Technologies GmbH</br>
+Deutsches Dorf 8, 14776 Brandenburg an der Havel, Germany</br>
+Registration Court: Potsdam HRB 28626 P, VAT No.: DE304456508</br>
+Managing Director: Luis Correia Goncalves, Registration Court: Potsdam HRB 28626 P, VAT No.: DE304456508</br>
+</p>
 </div>
 </div>
 </div>

@@ -1,3 +1,4 @@
+
 <div class="container top-lg bottom-lg">
    <div class="row">
       <div class="col-md-3">
@@ -9,6 +10,7 @@
             <li><span>Ho Chi Minh</span></li>
             <li><span>Rotterdam</span></li>
             <li><span>Sao Paulo</span></li>
+            <li><span>Lima</span></li>
          </ul>
          <ul class="social-list small gray">
             <li><a href="https://www.linkedin.com/company/ptechnologies/" target="_blank"><img src="/img/linkedin_footer.png" alt="LinkedIn Logo"></a></li>
@@ -34,11 +36,11 @@
             <div class="footer-menu-title white bold"><span>{{services_title}}</span></div>
             <div class="footer-menu-list-wrapper">
                <ul class="footer-menu-list">
-                  <li><a href="data-analytics">{{data_analytics}}</a></li>
-                  <li><a href="geoservices">{{geoservices}}</a></li>
-                  <li><a href="elearning">{{elearning}}</a></li>
-                  <li><a href="connected-platform">{{supplychain_traceability}}</a></li>
-                  <li><a href="./#our-work">{{ourwork_title}}</a></li>
+                  <li><a href="../solutions/data-analytics">{{data_analytics}}</a></li>
+                  <li><a href="../solutions/geoservices">{{geoservices}}</a></li>
+                  <li><a href="../solutions/elearning">{{elearning}}</a></li>
+                  <li><a href="../solutions/connected-platform">{{supplychain_traceability}}</a></li>
+                  <li><a href="../#our-work">{{ourwork_title}}</a></li>
                </ul>
             </div>
          </div>
@@ -51,8 +53,8 @@
                   <li><a href="https://www.petersoncontrolunion.com/en" target="_blank">Peterson</a></li>
                   <li><a href="https://www.petersoncontrolunion.com/en" target="_blank">Control Union</a></li>
                   <li><a href="https://academyonline.pcugroup.com/" target="_blank">Academy</a></li>
-                  <li><a href="../terms-conditions.php">{{terms_conditions}}</a></li>
-                  <li><a href="../privacy-policy.php">{{privacy_policy}}</a></li>
+                  <li><a href="../terms-conditions">{{terms_conditions}}</a></li>
+                  <li><a href="../privacy-policy">{{privacy_policy}}</a></li>
                </ul>
             </div>
          </div>

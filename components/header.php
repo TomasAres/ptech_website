@@ -1,7 +1,10 @@
-<header class="header">
+   <!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQ2PW33"
+   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+   <!-- End Google Tag Manager (noscript) -->
+<header class="header"> 
    <div class="container">
       <nav class="navbar navbar-expand-lg">
-         <a class="navbar-brand" href="../index.php"><img src="../img/ptech_logo.png" alt="Logo Peterson Technologies" class="logo-img"></a>
+         <a class="navbar-brand" href="../"><img src="../img/ptech_logo.png" alt="Logo Peterson Technologies" class="logo-img"></a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
          <img src="/img/icons/menu.svg" alt="Expandable menu" class="navbar-toggler-icon" width="20" height="20">
          </button>
@@ -33,12 +36,12 @@
                <li class="nav-item">
                   <a class="nav-link" href="../#case-studies">{{work}}</a>
                </li>
-               <li class="nav-item dropdown d-none" id="languageSelector">
+               <li class="nav-item dropdown" id="languageSelector">
                  <a class="nav-link dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">{{language}}</a>
                  <div class="dropdown-menu">
                      <a class="dropdown-item" id="en">{{lan_english}}</a>
                      <a class="dropdown-item" id="es">{{lan_spanish}}</a>
-                     <a class="dropdown-item d-none" id="pt">{{lan_portuguese}}</a>
+                     <a class="dropdown-item" id="pt">{{lan_portuguese}}</a>
                   </div>
                
                </li>
@@ -52,13 +55,10 @@
                   <a class="nav-link gray" href="../contact">{{contact}}</a>
                </li>
             </ul>
-                     <div class="d-none">           
-                    <button id="cookieReset">Show the cookie settings dialog</button>
-                    <button id="trackingLog">Log the status to the developer
-    console
-</button>
-</div> 
+                    
          </div>
       </nav>
    </div>
 </header>
+
+<?php include( $_SERVER['DOCUMENT_ROOT'] .  '/components/loader.php'); ?>

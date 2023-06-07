@@ -46,6 +46,13 @@
                Contact us</br>
                If you have any questions or concerns about this privacy policy or our practices, please contact us at ptech@onepeterson.com
             </p>
+            <p>
+   Legal notice</br>
+   Peterson Technologies GmbH</br>
+Deutsches Dorf 8, 14776 Brandenburg an der Havel, Germany</br>
+Registration Court: Potsdam HRB 28626 P, VAT No.: DE304456508</br>
+Managing Director: Luis Correia Goncalves, Registration Court: Potsdam HRB 28626 P, VAT No.: DE304456508</br>
+</p>
          </div>
       </div>
    </div>
