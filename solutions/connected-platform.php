@@ -84,7 +84,7 @@
         
               </div>';
               $extra='<img src="../img/connected_section_img.jpg" alt="Connected Platform" class="services-main-section-img bottom-xxl">';
-              $video='https://www.youtube.com/embed/OJm1tzOOljY';
+              $video='https://www.youtube.com/embed/56ITVg1bmTk';
                 include( $_SERVER['DOCUMENT_ROOT'] .  '/components/hero-services-section.php');
                 include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-main-section.php');
         ?>
