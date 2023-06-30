@@ -53,8 +53,6 @@
                   <li><a href="https://www.petersoncontrolunion.com/en" target="_blank">Peterson</a></li>
                   <li><a href="https://www.petersoncontrolunion.com/en" target="_blank">Control Union</a></li>
                   <li><a href="https://academyonline.pcugroup.com/" target="_blank">Academy</a></li>
-                  <li><a href="../terms-conditions">{{terms_conditions}}</a></li>
-                  <li><a href="../privacy-policy">{{privacy_policy}}</a></li>
                </ul>
             </div>
          </div>
