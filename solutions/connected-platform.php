@@ -62,7 +62,6 @@
                     <div class="card-body">
                     <p class="top-sm bottom-md home-text">{{connected_solution_p}}</p>
                     <ul class="home-text top-sm">
-    <li>{{connected_solution_li_1}}</li>
     <li>{{connected_solution_li_2}}</li>
     <li>{{connected_solution_li_3}}</li>
     <li>{{connected_solution_li_4}}</li>
