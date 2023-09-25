@@ -6,30 +6,7 @@
          </div>
          </div>
          <div class="row team-row">
-         <div class="col-md-3">
-         <?php 
-                  $cardImg="../img/team/team1.webp";
-                  $cardImgAlt="Member image";
-                  $cardTitle="
-                  Frederik Jung-Rothenhaeusler
-                  ";
-                  $cardBody="Software director";
-                  include( $_SERVER['DOCUMENT_ROOT'] .  '/components/card-member.php');
-               ?>
-         </div>
-         <div class="col-md-3">
-         <?php 
-                  $cardImg="../img/team/team2.webp";
-                  $cardImgAlt="Member image";
-                  $cardTitle="
-                  
-Koen Backer
-can Ommeren
-                  ";
-                  $cardBody="Innovation director";
-                  include( $_SERVER['DOCUMENT_ROOT'] .  '/components/card-member.php');
-               ?>
-         </div>
+        
          <div class="col-md-3">
          <?php 
                   $cardImg="../img/team/team3.webp";
@@ -113,6 +90,28 @@ Astudillo
                   Teijeiro
                   ";
                   $cardBody="Collateral manager EMEA";
+                  include( $_SERVER['DOCUMENT_ROOT'] .  '/components/card-member.php');
+               ?>
+         </div>
+         <div class="col-md-3">
+         <?php 
+                  $cardImg="../img/team/leandro.png";
+                  $cardImgAlt="Member image";
+                  $cardTitle="
+                  Leandro Illescas
+                  ";
+                  $cardBody="Bussines developer manager";
+                  include( $_SERVER['DOCUMENT_ROOT'] .  '/components/card-member.php');
+               ?>
+         </div>
+         <div class="col-md-3">
+         <?php 
+                  $cardImg="../img/team/tomas.png";
+                  $cardImgAlt="Member image";
+                  $cardTitle="
+                  Tomás Ares
+                  ";
+                  $cardBody="Product owner";
                   include( $_SERVER['DOCUMENT_ROOT'] .  '/components/card-member.php');
                ?>
          </div>
