@@ -204,5 +204,14 @@
   "year": "Year",
   "about_hero_title": "We are the leader in global IT solutions",
   "about_hero_p": "At Peterson Technologies we detect, optimize, and enhance innovative ideas and solutions, transforming them into services that meet the changing business and market requirements generating added value. We are always trying to be ahead of our client’s needs and that's why innovation is our core business.",
-  "aboutus_section_link": "Learn more about our company"
+  "aboutus_section_link": "Learn more about our company",
+  "platforms": "Platforms",
+  "pisa": "PISA",
+  "pachs": "PACHS",
+  "pogm": "POGM",
+  "pisa_description": "Online platform for checking possible spatial intersections (overlay) between areas of interest and layers published by official and/or private organizations on socio-environmental issues.",
+  "go_to_platform": "Go to platform",
+  "pachs_description": "A set of digital dashboards containing historical agricultural data (planted area, production and yield), daily/monthly climate data (average temperature, maximum temperature, minimum temperature, precipitation and relative humidity) and our innovative mycotoxin risk analysis. Currently available for Brazil and Europe.",
+  "pogm_description": "Online platform in the WebGIS style containing several layers of georeferenced vector data and satellite images from different dates. It also features numerous consultation tools, routing, area/distance measurement, elevation profile, among others",
+  "geoplatforms": "Our geoplatforms"
 }

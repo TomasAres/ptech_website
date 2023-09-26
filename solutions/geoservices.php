@@ -86,7 +86,7 @@
                   </div>
                 </div>
               
-              <div class="card">
+              <div class="card bottom-xxl">
                   <div class="card-header" id="headingFour">
                     <h5 class="mb-0">
                       <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -115,7 +115,75 @@
                 $video='https://www.youtube.com/embed/-XnzCbfuDig';
                   include( $_SERVER['DOCUMENT_ROOT'] .  '/components/hero-services-section.php');
                   include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-main-section.php');
-                  include( $_SERVER['DOCUMENT_ROOT'] .  '/components/ourwork-section.php'); 
+        ?>
+         <?php
+               $mainTitle="{{geoplatforms}}";
+               $pOne='<div id="accordionTwo">
+               <div class="card">
+                 <div class="card-header" id="headingFive">
+                   <h5 class="mb-0">
+                     <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                     {{pisa}}
+                     </button>
+                   </h5>
+                 </div>
+             
+                 <div id="collapseFive" class="collapse show" aria-labelledby="headingFive" data-parent="#accordionTwo">
+                   <div class="card-body">
+                     <p class="top-sm bottom-md home-text">                    
+                     {{pisa_description}}
+                     <a href="https://pisa.onepeterson.com/app" target="_blank" class="service-link top-sm d-block">{{go_to_platform}}</a>
+
+                     </p> 
+                   </div>
+                 </div>
+               </div>
+               <div class="card">
+                 <div class="card-header" id="headingSix">
+                   <h5 class="mb-0">
+                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                     {{pachs}}
+                     </button>
+                   </h5>
+                 </div>
+                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionTwo">
+                   <div class="card-body">
+                   <p class="top-sm home-text bottom-md">  {{pachs_description}}
+                   <a href="https://experience.arcgis.com/experience/e239d7a0440e44cb9d8af7fb265fa62d/?draft=true" target="_blank" class="service-link top-sm d-block">{{go_to_platform}}</a>
+                   </p>
+                   
+                   </div>
+                 </div>
+               </div>
+               <div class="card">
+                 <div class="card-header" id="headingSeven">
+                   <h5 class="mb-0">
+                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                     {{pogm}}
+                     </button>
+                   </h5>
+                 </div>
+                 <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionTwo">
+                   <div class="card-body">
+                   <p class="top-sm bottom-md home-text">  {{pogm_description}}
+                   <a href="https://experience.arcgis.com/experience/f8f79fc4d02f4634806aa9d5c0052bbf" target="_blank" class="service-link top-sm d-block">{{go_to_platform}}</a>
+                   </p>
+                   </div>
+                 </div>
+               </div>
+               
+               
+
+               
+               
+             
+       
+             </div>';
+               $pTwo='
+               ';
+               $extra='';
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/services-main-section-dark.php');
+                include( $_SERVER['DOCUMENT_ROOT'] .  '/components/ourwork-section.php');
         ?>
            
         </main>

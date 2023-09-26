@@ -204,5 +204,14 @@
   "year": "Año",
   "aboutus_section_link": "Conocé más acerca de nuestra empresa",
   "about_hero_title": "Somos el líder en soluciones globales de TI",
-  "about_hero_p": "En Peterson Technologies detectamos, optimizamos y potenciamos ideas y soluciones innovadoras, transformándolas en servicios que cumplan con los requisitos cambiantes del negocio y del mercado generando valor agregado. Siempre estamos tratando de estar por delante de las necesidades de nuestros clientes y es por eso que la innovación es nuestro negocio principal."
+  "about_hero_p": "En Peterson Technologies detectamos, optimizamos y potenciamos ideas y soluciones innovadoras, transformándolas en servicios que cumplan con los requisitos cambiantes del negocio y del mercado generando valor agregado. Siempre estamos tratando de estar por delante de las necesidades de nuestros clientes y es por eso que la innovación es nuestro negocio principal.",
+  "platforms": "Plataformas",
+  "pisa": "PISA",
+  "pachs": "PACHS",
+  "pogm": "POGM",
+  "pisa_description": "Plataforma en línea para verificar posibles intersecciones espaciales (superposición) entre áreas de interés y capas publicadas por organizaciones oficiales y/o privadas sobre temas socioambientales.",
+  "go_to_platform": "Ir a la plataforma",
+  "pachs_description": "Un conjunto de paneles digitales que contienen datos agrícolas históricos (superficie sembrada, producción y rendimiento), datos climáticos diarios/mensuales (temperatura promedio, temperatura máxima, temperatura mínima, precipitación y humedad relativa) y nuestro innovador análisis de riesgo de micotoxinas. Actualmente disponible para Brasil y Europa.",
+  "pogm_description": "Plataforma en línea en estilo WebGIS que contiene varias capas de datos vectoriales georreferenciados e imágenes satelitales de diferentes fechas. También cuenta con numerosas herramientas de consulta, enrutamiento, medición de área/distancia, perfil de elevación, entre otras.",
+  "geoplatforms": "Nuestras geoplataformas"
 }
