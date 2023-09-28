@@ -51,6 +51,16 @@
                   include( $_SERVER['DOCUMENT_ROOT'] .  '/components/card.php');
                ?>
             </div>
+            <div class="swiper-slide">             
+               <?php 
+                  $cardLink="../solutions/pisa-platform";
+                  $cardImg="../img/casestudies/pisa_header.jpeg";
+                  $cardImgAlt="PISA Platform image";
+                  $cardTitle="{{ourwork_pisa_title}}";
+                  $cardBody="{{ourwork_pisa_description}}";
+                  include( $_SERVER['DOCUMENT_ROOT'] .  '/components/card.php');
+               ?>
+            </div>
          </div>
          <div class="swiper-pagination"></div>
          <div class="swiper-button-next"></div>

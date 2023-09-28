@@ -213,5 +213,17 @@
   "go_to_platform": "Ir para a plataforma",
   "pachs_description": "Um conjunto de painéis digitais contendo dados históricos agrícolas (área plantada, produção e rendimento), dados climáticos diários/mensais (temperatura média, temperatura máxima, temperatura mínima, precipitação e umidade relativa) e nossa inovadora análise de risco de micotoxinas. Atualmente disponível para o Brasil e Europa.",
   "pogm_description": "Plataforma online no estilo WebGIS que contém várias camadas de dados vetoriais georreferenciados e imagens de satélite de diferentes datas. Também oferece numerosas ferramentas de consulta, roteamento, medição de área/distância, perfil de elevação, entre outras.",
-  "geoplatforms": "Nossas geoplataformas"
+  "geoplatforms": "Nossas geoplataformas",
+  "ourwork_pisa_title": "PISA, Análise Espacial Imediata Peterson",
+  "pisa_hero_p": "Apresentamos uma plataforma web onde, com apenas dois cliques, os usuários podem realizar análises cruzadas de dados georreferenciados. Esta plataforma permite aos usuários determinar se uma área específica se intersecta com zonas desmatadas, conforme documentado em bases de dados governamentais oficiais, ou se encontra dentro de uma unidade de conservação designada.",
+  "pisa_first_title": "Análise espacial em 3 cliques",
+  "pisa_first_p": "Apresentamos uma plataforma online para análises espaciais sem interrupções, conectando áreas de interesse com camadas de dados oficiais e privados sobre questões socioambientais. Com sua interface amigável e processo de análise rápido, os usuários podem obter rapidamente informações. A plataforma gera um relatório final conciso de uma página com um código QR autenticável.",
+  "pisa_second_p": "Atualmente em operação no Brasil e na Argentina, é a ferramenta essencial para lidar com preocupações socioambientais com facilidade e rapidez.",
+  "pisa_use_cases": "Casos de uso do PISA",
+  "pisa_usecases_description": "Melhore o seu negócio com a nossa plataforma versátil. Seja para análises prévias de avaliações de propriedades, processos de certificação, monitoramento de cultivos ou para mitigar riscos operacionais relacionados a questões socioambientais, temos a solução. Nossa plataforma se integra perfeitamente aos seus serviços existentes, agregando valor às suas ofertas. Também é o complemento perfeito para o nosso serviço de análise de desmatamento de alta confiabilidade. Tome decisões informadas e transforme as suas operações com a nossa poderosa ferramenta de análise espacial.",
+  "pisa_layers": "Fontes de dados",
+  "pisa_layers_description": "As camadas de dados do Brasil incluem: Embargo do IBAMA, Terras Indígenas, PRODES/Desmatamento (2002-2022), Unidades de Conservação PI, Unidades de Conservação dos EUA e Comunidades Quilombolas.",
+  "pisa_layers_description2": "As camadas de dados da Argentina incluem: Áreas Protegidas, Desmatamento no Chaco, Florestas Nativas, Áreas de Pastagem Valiosas e Perda de Cobertura Florestal.",
+  "ourwork_pisa_description": "Com apenas dois cliques, os usuários podem realizar análises cruzadas de dados georreferenciados.",
+  "ourwork_pisa_title": "Lançamos nossa nova plataforma: PISA, Análise Espacial Imediata Peterson"
 }

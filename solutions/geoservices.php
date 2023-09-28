@@ -123,7 +123,7 @@
                  <div class="card-header" id="headingFive">
                    <h5 class="mb-0">
                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                     {{pisa}}
+                     <img src="../img/platforms/logo_pisa_white.svg" alt="PISA LOGO" class="geoplatform-logo" height="48px">
                      </button>
                    </h5>
                  </div>
@@ -142,7 +142,7 @@
                  <div class="card-header" id="headingSix">
                    <h5 class="mb-0">
                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                     {{pachs}}
+                     <img src="../img/platforms/logo_pachs_white.svg" alt="PACHS LOGO" class="geoplatform-logo" height="50px">
                      </button>
                    </h5>
                  </div>
@@ -159,7 +159,7 @@
                  <div class="card-header" id="headingSeven">
                    <h5 class="mb-0">
                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                     {{pogm}}
+                     <img src="../img/platforms/logo_pogm_white.svg" alt="POGM LOGO" class="geoplatform-logo" height="55px">
                      </button>
                    </h5>
                  </div>
