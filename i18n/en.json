@@ -214,7 +214,7 @@
   "pachs_description": "A set of digital dashboards containing historical agricultural data (planted area, production and yield), daily/monthly climate data (average temperature, maximum temperature, minimum temperature, precipitation and relative humidity) and our innovative mycotoxin risk analysis. Currently available for Brazil and Europe.",
   "pogm_description": "Online platform in the WebGIS style containing several layers of georeferenced vector data and satellite images from different dates. It also features numerous consultation tools, routing, area/distance measurement, elevation profile, among others",
   "geoplatforms": "Our geoplatforms",
-  "ourwork_pisa_title": "PISA, Peterson Inmediate Spatial Analysis",
+  "ourwork_pisa_title": "PISA, Peterson Immediate Spatial Analysis",
   "pisa_hero_p": "Introducing a web platform where, with just two clicks, users can perform georeferenced data cross-analysis. This platform enables users to determine whether a specific area intersects with deforested zones, as documented in official government databases, or falls within a designated conservation unit. ",
   "pisa_first_title": "Spatial analysis in 3 clicks  ",
   "pisa_first_p": "Introducing an online platform for seamless spatial analysis, connecting areas of interest with official and private data layers on socio-environmental issues. With its user-friendly interface and fast analysis process, users can quickly obtain insights. The platform generates a concise, one-page final report with an authenticatable QR code.",
@@ -225,5 +225,5 @@
   "pisa_layers_description": "Brazil's data layers include: IBAMA Embargo, Indigenous lands, PRODES/Deforestation (2002-2022), PI Conservation Units, US Conservation Units, and Quilombola Communities.",
   "pisa_layers_description2": "Argentina's data layers include: Protected areas, Chaco deforestation, Native forests, Valuable pastizal areas, and forest cover loss.",
   "ourwork_pisa_description": "With just two clicks, users can perform georeferenced data cross-analysis.",
-  "ourwork_pisa_title": "We launched PISA: Peterson Inmediate Spatial Analysis"
+  "ourwork_pisa_title": "We launched PISA: Peterson Immediate Spatial Analysis"
 }
