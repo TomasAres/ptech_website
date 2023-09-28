@@ -42,7 +42,7 @@
                      <a class="dropdown-item" target="_blank" href="https://pisa.onepeterson.com/app">PISA</a>
                      <a class="dropdown-item" target="_blank" href="https://experience.arcgis.com/experience/e239d7a0440e44cb9d8af7fb265fa62d/?draft=true">PACHS</a>
                      <a class="dropdown-item" target="_blank" href="https://experience.arcgis.com/experience/f8f79fc4d02f4634806aa9d5c0052bbf">POGM</a>
-                     <a class="dropdown-item" target="_blank"href="../solutions/connected-platform">CONNECTED</a>
+                     <a class="dropdown-item" target="_blank" href="https://connected.controlunion.com/cert/login">CONNECTED</a>
                   </div>
                
                </li>

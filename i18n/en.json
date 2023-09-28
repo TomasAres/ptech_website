@@ -215,7 +215,7 @@
   "pogm_description": "Online platform in the WebGIS style containing several layers of georeferenced vector data and satellite images from different dates. It also features numerous consultation tools, routing, area/distance measurement, elevation profile, among others",
   "geoplatforms": "Our geoplatforms",
   "ourwork_pisa_title": "PISA, Peterson Immediate Spatial Analysis",
-  "pisa_hero_p": "Introducing a web platform where, with just two clicks, users can perform georeferenced data cross-analysis. This platform enables users to determine whether a specific area intersects with deforested zones, as documented in official government databases, or falls within a designated conservation unit. ",
+  "pisa_hero_p": "Introducing a web platform where, with just three clicks, users can perform georeferenced data cross-analysis. This platform enables users to determine whether a specific area intersects with deforested zones, as documented in official government databases, or falls within a designated conservation unit. ",
   "pisa_first_title": "Spatial analysis in 3 clicks  ",
   "pisa_first_p": "Introducing an online platform for seamless spatial analysis, connecting areas of interest with official and private data layers on socio-environmental issues. With its user-friendly interface and fast analysis process, users can quickly obtain insights. The platform generates a concise, one-page final report with an authenticatable QR code.",
   "pisa_second_p": "Currently operational in Brazil and Argentina, it's the go-to tool for addressing socio-environmental concerns with ease and speed.",
